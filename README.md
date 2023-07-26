@@ -1,4 +1,4 @@
-# minimal project template
+# gitlab pages project template
 
 
 
