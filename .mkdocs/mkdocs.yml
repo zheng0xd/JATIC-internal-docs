@@ -7,7 +7,7 @@ repo_url: https://gitlab.jatic.net/jatic/[project_path] # edit this line!
 # everything below can be left alone
 site_dir: ../public
 docs_dir: ../docs
-theme: readthedocs
+theme: material
 plugins:
     - search
     - awesome-pages
