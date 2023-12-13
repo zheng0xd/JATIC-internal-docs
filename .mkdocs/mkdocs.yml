@@ -1,12 +1,11 @@
-site_name: [TEMPLATE TITLE]
-site_url: https://jatic.pages.jatic.net/[project_path]
-repo_url: https://gitlab.jatic.net/jatic/[project_path]
-# example site_url: https://jatic.pages.jatic.net/jatic/docs/org-process
-# example repo_url: https://gitlab.jatic.net/jatic/docs/org-process
+site_name: [TEMPLATE TITLE] # edit this line!
+site_url: https://jatic.pages.jatic.net/[project_path] # edit this line! 
+repo_url: https://gitlab.jatic.net/jatic/[project_path] # edit this line!
+
+# everything below can be left alone
 site_dir: ../public
 docs_dir: ../docs
-#theme: readthedocs
-theme: material
+theme: readthedocs
 plugins:
     - search
     - awesome-pages
