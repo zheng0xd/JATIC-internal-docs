@@ -1,3 +1,5 @@
+# See https://www.mkdocs.org/user-guide/configuration/ for documentation!
+
 site_name: [TEMPLATE TITLE] # edit this line!
 site_url: https://jatic.pages.jatic.net/[project_path] # edit this line! 
 repo_url: https://gitlab.jatic.net/jatic/[project_path] # edit this line!
