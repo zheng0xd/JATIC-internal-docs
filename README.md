@@ -1,5 +1,7 @@
-# gitlab pages project template
+# default project template
 
-This is a gitlab template for a minimal project with a gitlab pages deployment.
+This is a gitlab template for a minimal project with a built in gitlab pages config. This allows you to turn your gitlab project into a lightweight website extremely easily.
 
-The URL for the associated gitlab page can be found in `.mkdocs/mkdocs.yml` as the `site_url:` value.
+In order to set up your website, edit `.mkdocs/mkdocs.yml` to suit your project, then commit.
+
+After setting up, you can find your website URL by navigating in the gitlab project to "Deploy / Pages".
