@@ -2,6 +2,6 @@ site_name: JATIC Onboading documentation
 repo_name: Gitlab
 site_url: https://jatic.pages.jatic.net/cdao/docs
 repo_url: https://gitlab.jatic.net/cdao/docs
-site_dir: ../public
-docs_dir: ../docs
+site_dir: public
+docs_dir: docs
 theme: material
