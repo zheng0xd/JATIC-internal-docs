@@ -24,7 +24,6 @@ nav:
     - 'Armory': 'empty.md'
     - 'Gradient': 'empty.md'
     - 'RealLabel': 'empty.md'
-    - 'Survivor': 'empty.md'
   - 'Program Organization':
     - 'Software Development Methodology': 'org-process/agile-methodology.md'
     - 'Agile Roles': 'org-process/agile-roles.md'
