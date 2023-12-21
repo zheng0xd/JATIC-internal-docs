@@ -34,7 +34,7 @@ nav:
     - 'Platforms overview': 'empty.md'
     - 'Gitlab introduction': 'empty.md'
     - 'Slack introduction': 'platforms/slack-usage.md'
-    - 'Mural introduction'
+    - 'Mural introduction': 'empty.md'
     - 'Using Gitlab for Agile': 'platforms/gitlab-agile.md'
     - 'Navigating Gitlab': 'platforms/gitlab-org.md'
   - 'Software Development Plan':
