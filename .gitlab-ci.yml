@@ -1,0 +1,11 @@
+image: python:3.8-buster
+
+before_script:
+  - pip install -r .mkdocs/requirements.txt
+
+pages:
+  stage: deploy
+  script:
+  - mkdocs build --strict --verbose -f mkdocs.yml
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
