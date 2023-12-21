@@ -11,16 +11,30 @@ nav:
   - 'Program background':
     - 'Program Origin': 'program-background/origin.md'
     - 'Capability Description': 'program-background/cap-description.md'
+    - 'FAQs': 'empty.md'
     - 'Supported Personas': 'program-background/roles.md'
     - 'Supported Use Cases': 'program-background/datasets.md'
-  - 'Organization':
+  - 'Projects':
+    - 'MAITE': 'empty.md'
+    - 'RAVEN': 'empty.md'
+    - 'XAITK': 'empty.md' 
+    - 'NRTK': 'empty.md'
+    - 'DAML': 'empty.md'
+    - 'heART': 'empty.md'
+    - 'Armory': 'empty.md'
+    - 'Gradient': 'empty.md'
+    - 'RealLabel': 'empty.md'
+    - 'Survivor': 'empty.md'
+  - 'Program Organization':
     - 'Software Development Methodology': 'org-process/agile-methodology.md'
     - 'Agile Roles': 'org-process/agile-roles.md'
     - 'Shared principles': 'org-process/shared-principles.md'
+    - 'Increment planning': 'empty.md'
   - 'Platforms Usage Guide':
-    - 'Onboarding onto platforms': ''
-    - 'Gitlab introduction': ''
+    - 'Platforms overview': 'empty.md'
+    - 'Gitlab introduction': 'empty.md'
     - 'Slack introduction': 'platforms/slack-usage.md'
+    - 'Mural introduction'
     - 'Using Gitlab for Agile': 'platforms/gitlab-agile.md'
     - 'Navigating Gitlab': 'platforms/gitlab-org.md'
   - 'Software Development Plan':
