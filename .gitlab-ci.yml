@@ -2,6 +2,10 @@ image: python:3.8-buster
 
 before_script:
   - pip install -r requirements.txt
+  
+cache:
+  paths:
+    - vendor/
 
 pages:
   stage: deploy
