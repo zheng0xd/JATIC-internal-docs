@@ -47,3 +47,5 @@ nav:
     - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
   - 'Reference Material':
     - 'Program Org Chart': 'reference/org-chart.md'
+    - 'Program Calendar': 'reference/sprint-calendar.md'
+    
