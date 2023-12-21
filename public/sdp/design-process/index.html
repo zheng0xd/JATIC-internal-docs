@@ -1,0 +1,1647 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://jatic.pages.jatic.net/cdao/docs/sdp/design-process/">
+      
+      
+        <link rel="prev" href="../coding-guidelines/">
+      
+      
+        <link rel="next" href="../devsecops/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Design Process Recommendations - JATIC Onboading documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#design-process-recommendations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="JATIC Onboading documentation" class="md-header__button md-logo" aria-label="JATIC Onboading documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            JATIC Onboading documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Design Process Recommendations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://gitlab.jatic.net/cdao/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Gitlab
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="JATIC Onboading documentation" class="md-nav__button md-logo" aria-label="JATIC Onboading documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    JATIC Onboading documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://gitlab.jatic.net/cdao/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Gitlab
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Org process
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Org process
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Organization and Processes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Agile%20Roles%20and%20Responsibilities/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agile Roles and Responsibilities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Gitlab%20Organization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gitlab Organization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Gitlab%20for%20Agile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gitlab for Agile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Onboarding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Onboarding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Organization%20Chart/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Organization Chart
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/SAFe%20Events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Slack%20Usage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slack Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/shared-principles-general/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CDAO A2 Division Shared Principles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/shared-principles-software/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CDAO A2 Division Shared Principles for Software Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Program strategy
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Program strategy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Program Strategy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Agile%20Development%20Approach/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agile Development Approach
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Capability%20Description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Capability Descripition
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Classification/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Classification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Contracting%20and%20Acquisition/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contracting, Acquisition
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Cost%20and%20Funding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cost and Funding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Datasets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datasets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Design%20Principles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design Principles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Documented%20Need/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documented Need
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Intellectual%20Property%2C%20Open-source%2C%20Commercial/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intellectual Property, Open-source, Commercial
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            Personas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/Roles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/User%20Engagement/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Engagement
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/kitware_Data_Analyst/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Persona: Data Analyst
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/kitware_ML_Developer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Persona: ML Developer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/metrostar_quansight_Platform_Engineer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Persona: Platform Engineer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/program_personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Program Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/template/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Persona: [Persona]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sdp
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Sdp
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Software Development Plan
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../branch-merge-release/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Branch, Merge, Release Strategy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding-guidelines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python Coding Guidelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Design Process Recommendations
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Design Process Recommendations
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#agile-vs-waterfall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agile vs. Waterfall
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Documentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Design Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functional-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functional Description
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#high-level-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      High-Level Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interface Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detailed-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Design
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definition-of-done" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definition of Done
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Definition of Done">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-stories-and-technical-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Stories and Technical Issues
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spikes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spikes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Epics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devsecops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevSecOps Testing Requirements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exception-handling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exception Handling Guidelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../open-source-strategy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Open-source Strategy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../protocols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Common protocols, utilities, and tooling via jatic_toolbox
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../software-requirements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Software Requirements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testing-plan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Testing Plan
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#agile-vs-waterfall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agile vs. Waterfall
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Documentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Design Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functional-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functional Description
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#high-level-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      High-Level Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interface Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detailed-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Design
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definition-of-done" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definition of Done
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Definition of Done">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-stories-and-technical-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Stories and Technical Issues
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spikes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spikes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Epics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="design-process-recommendations">Design Process Recommendations</h1>
+<p>Design is one component of the product development lifecycle and arguably the most important. Good design balances the needs of the user against the resources available for development and maintenance of the product. This document endeavors to list those practices that lead to good design.</p>
+<blockquote>
+<p>Callouts, formatted like this one, below point out the salient details and recommendations, and in some cases, firm requirements when preceded by "<strong>Requirement</strong>".</p>
+</blockquote>
+<h2 id="agile-vs-waterfall">Agile vs. Waterfall</h2>
+<p>In a typical waterfall development, all planning and design happens before any building begins and typically not by those doing the work. This can be a viable strategy when essentially all requirements and expectations are known a priori but this is seldom the case. Feedback from stakeholders, unforeseen use cases, and technical advances, among other things, can all lead to new requirements and expectations.</p>
+<p>Agile development embraces change -- pivoting without mercy or guilt when new information becomes available. To adapt and respond to this change, the Agile development process is an iterative one. Each iteration cycle typically involves some degree of planning, design, development, testing, and review, potentially followed by deployment. Developers are directly involved in the planning and design which is done closer to the work. Feedback from one cycle affects the next, influencing the direction and priorities of the development.</p>
+<blockquote>
+<p><strong>Requirement</strong>: For all the reasons mentioned, vendors working on the JATIC program will follow Agile development practices.</p>
+</blockquote>
+<h2 id="design-documentation">Design Documentation</h2>
+<p>Given that vendors will be using Agile methods to develop their products, the need for full product specifications to be drawn up prior to implementation becomes unnecessary. However, some amount of up-front design must be considered, documented, and reviewed to ensure value to the sponsor, ease of integration, and system cohesiveness. This section describes the minimum set of recommended design documentation.</p>
+<p>Also note, that while these documents should be pretty fleshed out at the start of development, they are living documents and should be updated accordingly during each Agile iteration.</p>
+<blockquote>
+<p><strong>Requirement</strong>: To prevent "doc rot", design documentation will be kept close to the source code in the product repository and will be written in Markdown.</p>
+</blockquote>
+<p><strong>NOTE</strong>: I'm avoiding the more common terms "Functional Specification", "High-Level Design Specification", etc., the word "specification" in general, and the connotations that go along with it.</p>
+<h3 id="functional-description">Functional Description</h3>
+<p>The functional description is not a design document per se, but provides a foundation and source of truth about the product from which all design flows.</p>
+<blockquote>
+<p>The functional description describes the what, why and how of the product from the user's perspective, providing a concise readout of what it offers. </p>
+</blockquote>
+<p>The functional description may be considered a subset of a "concept of operations" document. However, the operation and maintenance aspects which will be common to all vendors are not specified in the functional description.</p>
+<p>The functional description should answer at least the following questions:</p>
+<ol>
+<li>What is the product being built? The answer should include a general product description. For example, "the product is a software tool for evaluating the efficacy of an adversarial pattern placed atop each image of a dataset."</li>
+<li>What are the goals and objectives of the product? In other words, what is the purpose of the product? For example, "the product allows the user to study the affects of adversarial patterns on machine learning models trained for object detection."</li>
+<li>What is the value for the user? The answer may address these additional questions: why would the user choose this product over another? and what can this product do that other cannot?</li>
+<li>What are the deliverables? "Deliverables include a Python software library which provides adversarial pattern placement and evaluation capabilities, and sample Jupyter Notebooks that demonstrate its use."</li>
+<li>How will the user interact with the product? The answer should be at a high level and not cover details of programming interfaces, such as "the user will typically modify the contents of a provided sample Jupyter Notebook to utilize their own datasets and models. Alternatively, the user may incorporate the library into their own code and directly use its public API to apply adversarial patterns and evaluate performance of object detection models."</li>
+<li>What are the high-level requirements of the product? The requirements should be from the user's perspective. In the Agile view, these may serve as Epics or Feature Stories. "The product must provide access to both standard models and datasets available remotely as well as local, user-provided ones." "The product must let the user collect and compare results across a range of models and datasets."</li>
+<li>Are there any known, specific up-front requirements? These may be detailed requirements that are well-defined when the project starts, such as specific required features or performance metrics that must be met. Many times, these types of requirements can be associated with Agile stories as acceptance criteria.</li>
+</ol>
+<h3 id="high-level-design">High-Level Design</h3>
+<p>Once a well thought out and documented functional description is available, the most important design document to be created is the high-level design.</p>
+<blockquote>
+<p>The high-level design describes the software architecture of the product.</p>
+</blockquote>
+<p>Typically the software architecture can be represented as a single diagram (with enough descriptive text) that provides a reference for anyone building the product or trying to understand how it works. Supporting diagrams such as information flows may also be appropriate, if not obvious from the architecture.</p>
+<blockquote>
+<p><strong>Requirement</strong>: To facilitate change tracking, pictorial representations of the software architecture will be represented by a diagram that can be textually described and included in the high-level design document.</p>
+</blockquote>
+<p>Several text-based diagramming tools are available with integrated rendering in VSCode and GitLab. Popular alternatives include <a href="https://mermaid.js.org/">Mermaid</a> and <a href="https://plantuml.com/">PlantUML</a>. <strong>NOTE</strong>: Mermaid appears to be enabled in GitLab by default and may be a good choice. PlantUML is more feature-rich, but requires a separate server (or use of a public server). Here is a simple example of how a diagram would render in GitLab using Mermaid:</p>
+<pre><code class="language-mermaid">classDiagram
+    AdversarialAttackLib..DataSet
+    AdversarialAttackLib..Model
+    AdversarialAttackLib: patches[]
+    AdversarialAttackLib: apply()
+    AdversarialAttackLib: evaluate()
+</code></pre>
+<p>Besides the software architecture diagram, the high-level design should include:</p>
+<ol>
+<li>A brief description of the expected software components that comprise the product. This includes both vendor developed and third-party dependencies. For example, if the product is a Python package, the component would be a list of modules to be developed and dependent packages (NumPy, PyTorch, etc.).</li>
+<li>The platforms or target environment where the product will run.</li>
+<li>Identification of risks. This may include risks in choice of technology or due to assumptions made in the design.</li>
+<li><strong>Anything else?</strong></li>
+</ol>
+<h3 id="interface-design">Interface Design</h3>
+<p>Before implementation, thought needs to be given to the interfaces of the product.</p>
+<blockquote>
+<p>The interface design document describes the capabilities of the user interface and any other available interfaces such as API, data providers, REST endpoints and the like.</p>
+</blockquote>
+<p>The interface design document is not a replacement for API documentation that can easily be generated with documentation tools, nor is it a screen capture of command line option descriptions (though those things, or links to them, can be included if available). Rather, it should make clear to users how they will work with the product as well as instruct system integrators and testers how the product will interface with other products. Additionally, the document may spell out what is expected from other products that have not yet been defined.</p>
+<h3 id="detailed-design">Detailed Design</h3>
+<p>A detailed design delves into the particulars of the software components and how they interact. As development proceeds and things change, this type of documentation typically is incomplete at best, and misinformative at worst. The source code is truth and well written source code should be well documented if not self-documenting. See the <a href="guidelines/Python%20Coding%20Guidelines.md">coding guidelines</a> for code documentation practices. For these reasons:</p>
+<blockquote>
+<p>No detailed design documentation is required or necessary.</p>
+</blockquote>
+<p>That said, it is often useful to capture some design information within Agile stories and tasks where appropriate. It helps communicate intent to the developers working on the story. However, the amount of design information and what specifically to include, if any at all, is highly dependent on the story and the capabilities of the individuals performing the work. In essence, stories are a placeholder for a conversation.</p>
+<h2 id="definition-of-done">Definition of Done</h2>
+<p>The definition of done for some effort, whether a single issue, a research spike, an epic or even a project is a checklist of items that need to be accomplished before the effort can me truly called done. This section details suggested checklist items for certain efforts.</p>
+<h3 id="user-stories-and-technical-issues">User Stories and Technical Issues</h3>
+<p>For a user story or feature, or for a technical issue that is not user-facing, the definition of done may include the following items (note that this may be tailored on a per-story basis):</p>
+<ul>
+<li>[ ] Source code compiles without warnings or errors</li>
+<li>[ ] Code linted and formatted</li>
+<li>[ ] Code committed to version control system</li>
+<li>[ ] New and existing unit tests pass</li>
+<li>[ ] Code coverage of unit tests is the same or better</li>
+<li>[ ] Code review complete, merge request approved, and code merged to main/dev branch per the <a href="./Branch%2C%20Merge%2C%20Release%20Strategy.md">branch, merge, and release strategy</a>.</li>
+<li>[ ] CI/CD pipeline stages assessing code quality, security, and accessibility pass</li>
+<li>[ ] Functionality demonstrated and accepted by Product Owner</li>
+<li>[ ] Design documentation updated (particularly architecture and interface design)</li>
+<li>[ ] Interface documentation generated and published</li>
+<li>[ ] New third-party dependencies have been vetted (both for security and legal)</li>
+<li>[ ] New issues created to capture defects or functionality yet to be implemented</li>
+</ul>
+<h3 id="spikes">Spikes</h3>
+<p>Spikes are time-bound investigations of particular focus. They may include research to learn about a new technology, prototyping to prove out a proposed solution, or conversations with other vendors or service providers. For a spike, a definition of done is much more limited:</p>
+<ul>
+<li>[ ] Findings and any decisions are documented using markdown in an appropriate Gitlab repo and disseminated</li>
+<li>[ ] Follow-up stories are added to the backlog</li>
+</ul>
+<p>Occasionally a spike may not have and reasonable output once the time limit is reached. In this case, the story can be re-pointed, duplicated, or abandoned as necessary.</p>
+<h3 id="epics">Epics</h3>
+<p>An epic is a large feature, a set of features or a capability usually comprising a number of user stories. The definition of done for an epic is simply that all its constituent stories are done.</p>
+<p>Often integration tests or system tests should accompany an epic. Because these tests include more effort than a typical unit test, it's recommended to make them technical issues as part of the epic.</p>
+<p>More information about epics can before in the Agile processes document <a href="https://gitlab.jatic.net/jatic/docs/org-process/-/blob/main/Gitlab%20for%20Agile.md#epics">here</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2101 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://jatic.pages.jatic.net/cdao/docs/sdp/coding-guidelines/">
+      
+      
+        <link rel="prev" href="../branch-merge-release/">
+      
+      
+        <link rel="next" href="../design-process/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Python Coding Guidelines - JATIC Onboading documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#python-coding-guidelines" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="JATIC Onboading documentation" class="md-header__button md-logo" aria-label="JATIC Onboading documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            JATIC Onboading documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Python Coding Guidelines
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://gitlab.jatic.net/cdao/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Gitlab
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="JATIC Onboading documentation" class="md-nav__button md-logo" aria-label="JATIC Onboading documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    JATIC Onboading documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://gitlab.jatic.net/cdao/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Gitlab
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Org process
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Org process
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Organization and Processes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Agile%20Roles%20and%20Responsibilities/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agile Roles and Responsibilities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Gitlab%20Organization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gitlab Organization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Gitlab%20for%20Agile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gitlab for Agile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Onboarding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Onboarding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Organization%20Chart/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Organization Chart
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/SAFe%20Events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/Slack%20Usage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slack Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/shared-principles-general/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CDAO A2 Division Shared Principles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../org-process/shared-principles-software/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CDAO A2 Division Shared Principles for Software Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Program strategy
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Program strategy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Program Strategy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Agile%20Development%20Approach/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agile Development Approach
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Capability%20Description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Capability Descripition
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Classification/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Classification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Contracting%20and%20Acquisition/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contracting, Acquisition
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Cost%20and%20Funding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cost and Funding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Datasets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datasets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Design%20Principles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design Principles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Documented%20Need/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documented Need
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/Intellectual%20Property%2C%20Open-source%2C%20Commercial/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intellectual Property, Open-source, Commercial
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            Personas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/Roles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/User%20Engagement/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Engagement
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/kitware_Data_Analyst/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Persona: Data Analyst
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/kitware_ML_Developer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Persona: ML Developer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/metrostar_quansight_Platform_Engineer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Persona: Platform Engineer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/program_personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Program Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../program-strategy/personas/template/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Persona: [Persona]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sdp
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Sdp
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Software Development Plan
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../branch-merge-release/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Branch, Merge, Release Strategy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Python Coding Guidelines
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Python Coding Guidelines
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Python Version
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supportedrequired-dependencies-and-tool-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Supported/Required Dependencies and Tool Versions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pep8" class="md-nav__link">
+    <span class="md-ellipsis">
+      PEP8
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-addition-to-pep8" class="md-nav__link">
+    <span class="md-ellipsis">
+      In Addition to PEP8
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentation-and-docstrings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation and Docstrings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quotes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#naming-conventions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Naming Conventions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passing-arguments-by-keyword" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passing Arguments by Keyword
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passing Arguments by Keyword">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instance-attribute-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instance Attribute Definition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output Strings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keyword-strings-enums" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keyword Strings (Enums)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-line-interface-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Line Interface (CLI)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-hints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Type Hints
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Type Hints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vectorization-numpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vectorization / NumPy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parentheses-in-class-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parentheses in Class Definitions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#default-argument-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Default Argument Values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mutable-default-arguments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mutable Default Arguments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initialization-of-common-data-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initialization of Common Data Structures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class-decorators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class Decorators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../design-process/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design Process Recommendations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devsecops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevSecOps Testing Requirements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exception-handling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exception Handling Guidelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../open-source-strategy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Open-source Strategy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../protocols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Common protocols, utilities, and tooling via jatic_toolbox
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../software-requirements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Software Requirements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testing-plan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Testing Plan
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purpose
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Python Version
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supportedrequired-dependencies-and-tool-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Supported/Required Dependencies and Tool Versions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pep8" class="md-nav__link">
+    <span class="md-ellipsis">
+      PEP8
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-addition-to-pep8" class="md-nav__link">
+    <span class="md-ellipsis">
+      In Addition to PEP8
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentation-and-docstrings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation and Docstrings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quotes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#naming-conventions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Naming Conventions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passing-arguments-by-keyword" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passing Arguments by Keyword
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passing Arguments by Keyword">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instance-attribute-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instance Attribute Definition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output Strings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keyword-strings-enums" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keyword Strings (Enums)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-line-interface-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Line Interface (CLI)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-hints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Type Hints
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Type Hints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vectorization-numpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vectorization / NumPy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parentheses-in-class-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parentheses in Class Definitions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#default-argument-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Default Argument Values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mutable-default-arguments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mutable Default Arguments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initialization-of-common-data-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initialization of Common Data Structures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class-decorators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class Decorators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="python-coding-guidelines">Python Coding Guidelines</h1>
+<h2 id="purpose">Purpose</h2>
+<p>This document specifies the coding guidelines for coding in Python for the project.
+Guidelines help improve consistency across the tools created as part of the JATIC program.</p>
+<p>They should be:
+- Flexible: exceptions to adherence to the guidelines are permitted, particularly if the guideline prevents implementation of a desired feature.
+- Evolving: Feel free to suggest additions or changes to the guidelines.</p>
+<h2 id="python-version">Python Version</h2>
+<p>We use the currently supported major version of Python per the <a href="https://devguide.python.org/versions/">python version graph</a>.  The exact version of Python or library dependencies is not authoritatively captured in non-executable documents but captured in executable configuration or scripts.  In other words, we will declare the versions of Python that this project is targetting but rely on configuration files running in CI to enforce the list.</p>
+<p>According to the Python version graph, each version of Python has three distinct phases:</p>
+<pre><code>1. Active: During this phase, the version of Python receives regular bugfixes, security patches, and feature enhancements.
+1. Maintenance: Once a version reaches maintenance mode, it no longer receives new features or bugfixes but only critical security patches.
+1. End-of-Life: When a version reaches End-of-Life (EOL), it is no longer supported.
+</code></pre>
+<p>A good place to look for the current versions of Python that the project is considered Active is in the <code>pyproject.toml</code> file in a repository's root folder.  There is a <code>python</code> version listed in that file that might be considered the main version but this project considers many Python versions for compatibility.  The list of current Python versions that are considered is captured in the matrix configuration of <code>tox</code>.  Tox has a list of Python versions that our tests and builds iterate through, checking each one.</p>
+<p>In plain text, the list of Python version is:
+    - 3.8
+    - 3.9
+    - 3.10
+    - 3.11
+where the patch level version of each of those Python versions is up to date with high and critical vulnerability notices from CVE websites such as <a href="https://cve.mitre.org/">MITRE's</a> or <a href="https://nvd.nist.gov/vuln">NIST's</a>.</p>
+<p>To determine the supported versions of Python that we should use, we generally follow the timeline and guidelines provided by the Python development community. The Python version graph (<a href="https://devguide.python.org/versions/">https://devguide.python.org/versions/</a>) shows a sliding support window for different Python versions.  Scientific Python has <a href="https://scientific-python.org/specs/spec-0000/">a sliding support window graph</a> that features many libraries.</p>
+<p>Our goal is to remain within the Active or Maintenance phases for all the Python versions and dependencies.  Although a strict time period or version range has not yet been selected, it should be an ongoing and reasonable security practice that is recognizable in the context of the projects and software we are using.  The exact versions will change over time and those details should not be captured in Markdown but in things that are executing in the CI/CD pipeline.</p>
+<p>ℹ️ There is more detail in <a href="../Software%20Requirements.md">Software Requirements</a></p>
+<h2 id="supportedrequired-dependencies-and-tool-versions">Supported/Required Dependencies and Tool Versions</h2>
+<p>The general dependency strategy is the same as the Python Version section.  Dependencies have support lifecycles, sometimes no support but an open-source community and signals that a version should not be used.  Dependencies have dependencies and there is little value in documenting this graph as human readable markdown.</p>
+<p>The specific versions of dependencies (e.g., Python version) supported/required by your repo should be specified at the top of the repo's top-level README.md. For example, <a href="https://gitlab.jatic.net/jatic/cdao/jatic-toolbox/-/blob/main/README.md">like this</a>.</p>
+<p>Per <a href="../Software%20Requirements.md">requirements to use poetry to manage Python dependencies</a>, the dependency versions should be verified by poetry by inclusion in the repo's <a href="https://gitlab.jatic.net/jatic/cdao/jatic-toolbox/-/blob/main/pyproject.toml#L15"><code>pyproject.toml</code> file</a>. They should also be contained in a <a href="https://asdf-vm.com/manage/configuration.html#tool-versions"><code>.tools-version</code> to be verified by asdf</a> in the CI/CD pipeline.</p>
+<h2 id="pep8">PEP8</h2>
+<p>We adhere to PEP8 with two exceptions:</p>
+<ul>
+<li>
+<p>PEP8 suggests using a line length limit of 79, but JATIC projects have a range within which they should stay: 79-150.
+Based on <a href="https://peps.python.org/pep-0008/#maximum-line-length">PEP guidance on this subject</a> it makes sense to limit width. Also, line length should be limited consistently within a repo. Line length must be no longer than 140. We suggest something smaller like 99 or 120 as a good compromise between narrowness for side-by-side and the readability of fewer continuations.</p>
+</li>
+<li>
+<p>We define the <code>__all__</code> variable in each Python module. The contents of <code>__all__</code> should only be content that you want exported from the package. The <code>__init__.py</code> file should then include import wildcards. To be clear, leading underscores should be used for private variables and functions that should not be used outside the file. Objects without leading underscore and not within <code>__all__</code> are intended to be usable within other files in the package, but not exported outside the package.</p>
+</li>
+<li>Your Python modules should never use a wildcard import to import all from a module.</li>
+<li>Aside from that, a leading underscore is sufficient to indicate private variables, functions or methods:</li>
+</ul>
+<pre><code># Bad:
+# Contents of `my_package/second_module.py`
+from my_package.my_module import *  # Do not import &quot;*&quot;
+
+# Good:
+# Contents of `my_package/my_module.py`
+__all__ = [public_function]
+def public_function():
+    pass
+
+def private_function_for_package():
+    pass
+
+def _private_function_within_module():
+    pass
+
+# Contents of `my_package/second_module.py`
+from my_package.my_module import private_function_for_package, public_function
+
+# Contents of `__init__.py`
+from my_package.my_module import *
+</code></pre>
+<h2 id="in-addition-to-pep8">In Addition to PEP8</h2>
+<p>PEP8 leaves many things open. These are additional guides or choices/opinions to choose from options suggested by PEP8.
+python</p>
+<h2 id="types">Types</h2>
+<p>A JATIC Python project's interfaces should leverage consistent type annotations across interfaces, which serve as concise, legible, and verifiable documentation. Publicly-facing interfaces should prioritize the use of standard-library types (e.g. <code>int</code>  or <code>dict</code>), common third party data types (e.g. <code>torch.Tensor</code>), or structural subtypes (a.k.a. protocols as specified in <a href="https://peps.python.org/pep-0544/">PEP 544</a>) over the introduction of custom types. An additional document that motivates use of typed interfaces for JATIC projects will be provided. Resources for best practices for writing and maintaining type annotations can be <a href="https://typing.readthedocs.io/en/latest/#guides">found here</a> and <a href="https://github.com/microsoft/pyright/blob/92b4028cd5fd483efcf3f1cdb8597b2d4edd8866/docs/typed-libraries.md#best-practices-for-inlined-types">here</a>.</p>
+<h3 id="documentation-and-docstrings">Documentation and Docstrings</h3>
+<p>We use docstrings of widely-adopted styles that allow direct generation of documentation via Sphinx. Allowed styles are, for example, <a href="https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard">NumPy Documentation Style</a> or <a href="https://google.github.io/styleguide/pyguide.html#383-functions-and-methods">Google-style docstrings</a>. <a href="https://docs.python.org/3/library/doctest.html">Examples in docstrings must follow the Doctest format</a>. These docstrings must be used to autogenerate documentation with Sphinx.
+Internal functions do not require docstrings. Functions part of the public API require docstrings.</p>
+<p>Items in the <code>Parameters</code> section should include types. For a tensor-like parameter with constraints on its shape, its shape pattern should be included alongside its type information. E.g. a batch of images may appear in the <code>Parameters</code> section as: <code>batch: torch.Tensor, shape-(N, C, H, W)</code> where <code>N</code> is the batch size and <code>(C, H, W)</code> is the shape of a single image. Interfaces (functions, classes, etc.) that are part of a code base's public API should include an <code>Examples</code> section. Here is a <a href="https://github.com/mit-ll-responsible-ai/responsible-ai-toolbox/blob/caebefe51e220818d524283959a42fd29852a3ce/src/rai_toolbox/perturbations/solvers.py#L43-L206">link to example docstring</a>.</p>
+<p>The <a href="https://numpydoc.readthedocs.io/en/latest/">numpydoc Sphinx extension</a> can be used to generate reference documentation for the project for Numpy-style docstrings. <a href="https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html">Napoleon Sphinx extension</a> can work for Google-style or Numpy-style. This enables Sphinx to parse and render NumPy-style documentation strings.</p>
+<p>Much code should be self-documented by its writing and naming, making docstrings unnecessary. For non-public-API functions, docstrings are up to the discretion of the writer.</p>
+<h3 id="quotes">Quotes</h3>
+<p>Use double quotes " , not single quotes '. This choice adheres to things like <a href="https://peps.python.org/pep-0257/">PEP257</a>.</p>
+<h3 id="naming-conventions">Naming Conventions</h3>
+<p><a href="https://peps.python.org/pep-0008/#naming-conventions">PEP8 has much content on naming conventions.</a>
+Follow those conventions. Some notable ones for ease of reference:
+- Functions: <code>snake_case</code>
+    - Names that are visible to the user as public parts of the API should follow conventions that reflect usage rather than implementation.
+    - See content above on <code>__all__</code> definition on handling objects that should be public or available within the package, but not public (neither should have leading underscore; public objects should be in <code>__all__</code> and available within the package should not).
+    - <em>single_leading_underscore: For internal variables or functions that should be used only within the file.
+- Classes: <code>CapWords</code>
+- Types: <code>CapWords</code>
+- Constants: <code>ALL_CAPS</code>
+- Function: <code>snake_case</code>
+- Packages/module names: <code>snake_case</code>
+- Variables: <code>snake_case</code>
+    - df</em> prefix for Pandas data frames
+    - _file_path suffix for file path strings
+    - Unit suffixes for variables with non-standard units, and only for those. In particular, radians are the standard unit for angles.
+    - The use of explicit, descriptive data structures – e.g., named tuples, dataclasses, and xarrays – should be used to store heterogeneous data. For example, accessing latitude &amp; longitude coordinates by name – <code>coord.lat</code>  and <code>coord.lon</code>  – is preferred to accessing them by index as <code>coord[0]</code>  and <code>coord[1]</code>.
+- Modules:
+  Care must be taken to distinguish those parts of a JATIC project that comprise its public Python API from those that do not. This is chiefly accomplished by leveraging a leading underscore in the names of private modules and packages. It can be helpful for developers to use an <code>_internals</code> subpackage that contains the majority of the package's implementations, and to populate public namespaces purely via imports from parts of <code>_internals</code>.</p>
+<pre><code># Bad
+distance_meters = 4.0
+angle_limit = 89.0
+
+# Good
+distance = 4.0
+angle_limit_degrees = 89.0
+</code></pre>
+<h3 id="passing-arguments-by-keyword">Passing Arguments by Keyword</h3>
+<p>Our default behavior is to pass function arguments by keyword rather than by position, for safety, maintainability, and readability. More specifically, the following guideline applies:</p>
+<ul>
+<li>Function takes one argument: It’s up to you whether to pass by keyword or by position.</li>
+<li>Function takes two or more arguments: Pass by keyword.</li>
+<li>Exceptions: No need to pass by keyword if both of the following conditions are true:<ul>
+<li>The respective arguments and their positions are common knowledge (e.g. the start, stop, and step arguments, but you should pass by keyword for any of its additional arguments).</li>
+<li>The signature of the function is very unlikely to ever change (e.g. Python built-ins like range, standard library packages, mature libraries like NumPy, but not immature libraries like TensorFlow 0.8)</li>
+</ul>
+</li>
+<li>Note that both of the requirements for the exception case above will rarely be met by functions from your own code base, i.e. you can most often not assume that the arguments to your function are common knowledge and that its signature is not going to change.</li>
+</ul>
+<h4 id="example">Example:</h4>
+<pre><code>def foo(yaw, pitch, roll, sausages, mode):
+    pass
+# Bad:
+foo(1.57, -0.36, -1.57, 2.0, 'eggs')  # Let's pray that the order of yaw, pitch, roll will never change!
+
+# Good:
+foo(yaw=1.57, pitch=-0.36, roll=-1.57, sausages=2.0, mode='eggs')
+</code></pre>
+<h3 id="instance-attribute-definition">Instance Attribute Definition</h3>
+<p>Instance attributes should all be defined in <strong>init</strong>() so that it is easy to see what instance attributes a class has:</p>
+<pre><code># Bad:
+class foo:
+    def __init__(bar):
+        self._bar = bar
+
+    def func():
+        self._baz = 42  # Instance attribute defined outside __init__
+
+# Good:
+class foo:
+    def __init__(bar):
+        self._bar = bar
+        self._baz = None
+
+    def func():
+        self._baz = 42
+</code></pre>
+<h3 id="output-strings">Output Strings</h3>
+<p>When you need to insert values of variables into strings, don’t add strings together. In Python 3, use <a href="https://realpython.com/python-f-strings">f-strings</a>.</p>
+<h3 id="example_1">Example:</h3>
+<pre><code>foo = 4
+bar = math.pi
+
+# Bad:
+string = str(foo) + &quot; apples and &quot; + str(bar) + &quot; radians&quot;
+string2 = &quot;&quot;.join([str(foo),&quot; apples and &quot;, str(bar), &quot; radians&quot;])
+
+# Good (Python 3):
+string = f&quot;{foo} apples and {bar:.2f} radians&quot;
+print(f&quot;I like to eat {foo} apples&quot;)
+</code></pre>
+<h3 id="keyword-strings-enums">Keyword Strings (Enums)</h3>
+<p>Keyword strings should be defined as enums whenever it makes sense (and it very often makes sense). It always makes sense if the respective keyword is used more than once. Doing this prevents errors, makes the code a lot more maintainable and traceable, makes possible editor features like “go to definition”, code completion, smart refactoring, etc.</p>
+<pre><code># Bad:
+# In foo.py
+MyFunction.add(name=&quot;SET_INIT_MODE&quot;,  # Ok if only used once in code
+               SetMode(key_name=&quot;mode&quot;,  # Bad because used repeatedly
+                       value=&quot;init&quot;))  # Bad because used repeatedly
+
+# Good:
+# In foo.py
+from enum import Enum
+
+action_params = Enum('ActionParams',
+                     names={MODE: 'mode',
+                            STATE: 'state'},
+                     type=str)
+
+mode_params = Enum('ModeParams',
+                            names={INIT: 'init',
+                                   ERROR: 'error'},
+                            type=str)
+
+MyFunction.add(name=&quot;SET_INIT_MODE&quot;, # Ok if only used once in code
+                 SetMode(key_name=action_params.MODE,
+                         value=mode_params.INIT))
+</code></pre>
+<h3 id="command-line-interface-cli">Command Line Interface (CLI)</h3>
+<p>Argparse <a href="https://docs.python.org/3.8/howto/argparse.html">(tutorial)</a> is the standard for defining command line interfaces (CLI). Other packages for handling CLI can be used that make handling CLI easier, such as <a href="https://pypi.org/project/hydra-zen/">hydra-zen</a>.</p>
+<h3 id="type-hints">Type Hints</h3>
+<p>Always use <a href="https://realpython.com/lessons/type-hinting">type hints</a> both for parameters and returns. They make the code a lot easier to understand and, more importantly, enable type checking. <a href="https://peps.python.org/pep-0484/">PEP484</a> is well worth a skim to get a deeper understanding of type hints.</p>
+<p>Type checking must be added in the CICD pipeline for your repo. PyRight is an example of type checker you can use.</p>
+<p><a href="https://mypy.readthedocs.io/en/stable/cheat_sheet.html">For more examples and details, see here.</a></p>
+<h4 id="example_2">Example:</h4>
+<pre><code># Bad:
+def foo_bar(data, groupby, bounds, baz, crazy_param = 42):  # Nobody knows what type these are
+    pass
+
+# Good:
+import pandas as pd
+from typing import Any, Mapping, Sequence, Tuple, TypeVar, Union
+
+BoundsDict = Mapping[str, Tuple[float, float]]  # We can define type aliases
+T = TypeVar('T', pd.DataFrame, str, float, None)  # We can define arbitrary types
+
+def foo_bar(
+        data: pd.DataFrame,
+        groupby: str,
+        bounds: BoundsDict,
+        baz: Union[int, Sequence[int]],
+        crazy_param: Any = 42,
+) -&gt; None:
+    pass
+</code></pre>
+<p>Some notes:</p>
+<ul>
+<li>The <a href="https://docs.python.org/3/library/typing.html#module-typing">typing module</a> provides support for type hints.</li>
+<li>The <a href="https://github.com/python/typing_extensions">typing extensions module</a> provides support for older Python protocols and version.</li>
+<li>Type hints support dynamic programming with types such as <a href="https://docs.python.org/3/library/typing.html#typing.Union">Union</a> and <a href="https://docs.python.org/3/library/typing.html#typing.Any">Any</a>.</li>
+<li>Type checking is consistent with Python’s <a href="https://peps.python.org/pep-3141">numeric hierarchy</a>. A particularly important example of this is that int is a sub-type of float, therefore, if you want e.g. a parameter to accept both int and float, it’s sufficient to annotate the parameter with the parent type float instead of Union[int, float].</li>
+<li><a href="https://stackoverflow.com/questions/58903906/whats-the-difference-between-a-constrained-typevar-and-a-union">There is a difference between TypeVar and Union.</a></li>
+</ul>
+<h3 id="vectorization-numpy">Vectorization / NumPy</h3>
+<p>Prefer vectorized operations (i.e. <a href="https://realpython.com/numpy-array-programming">NumPy</a>) over loops wherever possible. Loops in Python are very slow and therefore to be avoided for stuff like arithmetic operations if possible. Note that the <code>numpy.vectorize()</code> function itself is slow and really just a loop. See <a href="https://numpy.org/doc/stable/reference/generated/numpy.vectorize.html">Notes section here</a>.:</p>
+<pre><code># Bad:
+sum = 0
+for i in long_list:
+    sum += i
+
+# Good:
+import numpy as np
+
+array = np.array(long_list)
+sum = np.sum(array)  # Implemented in C and much, much faster
+</code></pre>
+<h3 id="parentheses-in-class-definitions">Parentheses in Class Definitions</h3>
+<p>Do not add obsolete empty parentheses to class definitions if you don’t inherit from anything:</p>
+<pre><code># Bad:
+class MyClass():
+
+# Good:
+class MyClass:
+</code></pre>
+<h3 id="default-argument-values">Default Argument Values</h3>
+<p>A function signature's default values should not reflect narrow, application-specific choices. For example, it would be inappropriate for a function for training a neural network to specify the following arbitrary, unjustified default values</p>
+<p><code>def train(batch_size: int = 10, num_train_steps: int = 100): ...</code></p>
+<p>Such defaults can bias users to overlook important settings that they should determine for their application. Instead, <code>batch_size</code> and <code>num_train_steps</code> should not specify any default values.</p>
+<h3 id="mutable-default-arguments">Mutable Default Arguments</h3>
+<p>Do not use mutable default arguments. In particular, lists and dictionaries in Python are mutable, so do not use those as default arguments. Reason: Default arguments in Python are initialized only once during the execution of the function definition code and then never again. Therefore, if a mutable default argument gets modified inside the function body, it will be modified for all future calls of that function. <a href="https://docs.python-guide.org/writing/gotchas/#mutable-default-arguments">This short article</a> explains the problem nicely. Two examples, the second of which is from the linked article:</p>
+<pre><code># Bad:
+def foo(cookie_orders=[3, 3, 3]):
+    # Let's hope nobody modifies `cookie_orders` inside the function
+    pass
+
+# Good:
+def foo(cookie_orders=(3, 3, 3)):
+    # No risk here, tuples are immutable
+    pass
+
+# Bad:
+def append_to(element, to=[]):
+    to.append(element)
+    return to
+
+# Good:
+def append_to(element, to=None):
+    if to is None:
+        to = []
+    to.append(element)
+    return to
+</code></pre>
+<h3 id="initialization-of-common-data-structures">Initialization of Common Data Structures</h3>
+<p>When creating a new common data structure such as a list, dictionary, or tuple, use the explicitly named constructor function instead of pairs of brackets. Preference is strong when the structure is created empty. When initializing a filled list, dict, or tuple, it is better and easier to do with brackets/parentheses/braces.</p>
+<pre><code># Least Ok:
+new_list = []
+new_dictionary = {}
+new_tuple = ()
+
+# Ok
+new_filled_dictionary = dict(a_key=1, another_key=2)
+# Lists and tuples can also be initialized with their function names.
+
+# Good:
+new_list = list()
+new_filled_list = [[1, 2, 3], [4, 5, 6]]
+new_dictionary = dict()
+new_filled_dictionary = {&quot;a_key&quot;: 1, &quot;another_key&quot;: 2}
+new_tuple = tuple()
+new_filled_tuple = ([1, 2, 3], [4, 5, 6], [7, 8, 9])
+</code></pre>
+<h3 id="class-decorators">Class Decorators</h3>
+<p><a href="https://peps.python.org/pep-0318/">Class decorators</a> should be used to identify static and class functions, but they can be used for other purposes as well.
+<a href="https://realpython.com/primer-on-python-decorators/">Guidance on how to use class decorators can be found online.</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
