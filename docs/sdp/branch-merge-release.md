@@ -70,4 +70,3 @@ and keep their code up to date with each subsequent release.
     - [Conda-forge](https://conda-forge.org/) 
 
     The procedures and implementation of continuous deployment to these environments via GitLab CI is currently in progress.
-

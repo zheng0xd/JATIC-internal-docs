@@ -5,3 +5,31 @@ repo_url: https://gitlab.jatic.net/cdao/docs
 site_dir: public
 docs_dir: docs
 theme: material
+
+nav:
+  - Home: 'index.md'
+  - 'Program background':
+    - 'Program Origin': 'program-background/origin.md'
+    - 'Capability Description': 'program-background/cap-description.md'
+    - 'Supported Personas': 'program-background/roles.md'
+    - 'Supported Use Cases': 'program-background/datasets.md'
+  - 'Organization':
+    - 'Software Development Methodology': 'org-process/agile-methodology.md'
+    - 'Agile Roles': 'org-process/agile-roles.md'
+    - 'Shared principles': 'org-process/shared-principles.md'
+  - 'Platforms Usage Guide':
+    - 'Onboarding onto platforms': ''
+    - 'Gitlab introduction': ''
+    - 'Slack introduction': 'platforms/slack-usage.md'
+    - 'Using Gitlab for Agile': 'platforms/gitlab-agile.md'
+    - 'Navigating Gitlab': 'platforms/gitlab-org.md'
+  - 'Software Development Plan':
+    - 'Common Protocols': 'sdp/protocols.md'
+    - 'Testing Requirements': 'sdp/testing-plan.md'
+    - 'DevSecOps Requirements': 'sdp/devsecops.md'
+    - 'Software Requirements': 'sdp/software-requirements.md'
+    - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
+    - 'Open-sourcing Guidance': 'sdp/open-source-strategy.md'
+    - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
+  - 'Reference Material':
+    - 'Program Org Chart': 'reference/org-chart.md'
