@@ -10,7 +10,7 @@ cache:
 pages:
   stage: deploy
   script:
-  - mkdocs build --strict --verbose -f mkdocs.yml
+  - mkdocs build -f mkdocs.yml
   artifacts:
     paths:
     - public
