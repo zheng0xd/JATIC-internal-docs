@@ -1,5 +1,7 @@
 # test website
 
+[Link to pages: https://jatic.pages.jatic.net/docs/test-website/](https://jatic.pages.jatic.net/docs/test-website/)
+
 To view this website locally, do the following:
 1. clone this repo
 1. install the requirements from `requirements.txt`
