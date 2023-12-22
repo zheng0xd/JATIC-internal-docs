@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-website"
+version = "0.1.0"
+description = ""
+authors = ["Ariel Kapusta <akapusta@mitre.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = ">=1.1.2"
+mkdocs-awesome-pages-plugin = ">=2.8.0"
+mkdocs-material = ">=5.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
