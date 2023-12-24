@@ -10,9 +10,21 @@ theme:
     - navigation.indexes
     - navigation.tabs
     - navigation.footer
+    - navigation.instant
+
   palette:
-    scheme: default
-    primary: green
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+      primary: green
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to light mode
+      primary: indigo
 
 extra:
   social:
