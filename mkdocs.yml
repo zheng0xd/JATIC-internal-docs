@@ -62,8 +62,8 @@ nav:
     - 'MIT-LL': 'org-chart/mitll.md'
     - 'MORSE': 'org-chart/morse.md'
     - 'Team MetroStar': 'org-chart/metrostar.md'
-    - 'PM Team': 'org-chart/pm-team.md'
-    - 'System Team': 'org-chart/system-team.md'
+    - 'PM Team': 'org-chart/pm.md'
+    - 'System Team': 'org-chart/systems.md'
     - 'TwoSix': 'org-chart/twosix.md'
   - 'Program Calendar': 
     - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
