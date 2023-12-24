@@ -26,8 +26,8 @@ nav:
     - 'RealLabel': 'empty.md'
   - 'Program Organization':
     - 'Team Roles & Responsibilities': 'org-process/roles.md'
-    - 'Program-level Events' : 'org-process/program-events.md'
-    - 'Team-level Events' 'org-process/team-events.md'
+    - 'Program-level Events': 'org-process/program-events.md'
+    - 'Team-level Events': 'org-process/team-events.md'
     - 'Shared principles': 'org-process/shared-principles.md'
   - 'Platforms Usage Guide':
     - 'Platforms overview': 'empty.md'
