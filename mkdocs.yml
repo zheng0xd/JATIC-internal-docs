@@ -16,7 +16,7 @@ nav:
     - 'Supported Use Cases': 'program-background/datasets.md'
   - 'Products': 'products.md'
   - 'Software Development Process':
-    - 'Scaled Agile Framework': 'org-process/safe.md'
+    - 'Agile Framework & Principles': 'org-process/safe.md'
     - 'Team Roles & Responsibilities': 'org-process/roles.md'
     - 'Program-level Events': 'org-process/program-events.md'
     - 'Team-level Events': 'org-process/team-events.md'
