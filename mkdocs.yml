@@ -43,7 +43,15 @@ nav:
       - 'Capability Description': 'home/program-background/cap-description.md'
       - 'FAQs': 'empty.md'
       - 'Supported Use Cases & Roles': 'home/program-background/use-cases-roles.md'
-    - 'Products': 'home/products.md'
+    - 'Products':
+      - 'Armory': 'home/products/armory.md'
+      - 'Adversarial Robustness Toolbox': 'home/products/art.md'
+      - 'DAML': 'home/products/daml.md'
+      - 'Gradient': 'home/products/gradient.md'
+      - 'MAITE': 'home/products/maite.md'
+      - 'NRTK': 'home/products/nrtk.md'
+      - 'RAVEN': 'home/products/raven.md'
+      - 'XAITK': 'home/products/xaitk.md'
   - 'Software Development Process':
     - dev-process/index.md
     - 'Key Agile Principles': 'dev-process/agile-principles.md'
