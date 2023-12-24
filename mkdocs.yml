@@ -24,8 +24,8 @@ nav:
     - 'Armory': 'empty.md'
     - 'Gradient': 'empty.md'
     - 'RealLabel': 'empty.md'
-  - 'Program Organization':
-    - 'Software Development Methodology': 'org-process/swd-methodology.md'
+  - 'Software Development Process':
+    - 'Scaled Agile Framework': 'org-process/safe.md'
     - 'Team Roles & Responsibilities': 'org-process/roles.md'
     - 'Program-level Events': 'org-process/program-events.md'
     - 'Team-level Events': 'org-process/team-events.md'
@@ -36,7 +36,7 @@ nav:
     - 'Mural introduction': 'empty.md'
     - 'Using Gitlab for Agile': 'platforms/gitlab-agile.md'
     - 'Navigating Gitlab': 'platforms/gitlab-org.md'
-  - 'Software Development Plan':
+  - 'Software Requirements':
     - 'Common Protocols': 'sdp/protocols.md'
     - 'Testing Requirements': 'sdp/testing-plan.md'
     - 'DevSecOps Requirements': 'sdp/devsecops.md'
