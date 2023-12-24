@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Kitware
 
 The Kitware team is building XAITK Saliency, an open-source python library for visual saliency algorithm interfaces and implementations to support explainable AI. 

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Increment 3 (11 OCT 23 - 30 JAN 24)
 
 | Week of | SUN | MON | TUE | WED | THU | FRI | SAT | 

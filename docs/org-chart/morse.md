@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # MORSE
 
 | Name | Gitlab | Email | Org | Role |

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # PM team
 
 The PM team is the core management team for the JATIC program. 

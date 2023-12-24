@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Increment 4 (31 JAN 24 - 23 APR 24)
 
 | Week of | SUN | MON | TUE | WED | THU | FRI | SAT | 

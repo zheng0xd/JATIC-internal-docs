@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # IBM
 
 | Name | Gitlab | Email | Org | Role |

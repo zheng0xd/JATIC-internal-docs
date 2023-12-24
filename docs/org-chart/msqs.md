@@ -1,4 +1,9 @@
-## Team MetroStar
+---
+hide:
+  - toc
+---
+
+# Team MetroStar
 
 Team MetroStar is building an AI T&E platform prototype composed almost entirely of existing open-source technologies.
 
