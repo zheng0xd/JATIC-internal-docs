@@ -36,14 +36,14 @@ extra:
   generator: false
 
 nav:
-  - Home: 'index.md'
-  - 'Program background':
-    - program-background/index.md
-    - 'Program Origin': 'program-background/origin.md'
-    - 'Capability Description': 'program-background/cap-description.md'
-    - 'FAQs': 'empty.md'
-    - 'Supported Use Cases & Roles': 'program-background/use-cases-roles.md'
-  - 'Products': 'products.md'
+  - 'Home': 
+    - index.md
+    - 'Program background':
+      - home/program-background/index.md
+      - 'Capability Description': 'home/program-background/cap-description.md'
+      - 'FAQs': 'empty.md'
+      - 'Supported Use Cases & Roles': 'home/program-background/use-cases-roles.md'
+    - 'Products': 'home/products.md'
   - 'Software Development Process':
     - dev-process/index.md
     - 'Key Agile Principles': 'dev-process/agile-principles.md'
@@ -52,10 +52,9 @@ nav:
     - 'Team-level Events': 'dev-process/team-events.md'
     - 'Common Platforms': 'dev-process/common-platforms.md'
   - 'Platforms Usage Guide':
-    - 'Platforms overview': 'empty.md'
-    - 'Gitlab introduction': 'empty.md'
+    - platforms/index.md
+    - 'Onboarding Guide': 'platforms/onboarding.md'
     - 'Slack introduction': 'platforms/slack-usage.md'
-    - 'Mural introduction': 'empty.md'
     - 'Using Gitlab for Agile': 'platforms/gitlab-agile.md'
     - 'Navigating Gitlab': 'platforms/gitlab-org.md'
   - 'Software Requirements':
@@ -66,18 +65,18 @@ nav:
     - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
     - 'Open-sourcing Guidance': 'sdp/open-source-strategy.md'
     - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
-  - 'Onboarding Guide': 'onboarding.md'
-  - 'Program Org Chart':
-    - 'ARiA': 'org-chart/aria.md'
-    - 'IBM': 'org-chart/ibm.md'
-    - 'Kitware': 'org-chart/kitware.md'
-    - 'MIT-LL': 'org-chart/mitll.md'
-    - 'MORSE': 'org-chart/morse.md'
-    - 'Team MetroStar': 'org-chart/metrostar.md'
-    - 'PM Team': 'org-chart/pm.md'
-    - 'System Team': 'org-chart/systems.md'
-    - 'TwoSix': 'org-chart/twosix.md'
-  - 'Program Calendar': 
-    - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
-    - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
+  - 'Particulars':
+    - 'Program Calendar': 
+      - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
+      - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
+    - 'Program Org Chart':
+      - 'ARiA': 'org-chart/aria.md'
+      - 'IBM': 'org-chart/ibm.md'
+      - 'Kitware': 'org-chart/kitware.md'
+      - 'MIT-LL': 'org-chart/mitll.md'
+      - 'MORSE': 'org-chart/morse.md'
+      - 'Team MetroStar': 'org-chart/metrostar.md'
+      - 'PM Team': 'org-chart/pm.md'
+      - 'System Team': 'org-chart/systems.md'
+      - 'TwoSix': 'org-chart/twosix.md'
     
