@@ -12,14 +12,14 @@ nav:
     - 'Program Origin': 'program-background/origin.md'
     - 'Capability Description': 'program-background/cap-description.md'
     - 'FAQs': 'empty.md'
-    - 'Supported Personas': 'program-background/roles.md'
-    - 'Supported Use Cases': 'program-background/datasets.md'
+    - 'Supported Use Cases & Roles': 'program-background/use-cases-roles.md'
   - 'Products': 'products.md'
   - 'Software Development Process':
     - 'Agile Framework & Principles': 'org-process/safe.md'
     - 'Team Roles & Responsibilities': 'org-process/roles.md'
     - 'Program-level Events': 'org-process/program-events.md'
     - 'Team-level Events': 'org-process/team-events.md'
+    - 'Common Platforms': 'org-process/common-platforms.md'
   - 'Platforms Usage Guide':
     - 'Platforms overview': 'empty.md'
     - 'Gitlab introduction': 'empty.md'
