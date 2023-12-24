@@ -12,20 +12,20 @@ The program follows a biweekly cadence for its short-term planning. We call each
 
 | Day | Events | 
 | --- | --- |
-| DAY 1 - WED | Sprint planning |
-| DAY 2 - THU | Stand-up |
-| DAY 3 - FRI | Stand-up |
-| DAY 4 - SAT | - |
-| DAY 5 - SUN | - |
-| DAY 6 - MON | Stand-up |
-| DAY 7 - TUE | Stand-up |
-| DAY 8 - WED | Stand-up, Backlog refinement |
-| DAY 9 - THU | Stand-up |
-| DAY 10 - FRI | Stand-up |
-| DAY 11 - SAT | - |
-| DAY 12 - SUN | - |
-| DAY 13 - MON | Stand-up |
-| DAY 14 - TUE | Sprint review, Sprint retrospective |
+| Day 1 - WED | Sprint planning |
+| Day 2 - THU | Stand-up |
+| Day 3 - FRI | Stand-up |
+| Day 4 - SAT | - |
+| Day 5 - SUN | - |
+| Day 6 - MON | Stand-up |
+| Day 7 - TUE | Stand-up |
+| Day 8 - WED | Stand-up, Backlog refinement |
+| Day 9 - THU | Stand-up |
+| Day 10 - FRI | Stand-up |
+| Day 11 - SAT | - |
+| Day 12 - SUN | - |
+| Day 13 - MON | Stand-up |
+| Day 14 - TUE | Sprint review, Sprint retrospective |
 
 ## Sprint Planning (Day 1)
 
@@ -50,7 +50,7 @@ An example meeting agenda for sprint planning may be the following:
 - Create the sprint goal(s)
 - Commit to issues and goal(s) for the sprint
 
-To read more, see the [Iteration Planning from SAFe](https://scaledagileframework.com/iteration-planning/).
+To read more, see the [Iteration Planning](https://scaledagileframework.com/iteration-planning/) from SAFe.
 
 ### **Tips**
 
@@ -73,7 +73,7 @@ The daily stand-up is a time for team members to discuss their progress since th
 
 A stand-up typically happens every day during the sprint, preferably in the morning. However, if team members are only partially allocated to the program, an every-other day stand-up may be sufficient.
 
-To read more, see the [Iteration Execution from SAFe](https://v5.scaledagileframework.com/iteration-execution/)
+To read more, see the [Iteration Execution](https://v5.scaledagileframework.com/iteration-execution/) from SAFe.
 
 ## Backlog Refinement (~Day 7)
 
@@ -90,7 +90,7 @@ Backlog refinement is a meeting where the team collaboratively review, refine, p
 
 For a refined issue, the team should have a good understanding of its technical dependencies and difficulty, its estimated time, its priority, and how it contributes to the team's objectives. By collaboratively bringing the team together for backlog refinement, the team is best able to develop a shared, holistic, and accurate understanding of an issue. 
 
-To read more, see the [Backlog Refinement from Atlassian](https://www.atlassian.com/agile/scrum/backlog-refinement)
+To read more, see the [Backlog Refinement](https://www.atlassian.com/agile/scrum/backlog-refinement) from Atlassian.
 
 ## Sprint review (Day 14)
 
@@ -109,7 +109,7 @@ The product owner begins the meeting by reviewing the sprint goals and their sta
 
 Stakeholders may be invited to provide feedback on the completed work and suggest any changes or enhancements that could be made. 
 
-To read more, see the [Iteration Review from SAFe](https://scaledagileframework.com/iteration-review/)
+To read more, see the [Iteration Review](https://scaledagileframework.com/iteration-review/) from SAFe.
 
 ## Sprint retrospective (Day 14)
 
@@ -124,4 +124,4 @@ To read more, see the [Iteration Review from SAFe](https://scaledagileframework.
 
 Sprint retrospective is a meeting held at the end of each sprint where the team comes together to reflect on the sprint and identify areas for improvement. The team discusses what went well, what didn't go well, and what they can do differently in the next sprint.
 
-The iteration retrospective is a difficult meeting to facilitate! They often can be much more effective when structured and facilitated through a validated process. We highly recommend reading more about the sprint retrospective at [Iteration Retrospective from SAFe](https://scaledagileframework.com/iteration-retrospective/) for more details.
+The iteration retrospective is a difficult meeting to facilitate! They often can be much more effective when structured and facilitated through a validated process. We highly recommend reading more about the sprint retrospective at [Iteration Retrospective](https://scaledagileframework.com/iteration-retrospective/) from SAFe for more details.

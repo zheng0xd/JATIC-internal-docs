@@ -4,22 +4,27 @@ site_url: https://jatic.pages.jatic.net/cdao/docs
 repo_url: https://gitlab.jatic.net/cdao/docs
 site_dir: public
 docs_dir: docs
-theme: material
+theme:
+  name: material
+  features:
+    - navigation.indexes
 
 nav:
   - Home: 'index.md'
   - 'Program background':
+    - program-background/index.md
     - 'Program Origin': 'program-background/origin.md'
     - 'Capability Description': 'program-background/cap-description.md'
     - 'FAQs': 'empty.md'
     - 'Supported Use Cases & Roles': 'program-background/use-cases-roles.md'
   - 'Products': 'products.md'
   - 'Software Development Process':
-    - 'Agile Framework & Principles': 'org-process/safe.md'
-    - 'Team Roles & Responsibilities': 'org-process/roles.md'
-    - 'Program-level Events': 'org-process/program-events.md'
-    - 'Team-level Events': 'org-process/team-events.md'
-    - 'Common Platforms': 'org-process/common-platforms.md'
+    - dev-process/index.md
+    - 'Key Agile Principles': 'dev-process/agile-principles.md'
+    - 'Team Roles & Responsibilities': 'dev-process/roles.md'
+    - 'Program-level Events': 'dev-process/program-events.md'
+    - 'Team-level Events': 'dev-process/team-events.md'
+    - 'Common Platforms': 'dev-process/common-platforms.md'
   - 'Platforms Usage Guide':
     - 'Platforms overview': 'empty.md'
     - 'Gitlab introduction': 'empty.md'
@@ -35,7 +40,17 @@ nav:
     - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
     - 'Open-sourcing Guidance': 'sdp/open-source-strategy.md'
     - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
-  - 'Reference Material':
-    - 'Program Org Chart': 'reference/org-chart.md'
-    - 'Program Calendar': 'reference/sprint-calendar.md'
+  - 'Program Org Chart':
+    - 'ARiA': 'org-chart/aria.md'
+    - 'IBM': 'org-chart/ibm.md'
+    - 'Kitware': 'org-chart/kitware.md'
+    - 'MIT-LL': 'org-chart/mitll.md'
+    - 'MORSE': 'org-chart/morse.md'
+    - 'Team MetroStar': 'org-chart/metrostar.md'
+    - 'PM Team': 'org-chart/pm-team.md'
+    - 'System Team': 'org-chart/system-team.md'
+    - 'TwoSix': 'org-chart/twosix.md'
+  - 'Program Calendar': 
+    - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
+    - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
     
