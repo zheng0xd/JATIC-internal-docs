@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+  - footer
 ---
 
 # Team MetroStar

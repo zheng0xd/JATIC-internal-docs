@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+  - footer
 ---
 
 # Increment 3 (11 OCT 23 - 30 JAN 24)

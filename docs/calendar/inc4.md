@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+  - footer
 ---
 
 # Increment 4 (31 JAN 24 - 23 APR 24)
