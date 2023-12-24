@@ -25,10 +25,10 @@ nav:
     - 'Gradient': 'empty.md'
     - 'RealLabel': 'empty.md'
   - 'Program Organization':
+    - 'Software Development Methodology': 'org-process/swd-methodology.md'
     - 'Team Roles & Responsibilities': 'org-process/roles.md'
     - 'Program-level Events': 'org-process/program-events.md'
     - 'Team-level Events': 'org-process/team-events.md'
-    - 'Shared principles': 'org-process/shared-principles.md'
   - 'Platforms Usage Guide':
     - 'Platforms overview': 'empty.md'
     - 'Gitlab introduction': 'empty.md'

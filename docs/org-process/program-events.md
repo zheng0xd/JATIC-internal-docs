@@ -1,10 +1,8 @@
 # Program-level Events
 
-The program defines recurring events at different recurring time-horizons to help coordinate development efforts across the program and its teams. 
+In order to coordinate development efforts across its teams, the program defines recurring planning events at different time-horizons. These events closely follow Essential SAFe.
 
-This document outlines the program-wide events that take place across a program increment. There are also individual team-level events that take place. These two levels of events are complimentary and non-duplicative. For example, the program-level planning events should help inform team-level planning events. 
-
-These events closely follow Essential SAFe.
+This page outlines the program-wide events that take place across a program increment. There are also individual team-level events that take place. These two types of events are complimentary and non-duplicative. For example, the program-level planning events should help inform team-level planning events. 
 
 ## Cadence
 
@@ -16,7 +14,7 @@ The program follows a biweekly cadence for its short-term planning. We call each
 
 The program holds the following events every program increment:
 
-- Increment planning - A beginning-of-quarter planning event that aligns all teams within the program to shared objectives. See the [SAFe description](https://scaledagileframework.com/pi-planning/) for more details.
+- Increment planning - A beginning-of-quarter planning event that aligns all teams within the program to shared objectives. See [PI Planning from SAFe](https://scaledagileframework.com/pi-planning/) for more details.
 - Increment demo - An end-of-quarter demonstration of new features developed within the most recent iteratiion, delivered by all teams to program stakeholders. SAFe calls this event the [System Demo](https://scaledagileframework.com/system-demo/)
 - Increment retrospective - An end-of-quarter event where teams reflect on the current state of the program, and then identify improvement backlog items via a strutured problem-solving workshop. SAFe calls this event the [Inspect and Adapt](https://scaledagileframework.com/inspect-and-adapt/) session.
 
@@ -27,7 +25,7 @@ Within a program increment, the program holds the following events for short-ter
 - Scrum of scrums - A weekly event to help coordinate dependencies within the program and provide visibility into progress and impediments. This event is generally attended by scrum masters from each team. SAFe calls this event the Coach Sync. 
 - Product owner (PO) sync - A weekly event to provide visibility into progression towards increment objectives, to discuss any scope adjustments, or to discuss problems / opportunities within development. This event is genreally attended by product owners from each team.
 
-For more details on the scrum of scrums meeting or PO sync, see the [SAFE description](https://scaledagileframework.com/planning-interval/)
+For more details on the scrum of scrums meeting or PO sync, see [Planning Interval from SAFe](https://scaledagileframework.com/planning-interval/).
 
 ## Example PI calendar
 

@@ -1,21 +1,31 @@
 # Team-level Events
 
-In order to develop and deliver software, the SAFe approach uses a series of recurring, short-term commitments for teams that are delivered upon and revised within a program increment. To set commitments and objectives for development, the program requires that each team establishes a set of recurring sprint events. 
+In order to iteratively develop and deliver software, the program creates a recurring series of short-term planning events in which work is committed to and completed. These events closely follow Essential SAFe.
 
-This document outlines the team-wide events that take place across a program increment. There are also program-level events that take place. These two levels of events are complimentary and non-duplicative. For example, the program-level planning events should help inform team-level planning events. 
+This page outlines the team-wide events that take place across a program increment. There are also program-level events that take place. These two types of events are complimentary and non-duplicative. For example, the program-level planning events should help inform team-level planning events. 
 
-These events closely follow Essential SAFe.
-
-## Sprint cadence
+## Cadence
 
 The program follows a biweekly cadence for its short-term planning. We call each of these periods a *sprint*. Sprints start on a Wednesday morning and end on a Tuesday night. 
 
 ### Example sprint calendar
 
-| DAY 1 - WED | DAY 2 - THU | DAY 3 - FRI | DAY 4 - MON | DAY 5 - TUE | DAY 6 - WED | DAY 7 - THU | DAY 8 - FRI | DAY 9 - MON | DAY 10 - TUE |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Sprint Planning | Stand-up | Stand-up | Stand-up | Stand-up | Stand-up | Stand-up | Stand-up | Stand-up | Sprint Review |
-| | | | | | Backlog refinement | | | | Sprint Retrospective |
+| Day | Events | 
+| --- | --- |
+| DAY 1 - WED | Sprint planning |
+| DAY 2 - THU | Stand-up |
+| DAY 3 - FRI | Stand-up |
+| DAY 4 - SAT | - |
+| DAY 5 - SUN | - |
+| DAY 6 - MON | Stand-up |
+| DAY 7 - TUE | Stand-up |
+| DAY 8 - WED | Stand-up, Backlog refinement |
+| DAY 9 - THU | Stand-up |
+| DAY 10 - FRI | Stand-up |
+| DAY 11 - SAT | - |
+| DAY 12 - SUN | - |
+| DAY 13 - MON | Stand-up |
+| DAY 14 - TUE | Sprint review, Sprint retrospective |
 
 ## Sprint Planning (Day 1)
 
@@ -40,7 +50,7 @@ An example meeting agenda for sprint planning may be the following:
 - Create the sprint goal(s)
 - Commit to issues and goal(s) for the sprint
 
-To read more about sprint planning, see the [Iteration Planning from SAFe](https://scaledagileframework.com/iteration-planning/).
+To read more, see the [Iteration Planning from SAFe](https://scaledagileframework.com/iteration-planning/).
 
 ### **Tips**
 
@@ -63,7 +73,7 @@ The daily stand-up is a time for team members to discuss their progress since th
 
 A stand-up typically happens every day during the sprint, preferably in the morning. However, if team members are only partially allocated to the program, an every-other day stand-up may be sufficient.
 
-To read more about the daily stand-up, see the [Iteration Execution from SAFe](https://v5.scaledagileframework.com/iteration-execution/)
+To read more, see the [Iteration Execution from SAFe](https://v5.scaledagileframework.com/iteration-execution/)
 
 ## Backlog Refinement (~Day 7)
 
@@ -80,7 +90,7 @@ Backlog refinement is a meeting where the team collaboratively review, refine, p
 
 For a refined issue, the team should have a good understanding of its technical dependencies and difficulty, its estimated time, its priority, and how it contributes to the team's objectives. By collaboratively bringing the team together for backlog refinement, the team is best able to develop a shared, holistic, and accurate understanding of an issue. 
 
-To read more about backlog refinement, see the [Backlog Refinement from Atlassian](https://www.atlassian.com/agile/scrum/backlog-refinement)
+To read more, see the [Backlog Refinement from Atlassian](https://www.atlassian.com/agile/scrum/backlog-refinement)
 
 ## Sprint review (Day 14)
 
@@ -99,7 +109,7 @@ The product owner begins the meeting by reviewing the sprint goals and their sta
 
 Stakeholders may be invited to provide feedback on the completed work and suggest any changes or enhancements that could be made. 
 
-To read more about the sprint review, see the [Iteration Review from SAFe](https://scaledagileframework.com/iteration-review/)
+To read more, see the [Iteration Review from SAFe](https://scaledagileframework.com/iteration-review/)
 
 ## Sprint retrospective (Day 14)
 
