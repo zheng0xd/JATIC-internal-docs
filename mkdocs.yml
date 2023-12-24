@@ -25,7 +25,7 @@ nav:
     - 'Gradient': 'empty.md'
     - 'RealLabel': 'empty.md'
   - 'Program Organization':
-    - 'Agile Roles': 'org-process/agile-roles.md'
+    - 'Team Roles & Responsibilities': 'org-process/roles.md'
     - 'Program-level Events' : 'org-process/program-events.md'
     - 'Team-level Events' 'org-process/team-events.md'
     - 'Shared principles': 'org-process/shared-principles.md'

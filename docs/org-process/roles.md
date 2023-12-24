@@ -1,16 +1,12 @@
-# Agile Roles and Responsibilities
+# Team Roles & Responsibilities
 
-## Purpose
+The program defines a common framework for roles and responsibilities in each development team, closely following the scrum methodology. 
 
-This document describes the key roles and their responsibilities within the Agile scrum methodology.
+This document outlines these roles and their responsibilities, including the areas where they have been tailored to the program's specific context. Each team is reqiured to implement these roles, particularly a scrum master and a product owner.
 
-Details about agile ceremonies and meetings can be found in [`Calendar`](https://gitlab.jatic.net/jatic/calendar/-/issues/?sort=created_date&state=all&label_name%5B%5D=Sprint%20Ceremony&first_page_size=20).
+All of the blocks below are quotes from [Atlassian's Scrum Roles](https://www.atlassian.com/agile/scrum/roles).
 
-All of the blocks are quotes from the reference below.
-
-## Roles
-
-### Development team member
+## Development team
 
 > The development team can be comprised of all kinds of people including designers, writers, programmers, etc.  
 >
@@ -29,11 +25,28 @@ The development team lead is not a traditional agile role, but is relevant in th
 
 Responsibilities of the development team lead include: 
 - Technical leadership of the development team and guidance to the government product owner
-- Close coordination with the government product owner to achieve shared product vision 
+- Close Coordination with the government product owner to achieve shared product vision 
 - Communicating programmtic information and shared vision with the development team to ensure situational awareness
 - Day-to-day management of development team
 
-### Product owner
+## Scrum master
+
+> The scrum master is the role responsible for gluing everything together and ensuring that scrum is being done well. The scrum master is a servant leader which not only describes a supportive style of leadership but describes what they do on a day-to-day basis. 
+>
+> They serve the product owner by helping them better understand and communicate value, to manage the backlog, help them plan the work with the team and break down that work to deliver the most effective learning. Serving the development team, the scrum master helps them self-organize, focus on outcomes, get to a “done increment,” and manage blockers. The scrum master also serves the organization at large, helping them understand what scrum is and create an environment that supports scrum.
+> 
+> The scrum master focuses on:
+>
+> - Transparency - To effectively inspect and adapt it is important that the right people can see what is going on. But this is actually much harder than it looks. The scrum master is tasked with ensuring that the scrum team works in a transparent way. Examples include creating story maps and updating Confluence pages with retrospective ideas.
+> - Empiricism - A fundamental for scrum and agile approaches the idea that the best way of planning is to do work and learn from it. The empirical process is not easy and requires the scrum master to coach the scrum team on breaking down work, describing clear outcomes, and reviewing those outcomes.
+> - Self-organization - Telling a development team they can self-organize does mean that the team will self-organize. In fact, self-organization comes over time and requires help and support. The scrum master will encourage team members to step outside their comfort zone and try different things and use practices such as ‘delegation poker’ to expose and challenge predefined ideas about role boundaries and responsibilities.
+> - Values - Scrum defines 5 values of courage, focus, commitment, respect, and openness not because they are nice to have, but because they create an environment of physiological safety and trust. Following the values is the responsibility of everyone in the scrum team, but the scrum master takes an active role in encouraging and reminding everyone of the importance of those values.
+
+Teams within the program will have varying levels of experience with agile and the scrum methodology. In teams with less familiarity with agile, it is the scrum master's responsibility to promote and coach agile patterns of behavior and an agile mindset. 
+
+It is important to recognize that agile is often quite antithetical to many of the principles that we operate by in the government! Building agile patterns of behavior such as delivering in quick and iterative cycles can take a significant amount of time and effort.
+
+## Product owner
 
 > Scrum product owners understand the customer and business requirements, then create and manage the product backlog based on those requirements. Since agile teams are, by design, flexible and responsive, it is the responsibility of the product owner to ensure that they are delivering the most value. The business is represented by the product owner who tells the development team what is important to deliver. Trust between these two roles is crucial.
 >
@@ -49,45 +62,10 @@ Responsibilities of the development team lead include:
 
 It is ultimately the product owner's responsibility to have a clear vision for the product and manage its delivery of value to customers. This vision should be developed alongside the development team lead, building a shared vision for the product.
 
-Some emphasized or additional product owner responsibilities within our context:
+Some emphasized or additional product owner responsibilities within our program's context include:
 
 - Roadmap creation: In addition to managing the scrum backlog for the short term, the product owner is also responsible for creating epics, together constituting a roadmap, for the longer term development of the product. This roadmap and long term vision for the product must be clearly communicated with the product team. 
 - Stakeholder coordination: The DOD has a huge number of stakeholders, many who are working in adjacent or overlapping spaces. In addition to stakeholder management to set priorities, the product owner must actively engage, coordinate, and collaborate with others working in the space to achieve adoption of our products.
-  - Product owners should talk with their product team and with the program management team if they would like help in discovering or pursuing external engagements.
 - Programmatic coordination: Since the JATIC program has multiple loosely coupled components, product owner is responsible for coordinating with the program manager and other product owners and managing the backlog to align their development to the broader vision. 
 
-There are a few specific requirements for Product Owners necessary for appropriate execution of their actions. These are specific to the role within JATIC:
-
-Day-to-day tasks:
-- Perform backlog grooming to prioritize items in the backlog.
-- Work with the team in refining Issue tickets.
-- Verify and ensure satisfaction of program requirements by the team.
-
-Weekly/Bi-weekly tasks:
-- Participate in sprint planning meetings with the team, representing the user and program. 
-- Participate in sprint review and retrospective meetings with the team, representing the user and program.
-- Participate in weekly program-wide Product Owner Sync, representing the team.
-
-Quarterly tasks:
-- Participate in program increment planning sessions and help set objectives for the team.
-  - Give the business value rating of team increment objectives (with discussion from team), both up-front during the increment planning as well as in review after the increment.
-
-### Technical SME
-
-The Technical SME is not a traditional agile role, but serves a unique and extremely important role within our program's context. For a given product, the Technical SME has a deep understanding of both the technical subject matter and the mission specific context in order to advise the product owner and development team. The role includes a variety of activities, including aiding in development and integration of the product, supporting deployment to DoD environments, and acting as the deputy product owner when necessary.
-
-### Scrum Master
-
-> The scrum master is the role responsible for gluing everything together and ensuring that scrum is being done well. The scrum master is a servant leader which not only describes a supportive style of leadership but describes what they do on a day-to-day basis. 
-> They serve the product owner by helping them better understand and communicate value, to manage the backlog, help them plan the work with the team and break down that work to deliver the most effective learning. Serving the development team, the scrum master helps them self-organize, focus on outcomes, get to a “done increment,” and manage blockers. The scrum master also serves the organization at large, helping them understand what scrum is and create an environment that supports scrum.
-> 
-> The scrum master focuses on:
->
-> - Transparency - To effectively inspect and adapt it is important that the right people can see what is going on. But this is actually much harder than it looks. The scrum master is tasked with ensuring that the scrum team works in a transparent way. Examples include creating story maps and updating Confluence pages with retrospective ideas.
-> - Empiricism - A fundamental for scrum and agile approaches the idea that the best way of planning is to do work and learn from it. The empirical process is not easy and requires the scrum master to coach the scrum team on breaking down work, describing clear outcomes, and reviewing those outcomes.
-> - Self-organization - Telling a development team they can self-organize does mean that the team will self-organize. In fact, self-organization comes over time and requires help and support. The scrum master will encourage team members to step outside their comfort zone and try different things and use practices such as ‘delegation poker’ to expose and challenge predefined ideas about role boundaries and responsibilities.
-> - Values - Scrum defines 5 values of courage, focus, commitment, respect, and openness not because they are nice to have, but because they create an environment of physiological safety and trust. Following the values is the responsibility of everyone in the scrum team, but the scrum master takes an active role in encouraging and reminding everyone of the importance of those values.
-
-## References
-
-1. https://www.atlassian.com/agile/scrum/roles
+The product owner for a given team will either be government or government-assigned. 
