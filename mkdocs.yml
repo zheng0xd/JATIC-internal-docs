@@ -65,11 +65,11 @@ nav:
     - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
     - 'Open-sourcing Guidance': 'sdp/open-source-strategy.md'
     - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
-  - 'Particulars':
-    - 'Program Calendar': 
+  - 'Program Organization':
+    - 'Calendar': 
       - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
       - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
-    - 'Program Org Chart':
+    - 'Org Chart':
       - 'ARiA': 'org-chart/aria.md'
       - 'IBM': 'org-chart/ibm.md'
       - 'Kitware': 'org-chart/kitware.md'
