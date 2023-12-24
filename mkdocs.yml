@@ -11,7 +11,7 @@ theme:
     - navigation.tabs
     - navigation.footer
     - navigation.instant
-
+    - navigation.top
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -25,7 +25,6 @@ theme:
         icon: material/toggle-switch-off
         name: Switch to light mode
       primary: indigo
-
 extra:
   social:
     - icon: fontawesome/brands/slack
@@ -34,6 +33,7 @@ extra:
       link: https://gitlab.jatic.net/
     - icon: fontawesome/solid/paper-plane
       link: mailto:<cdao-jatic@mail.mil>
+  generator: false
 
 nav:
   - Home: 'index.md'
