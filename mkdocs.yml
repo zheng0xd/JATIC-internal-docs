@@ -14,16 +14,7 @@ nav:
     - 'FAQs': 'empty.md'
     - 'Supported Personas': 'program-background/roles.md'
     - 'Supported Use Cases': 'program-background/datasets.md'
-  - 'Projects':
-    - 'MAITE': 'empty.md'
-    - 'RAVEN': 'empty.md'
-    - 'XAITK': 'empty.md' 
-    - 'NRTK': 'empty.md'
-    - 'DAML': 'empty.md'
-    - 'heART': 'empty.md'
-    - 'Armory': 'empty.md'
-    - 'Gradient': 'empty.md'
-    - 'RealLabel': 'empty.md'
+  - 'Products': 'products.md'
   - 'Software Development Process':
     - 'Scaled Agile Framework': 'org-process/safe.md'
     - 'Team Roles & Responsibilities': 'org-process/roles.md'
