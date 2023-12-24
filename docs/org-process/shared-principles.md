@@ -10,9 +10,13 @@ Our program creates many different software products across its large multi-orga
 
 All teams working with the program will review this document and raise any concerns, questions, or comments with the program as necessary. After discussion, revision, and/or establishment of further clarifying procedures, organizations will commit to following these common principles in their work.
 
+<!-- above this can be deleted -->
+
 ## Shared principles for general collaboration
 
 ### Inter-organization collaboration
+
+<!-- this can go into swd methodology -->
 
 Projects within the program will involve multiple teams, each with different areas of expertise and focus. 
 
@@ -24,11 +28,15 @@ In the situation when focus areas or tasks must be clarified or delineated in or
 
 ### Organize around iterative value delivery
 
+<!-- this can go into swd methodology -->
+
 Products should not be made for their own sake; rather, they should be aimed at delivering value by meeting the needs and requirements of the end customer. Teams will organize their work around value delivery and impact towards the end customer. 
 
 Iterative delivery presents opportunities for discovery of and reprioritization to customer requirements, as well as opportunities for inter-team collaboration. Teams will deliver in-progress work items iteratively, in order to receive feedback from the customer, government, and larger program, as well as to allow greater opportunity for collaboration and coordination with other teams. While there is no universal rule for delivery cadence, teams will strive to reduce their cycle time for value delivery.
 
 ### Use of common platforms
+
+<!--This can go into common platforms-->
 
 Shared platforms with collective adoption and usage are critical for facilitating collaboration, coordination, information sharing, and situational awareness across a large, multi-organizational team.
 
@@ -38,6 +46,8 @@ Project-specific communications and collaboration platforms should default to th
 
 ### Use of common processes and standards
 
+<!--This can go into common platforms-->
+
 Similar to shared platforms, the use of common processes and standards are critical for facilitating collaboration, coordination, information sharing, and situational awareness.
 
 The government will also specify common processes and standards across the program. These will include processes for higher-level strategic alignment, such as a synchronized portfolio planning / review process, as well as mundane processes for daily tasks, such as common processes and standards for meeting scheduling, support tickets, out-of-office indicators, or information organization. 
@@ -46,21 +56,25 @@ Teams will align with these processes and standards. In addition (and more impor
 
 ### Transparency of work
 
+<!-- this can go into swd methodology -->
+
 Transparency of work is critical to facilitating information discovery and situational awareness across a large, multi-organizational team.
 
 Teams will make artifacts, code, and documentation transparent to the entire program as much as is securely possible. Teams will also make plans and ongoing work priorities, including roadmaps, epics, and issues, transparent to the entire program as much as is securely possible. 
 
 Information that is made available to other teams should be **visible, accessible, and understandable** - meaning that other team members can locate it, access it, and recognize the content, context, and applicability of it. 
 
-## Shared principles for software development
-
 ### Interoperability of software products
+
+<!-- This can go into SDP -->
 
 Within software development efforts, teams will need to work closely with other teams and the government in order to ensure interoperable usage of their products.
 Teams will work collaboratively with other teams and the government to design intelligent interfaces and APIs to enable interoperability with their products, as well as other AI/ML tools.
 In order to ensure interoperability of products, the government will have the right to mandate the use of certain interfaces or APIs.
 
 ### Agile development methodology
+
+<!-- This can go into swd-methodology -->
 
 Software development efforts will be organized using the Scaled Agile Framework software development methodology. 
 
@@ -78,11 +92,15 @@ All work items, including items in the backlog, active work in progress items, a
 
 ### Software delivery & CI/CD
 
+<!-- This can go into SDP CI/CD part -->
+
 All code and associated documentation will be delivered to the government Gitlab instance.  
 Software delivery will follow DevSecOps best-practices. Code, corresponding to the work items completed, will be delivered by teams at least once each sprint. It will be automatically testing in the government’s CI/CD pipeline for unit and security tests. These results, as well as the tests themselves, will be easily viewable to teams for quick iteration.
 CI/CD and automatic testing will be performed within the government Gitlab instance. 
 
 ### Software development plan
+
+<!-- This can go into SDP intro -->
 
 Software development will follow the government’s Software Development Plan (SDP). This document broadly specifies the style, dependency management, testing plan, and common tools in order to ensure a baseline consistency between different teams’ code. 
 
