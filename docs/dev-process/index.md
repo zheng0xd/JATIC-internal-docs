@@ -6,4 +6,4 @@ Within this framework, our program is defined as a single [Agile Release Train](
 
 Within our program, each agile team is typically a single organization, developing a standalone product. While these products ultimately need to be complimentary in scope and operate interoperably, the standalone nature of each product greatly simplifies interdependencies and integration. 
 
-In the following pages, we outline the roles, events, and practices that constitute our shared software development framework. 
+In this section, we outline the roles, events, practices, and principles that constitute our shared software development process. 
