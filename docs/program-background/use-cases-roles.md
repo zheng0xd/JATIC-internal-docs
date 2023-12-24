@@ -5,7 +5,7 @@
 The JATIC program is currently focused on developing AI T&E capabilities for computer vision (CV) classification and object detection tasks. The libraries and tools that the program are building are designed to be applicable across mission use cases that employ these types of AI algorithms. In particular, the primary mission use cases which we are focused on are:
 
 1. Satellite imagery - CV Object Detection
-1. UAV imagery- CV Object Detection
+1. UAV imagery - CV Object Detection
 1. Autonomous driving - CV Object Detection
 1. Medical imagery - CV Classification
 
@@ -24,7 +24,7 @@ The libraries and tools developed within our program support a number of differe
 
 For each of these roles, we have created have created concrete personas representing the role, including their backgrounds, preferences, and archetypal workflows. These personas can be found [TBD]. Below, we brovide an overview of each user type and their characteristics. 
 
-### 1. AI T&E engineer
+### AI T&E engineer
 
 - Measures performance of models within various settings and contexts
 - Compares performance of models
@@ -36,7 +36,7 @@ For each of these roles, we have created have created concrete personas represen
 
 The AI T&E engineer, specifically within the DoD, is the primary role that we aim to support.
 
-### 2. Data scientist
+### Data scientist
 
 - Exploratory data and model analysis
 - Statistical analysis
@@ -47,7 +47,7 @@ The AI T&E engineer, specifically within the DoD, is the primary role that we ai
 
 See Data Scientist and ML Engineer in [1], and Data Scientist in [2] and [3] for references and a general job description. 
 
-### 3. Data analyst
+### Data analyst
 
 - Data visualization and analysis
 - Statistical analysis of dataset properties
@@ -56,7 +56,7 @@ See Data Scientist and ML Engineer in [1], and Data Scientist in [2] and [3] for
 
 See Data Analyst in [3] and [4] for references and a general job description. 
 
-### 4. AI red teamer
+### AI red teamer
 
 - Perform adversarial assessments of AI models
 - Perform threat analysis 
@@ -64,7 +64,7 @@ See Data Analyst in [3] and [4] for references and a general job description.
 - Build proxy models to approximate real model performance
 - Often possess limited model information
 
-### ML roles references
+## References
 
 1. [AWS Whitepapers ML Roles](https://docs.aws.amazon.com/whitepapers/latest/build-secure-enterprise-ml-platform/personas-for-an-ml-platform.html)
 1. [Red Hat ML Roles](https://cloud.redhat.com/blog/your-guide-to-the-red-hat-data-science-model-lifecycle)

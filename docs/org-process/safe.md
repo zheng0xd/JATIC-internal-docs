@@ -10,7 +10,7 @@ In the following pages, we outline the roles, events, and practices that constit
 
 In the section below, we highlight three foundational agile principles which are most critical to success within our program's context.
 
-## Critical agile principles
+## Key agile principles
 
 ### Inter-organizational collaboration
 
