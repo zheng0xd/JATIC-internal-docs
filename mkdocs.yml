@@ -37,7 +37,7 @@ extra:
   generator: false
 
 nav:
-  - 'Section 1': 
+  - 'Home': 
     - 'Program background':
       - program-background/index.md
       - 'Capability Description': 'program-background/cap-description.md'
@@ -53,7 +53,7 @@ nav:
       - 'NRTK': 'products/nrtk.md'
       - 'RAVEN': 'products/raven.md'
       - 'XAITK': 'products/xaitk.md'
-  - 'Section 2':
+  - 'Processes':
     - 'Software Development Process':
       - dev-process/index.md
       - 'Key Agile Principles': 'dev-process/agile-principles.md'
@@ -73,18 +73,17 @@ nav:
     - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
     - 'Open-sourcing Guidance': 'sdp/open-source-strategy.md'
     - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
-  - 'Program Organization':
-    - 'Calendar': 
-      - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
-      - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
-    - 'Org Chart':
-      - 'ARiA': 'org-chart/aria.md'
-      - 'IBM': 'org-chart/ibm.md'
-      - 'Kitware': 'org-chart/kitware.md'
-      - 'MIT-LL': 'org-chart/mitll.md'
-      - 'MORSE': 'org-chart/morse.md'
-      - 'Team MetroStar': 'org-chart/metrostar.md'
-      - 'PM Team': 'org-chart/pm.md'
-      - 'System Team': 'org-chart/systems.md'
-      - 'TwoSix': 'org-chart/twosix.md'
+  - 'Calendar': 
+    - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
+    - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
+  - 'Org Chart':
+    - 'ARiA': 'org-chart/aria.md'
+    - 'IBM': 'org-chart/ibm.md'
+    - 'Kitware': 'org-chart/kitware.md'
+    - 'MIT-LL': 'org-chart/mitll.md'
+    - 'MORSE': 'org-chart/morse.md'
+    - 'Team MetroStar': 'org-chart/metrostar.md'
+    - 'PM Team': 'org-chart/pm.md'
+    - 'System Team': 'org-chart/systems.md'
+    - 'TwoSix': 'org-chart/twosix.md'
     
