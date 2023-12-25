@@ -1,4 +1,4 @@
-# Open-source Strategy
+# Open-sourcing Guidance
 
 ## Purpose
 
