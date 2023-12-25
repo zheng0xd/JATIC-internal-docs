@@ -23,5 +23,5 @@ hide:
 | 31 DEC 23 | | _New Year's Day_ | Sprint 6 End | Sprint 7 Start | SoS | | | 
 | 07 JAN 24 | | PO Sync | | | SoS | | | 
 | 14 JAN 24 | | _MLK Day_ | Sprint 7 End | Sprint 8 Start | SoS | | | 
-| 21 JAN 24 | | PO Sync | **Increment Demo** | **Increment Review** | **Increment Planning** | **Increment Planning** | | 
+| 21 JAN 24 | | PO Sync | [**Increment Demo**](https://gitlab.jatic.net/jatic/calendar/-/issues/70) | **Increment Review** | **Increment Planning** | **Increment Planning** | | 
 | 28 JAN 24 | | | **Sprint 8 End; Increment 3 End** | | | | | 

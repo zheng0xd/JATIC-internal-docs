@@ -64,7 +64,7 @@ nav:
       - 'Slack Usage': 'platforms/slack.md'
       - 'Gitlab Usage': 'platforms/gitlab.md'
       - 'Gitlab for Agile Software Development': 'platforms/gitlab-agile.md'
-  - 'Requirements & Guidance':
+  - 'Requirements & Guidelines':
       - 'Software':
         - sdp/index.md
         - 'Common Protocols': 'sdp/protocols.md'
@@ -78,8 +78,8 @@ nav:
         - 'Open-sourcing Guidance': 'guidance/open-source.md'
         - 'Product Naming Guidance': 'guidance/naming.md'
   - 'Calendar': 
-    - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
     - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
+    - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
   - 'Teams':
     - 'ARiA': 'teams/aria.md'
     - 'IBM': 'teams/ibm.md'
@@ -90,4 +90,5 @@ nav:
     - 'PM Team': 'teams/pm.md'
     - 'System Team': 'teams/systems.md'
     - 'TwoSix': 'teams/twosix.md'
+  - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
     
