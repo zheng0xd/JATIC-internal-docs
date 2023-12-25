@@ -4,64 +4,6 @@
 
 This document specifies the usage of Gitlab concepts, such as labels, issues, and epics, for our Agile software development processes.
 
-## Primer
-
-For those who are unfamiliar with gitlab, we highly recommend [Gitlab Project Management](https://www.youtube.com/watch?v=9W4oxjdAwUs) and [Comparing Gitlab and Bitbucket terms](https://about.gitlab.com/blog/2017/09/11/comparing-confusing-terms-in-github-bitbucket-and-gitlab/) for background on groups, projects, issues, epics, milestones, and iterations.
-
-## Labels
-
-Labels are tags which can be attached to issues, epics, and merge requests. The labels with `::` are "scoped labels", meaning that only one with the corresponding key may be added to a given issue.
-
-At the `jatic` group level, labels the following labels currently exist:
-
-- a labels for each organization involved in work
-- `epic::program`, for program level epics. See **Epics**
-- `epic::feature`, for feature level epics. See **Epics**
-- `status::grooming`, for work items that are of near-term interest, but need to be decomposed or groomed before being added to an iteration
-- `status::ready to start`, for work items that are fully refined, prioritized, and ready to be assigned
-- `status::in progress`, for work items that are currently being worked on
-- `status::in review`, for work items that have opened a merge request currently in review
-
-Projects and groups may add labels to best suit their needs. 
-
-## Helpful Gitlab usage tips
-
-### Viewing issues
-
-Issue boards are generally recommended for viewing issues. 
-
-Each project and group will have a list of issues. A group's issues will show all of the issues contained within its subgroups and subprojects. Thus, boards at higher level groups will often contain a large number of issues from a large number of disparate projects. For example, see the [JATIC board](https://gitlab.jatic.net/groups/jatic/-/boards/).
-
-Therefore, if one is only interested in issues related to a specific project or group, viewing issues at that project or group level is recommended for more precision. For example, compare the [SDP board](https://gitlab.jatic.net/jatic/docs/sdp/-/boards/) with the JATIC board above. 
-
-Labels are tags which can be attached to issues, epics, and merge requests. The labels with `::` are "scoped labels", meaning that only one with the corresponding key may be added to a given issue.
-
-At the `jatic` group level, labels the following labels currently exist:
-
-- a labels for each organization involved in work
-- `epic::program`, for program level epics. See **Epics**
-- `epic::feature`, for feature level epics. See **Epics**
-- `status::grooming`, for work items that are of near-term interest, but need to be decomposed or groomed before being added to an iteration
-- `status::ready to start`, for work items that are fully refined, prioritized, and ready to be assigned
-- `status::in progress`, for work items that are currently being worked on
-- `status::in review`, for work items that have opened a merge request currently in review
-
-Projects and groups may add labels to best suit their needs. 
-
-## Helpful Gitlab usage tips
-
-### Viewing issues
-
-Issue boards are generally recommended for viewing issues. 
-
-Each project and group will have a list of issues. A group's issues will show all of the issues contained within its subgroups and subprojects. Thus, boards at higher level groups will often contain a large number of issues from a large number of disparate projects. For example, see the [JATIC board](https://gitlab.jatic.net/groups/jatic/-/boards/).
-
-Therefore, if one is only interested in issues related to a specific project or group, viewing issues at that project or group level is recommended for more precision. For example, compare the [SDP board](https://gitlab.jatic.net/jatic/docs/sdp/-/boards/) with the JATIC board above. 
-
-### Viewing epics
-
-Epics can be viewed with epic boards, as well as on the roadmap. For example, see the [JATIC epic board](https://gitlab.jatic.net/groups/jatic/-/epic_boards/) and [JATIC roadmap](https://gitlab.jatic.net/groups/jatic/-/roadmap).
-
 ## Issues
 
 Issues should be populated with a description of the problem statement, the desired behavior, and the definition of done. 
@@ -84,6 +26,22 @@ During backlog refinement (aka backlog grooming), the product owner, along with 
 1. The `status::ready to start` label should be added to the issue
 
 **If an issue requires one to open a merge request, this should be noted.** If an issue will require technical review it should be noted as a requirement within the issue.  In this case, it is recommended that appropriate reviewers / approvers for the MR be explicitly listed in the issue.
+
+## Labels
+
+Labels can be attached to issues, epics, and merge requests to help organize them. The labels with `::` are "scoped labels", meaning that only one with the corresponding key may be added to a given issue.
+
+At the `jatic` group level, labels the following labels currently exist:
+
+- a labels for each organization involved in work
+- `epic::program`, for program level epics. See **Epics**
+- `epic::feature`, for feature level epics. See **Epics**
+- `status::grooming`, for work items that are of near-term interest, but need to be decomposed or groomed before being added to an iteration
+- `status::ready to start`, for work items that are fully refined, prioritized, and ready to be assigned
+- `status::in progress`, for work items that are currently being worked on
+- `status::in review`, for work items that have opened a merge request currently in review
+
+Projects and groups may add labels to best suit their needs. 
 
 #### Issue weights
 

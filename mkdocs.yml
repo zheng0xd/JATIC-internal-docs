@@ -12,6 +12,7 @@ theme:
     - navigation.footer
     - navigation.instant
     - navigation.top
+    - navigation.expand
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -36,8 +37,7 @@ extra:
   generator: false
 
 nav:
-  - 'Home': 
-    - index.md
+  - 'Section 1': 
     - 'Program background':
       - program-background/index.md
       - 'Capability Description': 'program-background/cap-description.md'
@@ -52,20 +52,17 @@ nav:
       - 'NRTK': 'products/nrtk.md'
       - 'RAVEN': 'products/raven.md'
       - 'XAITK': 'products/xaitk.md'
-  - 'Software Development Process':
-    - dev-process/index.md
-    - 'Key Agile Principles': 'dev-process/agile-principles.md'
-    - 'Team Roles & Responsibilities': 'dev-process/roles.md'
-    - 'Program-level Events': 'dev-process/program-events.md'
-    - 'Team-level Events': 'dev-process/team-events.md'
-    - 'Common Platforms': 'dev-process/common-platforms.md'
-  - 'Platforms Usage Guide':
-    - platforms/index.md
-    - 'Onboarding Guide': 'platforms/onboarding.md'
-    - 'Slack Usage Guide': 'platforms/slack.md'
-    - 'Gitlab Usage Guide': 'platforms/gitlab.md'
-    - 'Using Gitlab for Agile': 'platforms/gitlab-agile.md'
-    - 'Navigating Gitlab': 'platforms/gitlab-org.md'
+  - 'Section 2':
+    - 'Software Development Process':
+      - dev-process/index.md
+      - 'Key Agile Principles': 'dev-process/agile-principles.md'
+      - 'Team Roles & Responsibilities': 'dev-process/roles.md'
+      - 'Program-level Events': 'dev-process/program-events.md'
+      - 'Team-level Events': 'dev-process/team-events.md'
+    - 'Shared Platforms':
+      - platforms/index.md
+      - 'Slack Usage': 'platforms/slack.md'
+      - 'Gitlab Usage': 'platforms/gitlab.md'
   - 'Software Requirements':
     - 'Common Protocols': 'sdp/protocols.md'
     - 'Testing Requirements': 'sdp/testing-plan.md'
