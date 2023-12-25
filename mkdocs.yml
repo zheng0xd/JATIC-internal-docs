@@ -1,4 +1,4 @@
-site_name: JATIC Program Internal Docs
+site_name: JATIC Internal Docs
 repo_name: Gitlab
 site_url: https://jatic.pages.jatic.net/docs
 repo_url: https://gitlab.jatic.net/docs
@@ -41,13 +41,19 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 nav:
   - 'Home': 
+    - index.md
     - 'Program background':
       - program-background/index.md
       - 'Capability Description': 'program-background/cap-description.md'
-      - 'FAQs': 'empty.md'
-      - 'Supported Use Cases & Roles': 'program-background/use-cases-roles.md'
+      - 'Supported Use Cases': 'program-background/use-cases.md'
+      - 'Supported Roles & Personas': 'program-background/roles-personas.md'
+      - 'FAQs': 'program-background/faq.md'
     - 'Products':
       - products/index.md
       - 'Armory': 'products/armory.md'
@@ -89,7 +95,6 @@ nav:
       - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
     - 'Calendar repo': 
       - 'link': https://gitlab.jatic.net/jatic/calendar
-      - 'process': empty.md
   - 'Teams':
     - 'ARiA': 'teams/aria.md'
     - 'IBM': 'teams/ibm.md'
@@ -102,9 +107,4 @@ nav:
     - 'TwoSix': 'teams/twosix.md'
   - 'Presentations': # use to host all of our demo videos and presentations. need to figure out how to do this.
     - presentations/index.md
-  - 'Current Increment': # use to host resources that are useful in the current iteration. maybe just elevate program board to a top-level item.
-    - 'Archive':
-      - empty.md
-    - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
-    - 'Increment Demo Materials': https://gitlab.jatic.net/jatic/demos
-
+  - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346

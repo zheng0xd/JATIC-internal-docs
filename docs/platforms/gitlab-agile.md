@@ -97,7 +97,7 @@ To read more, see [Merge Requests](https://docs.gitlab.com/ee/user/project/merge
 
 !!! note
 
-    The MR author may need to poke reviewers to encourage and remind them to complete their review.
+    The MR author may need to poke reviewers to encourage and remind them to complete their review. :smile:
 
 ## Epics
 

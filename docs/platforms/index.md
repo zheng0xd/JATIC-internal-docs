@@ -6,11 +6,11 @@ Our program uses the following platforms for its work as much as is securely and
 
 ## Communication
 
-Our program's communication platform is Slack. Teams should ensure that they are quickly reachable within Slack and should use it for program communications as much as is securely possible. 
+Our program's communication platform is [Slack](https://cdaote.slack.com). Teams should ensure that they are quickly reachable within Slack and should use it for program communications as much as is securely possible. 
 
 ## Code
 
-Our program's platform for code storage and CI/CD is the JATIC Gitlab. Teams should use Gitlab for all code, documentation, and other artifacts created within the program, in order to enable continuous testing against software requirements. In order to provide transparency of work, all of the above should be easily viewable by the larger program. 
+Our program's platform for code storage and CI/CD is the [JATIC Gitlab](https://gitlab.jatic.net). Teams should use Gitlab for all code, documentation, and other artifacts created within the program, in order to enable continuous testing against software requirements. In order to provide transparency of work, all of the above should be easily viewable by the larger program. 
 
 !!! info
 
@@ -20,7 +20,7 @@ Our program's platform for code storage and CI/CD is the JATIC Gitlab. Teams sho
 
 ### Team-level planning
 
-Our program's platform for team-level planning and project management is the JATIC Gitlab. Teams should use Gitlab for program information sharing, sprint planning, and collaboration. All work items, including items in the backlog, active work in progress items, and larger epics, should be tracked in Gitlab.
+Our program's platform for team-level planning and project management is the [JATIC Gitlab](https://gitlab.jatic.net). Teams should use Gitlab for program information sharing, sprint planning, and collaboration. All work items, including items in the backlog, active work in progress items, and larger epics, should be tracked in Gitlab.
 
 Similar to code, all work items should be easily viewable by the larger program in order to provide transparency of work. 
 

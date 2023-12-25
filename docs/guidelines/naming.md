@@ -4,7 +4,7 @@ This page establishes some guidelines in choosing names for products within our 
 
 !!! note
 
-    This guidance does not apply to capabilities which already have well-established names. Those products definitely do not need to be renamed.
+    These guidelines does not apply to capabilities which already have well-established names. Those products definitely do not need to be renamed.
 
 ## Guidelines
 
