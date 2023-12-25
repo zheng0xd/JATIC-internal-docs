@@ -1,12 +1,14 @@
 # Team Roles & Responsibilities
 
-The program defines a common framework for roles and responsibilities in each development team, closely following the scrum methodology. 
+Our program uses a common framework for roles and responsibilities in each development team, closely following the scrum methodology. 
 
-This document outlines these roles and their responsibilities, including the areas where they have been tailored to the program's specific context. Each team is reqiured to implement these roles, particularly a scrum master and a product owner.
+This document outlines these roles and their responsibilities, including the areas where they have been tailored to the program's specific context. Each team must implement these roles, particularly a team scrum master and product owner.
 
 All of the blocks below are quotes from [Atlassian's Scrum Roles](https://www.atlassian.com/agile/scrum/roles).
 
 ## Development team
+
+Each development team is a cross-functional group of individuals, typically 5 - 10, with all of the skills necessary to deliver working software to our customers. 
 
 !!! quote
 
@@ -21,15 +23,15 @@ All of the blocks below are quotes from [Atlassian's Scrum Roles](https://www.at
     - Delivering the work through the sprint.
     - To ensure transparency during the sprint they meet at standup, which provides a dedicated place for team members to seek help, talk about success and highlight issues and blockers. The scrum master might facilitate the daily scrum, but ultimately it is the responsibility of the development team to run this meeting. It is their meeting to help them, as a group, to inspect and adapt the work they are doing and work in a more effective way.
 
+!!! note
+
+    Unlike traditional agile teams, many of our developers are not allocated full-time to the program. This can increase communication overhead, especially for larger teams.
+
 ### Development team lead
 
-The development team lead is not a traditional agile role, but is relevant in the context when we have product owners from the government and development teams from industry. In this case, the development team lead is the techncial leader and main POC of the industry team.
+The development team lead is not a traditional agile role, but is relevant within the context of government-industry partnership. In this case, the development team lead is the main POC of the industry team to the government.
 
-Responsibilities of the development team lead include: 
-- Technical leadership of the development team and guidance to the government product owner
-- Close Coordination with the government product owner to achieve shared product vision 
-- Communicating programmtic information and shared vision with the development team to ensure situational awareness
-- Day-to-day management of development team
+The development team lead is responsible for coordinating with the government product owner to achieve a shared product vision and communicating this vision with the team. In addition, the development team lead is responsible for coordination with the government on programmatic and administrative items.
 
 ## Scrum master
 
@@ -46,9 +48,11 @@ Responsibilities of the development team lead include:
     - Self-organization - Telling a development team they can self-organize does mean that the team will self-organize. In fact, self-organization comes over time and requires help and support. The scrum master will encourage team members to step outside their comfort zone and try different things and use practices such as ‘delegation poker’ to expose and challenge predefined ideas about role boundaries and responsibilities.
     - Values - Scrum defines 5 values of courage, focus, commitment, respect, and openness not because they are nice to have, but because they create an environment of physiological safety and trust. Following the values is the responsibility of everyone in the scrum team, but the scrum master takes an active role in encouraging and reminding everyone of the importance of those values.
 
-Teams within the program will have varying levels of experience with agile and the scrum methodology. In teams with less familiarity with agile, it is the scrum master's responsibility to promote and coach agile patterns of behavior and an agile mindset. 
+!!! note
 
-It is important to recognize that agile is often quite antithetical to many of the principles that we operate by in the government! Building agile patterns of behavior such as delivering in quick and iterative cycles can take a significant amount of time and effort.
+    Agile is often quite antithetical to many of the ways that we operate in the government! Building agile patterns of behavior, such as delivering in quick and iterative cycles, can take a significant amount of time and effort.
+
+Teams within the program will have varying levels of familiarity and experience with agile and the scrum methodology. In teams with less familiarity, the scrum master's should promote and coach agile patterns of behavior and an agile mindset. 
 
 ## Product owner
 
@@ -66,12 +70,14 @@ It is important to recognize that agile is often quite antithetical to many of t
     - Release management - The sprint is not a release cycle, but instead a planning cycle. That means that scrum teams can deliver at any time. Ideally, they would deliver frequently throughout the sprint allowing the sprint review to review real customer usage and feedback. However continuous delivery is not always possible and other release models are required. It is important for the product owner to know when things can and should be released.
     - Stakeholder management - Any product will have many stakeholders involved ranging from users, customers, governance and organizational leadership. The product owner will have to work with all these people to effectively ensure that the development team is delivering value. That can mean a large amount of stakeholder management and communication.
 
-It is ultimately the product owner's responsibility to have a clear vision for the product and manage its delivery of value to customers. This vision should be developed alongside the development team lead, building a shared vision for the product.
+!!! note
+
+    The product owner for a given team should either be government or government-assigned. 
+
+*It is ultimately the product owner's responsibility to have a clear vision for the product and manage its delivery of value to customers.* This vision should be developed alongside the development team lead, building a shared vision for the product.
 
 Some emphasized or additional product owner responsibilities within our program's context include:
 
 - Roadmap creation: In addition to managing the scrum backlog for the short term, the product owner is also responsible for creating epics, together constituting a roadmap, for the longer term development of the product. This roadmap and long term vision for the product must be clearly communicated with the product team. 
-- Stakeholder coordination: The DOD has a huge number of stakeholders, many who are working in adjacent or overlapping spaces. In addition to stakeholder management to set priorities, the product owner must actively engage, coordinate, and collaborate with others working in the space to achieve adoption of our products.
+- Stakeholder coordination: The DoD has a huge number of stakeholders, many who are working in adjacent or overlapping spaces. In addition to stakeholder management to set priorities, the product owner must actively engage, coordinate, and collaborate with others working in the space to achieve adoption of our products.
 - Programmatic coordination: Since the JATIC program has multiple loosely coupled components, product owner is responsible for coordinating with the program manager and other product owners and managing the backlog to align their development to the broader vision. 
-
-The product owner for a given team will either be government or government-assigned. 

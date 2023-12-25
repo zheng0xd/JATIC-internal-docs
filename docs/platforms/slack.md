@@ -44,10 +44,10 @@ Because our program is consituted of many teams and organizations, we lack share
 
 Updating your status in Slack is a lightweight method to share information and increase situational awareness across the program. 
 
-A few recommendations for usage:
+!!! example
 
-- When you have planned upcoming leave, set your Slack status to `:calendar: Planned leave from ___ to ___`, or something similar.
-- While you are on leave, set your Slack status to `:palm_tree: On vacation`, or something similar. 
+    - When you have planned upcoming leave, set your Slack status to `:calendar: Planned leave from ___ to ___`, or something similar.
+    - While you are on leave, set your Slack status to `:palm_tree: On vacation`, or something similar. 
 
 ### Automated workflows
 

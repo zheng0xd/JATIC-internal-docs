@@ -16,18 +16,18 @@ theme:
   logo: assets/logo.jpg # upgrade to SVG later
   favicon: assets/logo.jpg # upgrade to SVG later
   palette:
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-      primary: green
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/toggle-switch-off
         name: Switch to light mode
       primary: indigo
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+      primary: green
 extra:
   social:
     - icon: fontawesome/brands/gitlab
@@ -79,10 +79,10 @@ nav:
         - 'Software Requirements': 'sdp/software-requirements.md'
         - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
         - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
-      - 'Other?': # not sure on name of this
-        - guidance/index.md
-        - 'Open-sourcing Guidance': 'guidance/open-source.md'
-        - 'Product Naming Guidance': 'guidance/naming.md'
+      - 'Product':
+        - guidelines/index.md
+        - 'Open-sourcing Guidelines': 'guidelines/open-source.md'
+        - 'Product Naming Guidelines': 'guidelines/naming.md'
   - 'Calendar': 
     - 'Increment Calendar':
       - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
@@ -101,7 +101,7 @@ nav:
     - 'System Team': 'teams/systems.md'
     - 'TwoSix': 'teams/twosix.md'
   - 'Presentations': # use to host all of our demo videos and presentations. need to figure out how to do this.
-    - empty.md
+    - presentations/index.md
   - 'Current Increment': # use to host resources that are useful in the current iteration. maybe just elevate program board to a top-level item.
     - 'Archive':
       - empty.md

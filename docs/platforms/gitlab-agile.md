@@ -10,7 +10,7 @@ Issues are used to represent user stories or work items. As an issue moves throu
 
 #### Added to the backlog
 
-An issue added to the product backlog can simply be a neat idea, completely unrelated to the current objectives. 
+An issue added to the product backlog can simply be a neat idea, unrelated to the current objectives. 
 
 Issues which require more information, scoping, or decomposition should be labeled as `stub`. 
 
@@ -78,7 +78,7 @@ Merge requests include the following information:
 - CI/CD status and logs
 - Commit history
 
-Before incorporating changes from an MR into tthe large project, the content typically needs to be reviewed. A Merge request review (MRR) provides mechanisms for the team to leave comments or make suggestions on the MR, giving evidence of the review and naturally documenting the relevant discussion, considerations, suggestions, and decision. 
+Before incorporating changes from an MR into the large project, the content typically needs to be reviewed. A Merge request review (MRR) provides mechanisms for the team to leave comments or make suggestions on the MR, giving evidence of the review and naturally documenting the relevant discussion, considerations, suggestions, and decision. 
 
 To read more, see [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) and [Merge Request Reviews](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/) from Gitlab.
 
@@ -120,7 +120,11 @@ Within the description field, a program epic should contain:
 - the risk items and mitigations
 - the content which will be demoed the end of an increment
 
-Program epics may often correspond to objectives set for a product within increment planning.
+Program epics often correspond to objectives set for a product within increment planning.
+
+!!! tip
+
+    If an effort is expected to take three sprints or more, a program epic should probably be made, and the task should be decomposed into smaller child epics.
 
 ### Feature epics
 
@@ -155,4 +159,3 @@ Epics can also be visualized on a roadmap. See the [JATIC roadmap](https://gitla
 - Near-term epics should be labeled with their work status, either `status::ready to start`, or `status::in progress`. This helps differentiating between epics which are actively being worked compared to epics which are used for longer term planning. 
 - Epics which are actively being worked should be created with start and due dates. 
 - Epics should not go on forever! Some larger teams may complete one or more epics per week. For teams working multiple efforts in parallel, they have multiple epics open at the same time for multiple sprints. 
-- As a rule of thumb, if an effort is expected to take three sprints or more, a program epic should be made, and the task should be decomposed into smaller child epics.

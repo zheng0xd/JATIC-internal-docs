@@ -2,7 +2,11 @@
 
 In order to iteratively develop and deliver software, the program creates a recurring series of short-term planning events in which work is committed to and completed. These events closely follow Essential SAFe.
 
-This page outlines the team-wide events that take place across a program increment. There are also program-level events that take place. These two types of events are complimentary and non-duplicative. For example, the program-level planning events should help inform team-level planning events. 
+This page outlines the team-wide events that take place across a program increment. 
+
+!!! note
+
+    This page goes into more detail than [Program-level Events](program-events.md) in order to provide a common standard across teams on how these events should run. If you are unfamiliar with the scrum methodology, this page and the linked resources are a good primer.
 
 ## Cadence
 
@@ -71,7 +75,9 @@ To read more, see the [Iteration Planning](https://scaledagileframework.com/iter
 
 The daily stand-up is a time for team members to discuss their progress since the last stand-up, their plans for the day, and any obstacles they're facing. 
 
-A stand-up typically happens every day during the sprint, preferably in the morning. However, if team members are only partially allocated to the program, an every-other day stand-up may be sufficient.
+!!! note
+
+    A stand-up typically happens every day during the sprint, preferably in the morning. However, if team members are only partially allocated to the program, an every-other day stand-up may be sufficient.
 
 To read more, see the [Iteration Execution](https://v5.scaledagileframework.com/iteration-execution/) from SAFe.
 
@@ -105,9 +111,17 @@ To read more, see the [Backlog Refinement](https://www.atlassian.com/agile/scrum
 
 Sprint review is a meeting held at the end of each sprint where the development team demonstrates the work completed during the sprint. 
 
-The product owner begins the meeting by reviewing the sprint goals and their status. Next, the development team runs through the issues that were committed to for the sprint and the assigned team member demonstrates its functionality. The product owner must decide whether the work completed meets the acceptance criteria, or if any further work is nededed. If there are incomplete issues, the team should reflect on them to identify risks, blockers, and/or any opportunities for improvement. The team also discuss any issues or challenges that arose during the sprint and how they were resolved.
+An example meeting agenda for sprint review may be the following:
 
-Stakeholders may be invited to provide feedback on the completed work and suggest any changes or enhancements that could be made. 
+- The product owner reviews the sprint goals and their status
+- The development team runs through the issues that were committed to for the sprint and the assigned team member demonstrates its functionality
+- For each issue, the product owner decides whether the work completed meets the acceptance criteria, or if any further work is nededed
+- The team reflects on any incomplete issues to identify risks, blockers, and/or any opportunities for improvement
+- The team discusses any issues or challenges that arose during the sprint and how they were resolved
+
+!!! note
+
+    Stakeholders, collaborators from other teams, or program leadership may be invited to the sprint review to provide feedback on the completed work and suggest any enhancements that could be made. 
 
 To read more, see the [Iteration Review](https://scaledagileframework.com/iteration-review/) from SAFe.
 
@@ -124,4 +138,8 @@ To read more, see the [Iteration Review](https://scaledagileframework.com/iterat
 
 Sprint retrospective is a meeting held at the end of each sprint where the team comes together to reflect on the sprint and identify areas for improvement. The team discusses what went well, what didn't go well, and what they can do differently in the next sprint.
 
-The iteration retrospective is a difficult meeting to facilitate! They often can be much more effective when structured and facilitated through a validated process. We highly recommend reading more about the sprint retrospective at [Iteration Retrospective](https://scaledagileframework.com/iteration-retrospective/) from SAFe for more details.
+!!! tip
+
+    The sprint retrospective is a difficult meeting to facilitate! 
+    
+    The meeting often can be much more effective when structured and facilitated through a validated process. We highly recommend reading more about it at [Iteration Retrospective](https://scaledagileframework.com/iteration-retrospective/) from SAFe for more details.

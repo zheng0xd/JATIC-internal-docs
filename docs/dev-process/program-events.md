@@ -1,14 +1,20 @@
 # Program-level Events
 
-In order to coordinate development efforts across its teams, the program defines recurring planning events at different time-horizons. These events closely follow Essential SAFe.
+In order to coordinate development efforts across its teams, our program uses recurring planning events at different time-horizons. These events closely follow Essential SAFe.
 
-This page outlines the program-wide events that take place across a program increment. There are also individual team-level events that take place. These two types of events are complimentary and non-duplicative. For example, the program-level planning events should help inform team-level planning events. 
+This page outlines the program-wide events that take place across a program increment. 
+
+!!! note
+
+    There are also individual team-level events that take place within period, but these two types of events are complimentary and non-duplicative. For example, the program-level planning events should help inform team-level planning events. 
 
 ## Cadence
 
 The program follows a quarterly cadence for its mid-term planning. We call each of these quarters a *program increment (PI)*. 
 
-The program follows a biweekly cadence for its short-term planning. We call each of these periods a *sprint*. Sprints start on a Wednesday morning and end on a Tuesday night. Generally, there are 6 sprints per program increment, except for the fourth quarter of the year, in which there are 8 sprints.
+The program follows a biweekly cadence for its short-term planning. We call each of these periods a *sprint*. 
+
+Sprints start on a Wednesday morning and end on a Tuesday night. Generally, there are 6 sprints per program increment, except for the fourth quarter of the year, in which there are 8 sprints.
 
 ## Quarterly events
 

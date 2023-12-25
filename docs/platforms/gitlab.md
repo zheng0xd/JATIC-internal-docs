@@ -37,7 +37,7 @@ Since our Gitlab instance requires 2FA to login, you will need to set up a perso
 
 ## Learning how to use Gitlab
 
-Gitlab is quite a complicated program because it contains so many capabilities, including code repositories, issue tracking, kanban boards, CI/CD, team access control, wikis, etc. For those familiar with the Atlassian suite of tools, Gitlab offers roughly equivalent functionality to Jira, Confluence, and Bitbucket put together. 
+Gitlab is quite a complicated program because it contains so many capabilities, including code repositories, issue tracking, kanban boards, CI/CD, team access control, wikis, etc. For those familiar with the Atlassian suite of tools, Gitlab offers roughly equivalent functionality to Jira, Confluence, and Bitbucket. 
 
 However, Gitlab can be extremely challenging to use, especially for those who do not come from a software background. For instance, Gitlab documentation is written in markdown and tracked with Git, and while this can provide powerful functionality, it can also be daunting to those who are unfamiliar. 
 
