@@ -27,11 +27,11 @@ theme:
       primary: indigo
 extra:
   social:
-    - icon: fontawesome/brands/slack
-      link: https://cdaote.slack.com/
     - icon: fontawesome/brands/gitlab
       link: https://gitlab.jatic.net/
-    - icon: fontawesome/solid/paper-plane
+    - icon: fontawesome/brands/slack
+      link: https://cdaote.slack.com/
+    - icon: fontawesome/solid/envelope
       link: mailto:<cdao-jatic@mail.mil>
   generator: false
 
@@ -62,7 +62,8 @@ nav:
   - 'Platforms Usage Guide':
     - platforms/index.md
     - 'Onboarding Guide': 'platforms/onboarding.md'
-    - 'Slack introduction': 'platforms/slack-usage.md'
+    - 'Slack Usage Guide': 'platforms/slack.md'
+    - 'Gitlab Usage Guide': 'platforms/gitlab.md'
     - 'Using Gitlab for Agile': 'platforms/gitlab-agile.md'
     - 'Navigating Gitlab': 'platforms/gitlab-org.md'
   - 'Software Requirements':
