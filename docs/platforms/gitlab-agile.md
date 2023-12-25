@@ -91,10 +91,13 @@ To read more, see [Merge Requests](https://docs.gitlab.com/ee/user/project/merge
 ### MRRs within an agile sprint
 
 - MRRs do not not need to be completed within the same sprint that an issue was committed to. However, reviewers should consider reviewing MRs a priority and complete reviews in a timely fashion. 
-- The MR author may need to poke reviewers to encourage and remind them to complete their review.
 - If a sprint is particularly heavy with MRRs, sprint capacity should be adjusted accordingly.
 - An issue should not be closed until the corresponding MR has been merged.
 - An issue and the corresponding MR should both be assigned to the author, while reviewers should be assigned as reviewers. 
+
+!!! note
+
+    The MR author may need to poke reviewers to encourage and remind them to complete their review.
 
 ## Epics
 

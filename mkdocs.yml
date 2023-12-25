@@ -1,7 +1,7 @@
-site_name: JATIC Onboading documentation
+site_name: JATIC Program Internal Docs
 repo_name: Gitlab
-site_url: https://jatic.pages.jatic.net/cdao/docs
-repo_url: https://gitlab.jatic.net/cdao/docs
+site_url: https://jatic.pages.jatic.net/docs
+repo_url: https://gitlab.jatic.net/docs
 site_dir: public
 docs_dir: docs
 theme:
@@ -13,6 +13,8 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.expand
+  logo: assets/logo.jpg # upgrade to SVG later
+  favicon: assets/logo.jpg # upgrade to SVG later
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -35,6 +37,10 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:<cdao-jatic@mail.mil>
   generator: false
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 nav:
   - 'Home': 
     - 'Program background':

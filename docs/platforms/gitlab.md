@@ -17,11 +17,15 @@ After successfully logging into your account, you will be required to setup two-
 
 ### Getting added to groups
 
-The program use Gitlab groups to provide team-based and role-based access contol to different projects and repositories. 
+The program use Gitlab groups to provide team-based and role-based access contol to different projects and repositories. These groups are also used for managing calendar invitations, so that invitations do not need to be updated or forwarded when new team members join. 
 
-After you have logged in to Gitlab, ensure that your team admin or program support adds you to the correct groups, corresponding to your team and roles. For example, if Alex is onboarding as a scrum master with the IBM team, she will want to be added as a Developer on "TEAM - IBM" at `jatic/ibm` and "JATIC Scrum Masters" at `roles/scrummasters`.
+After you have logged in to Gitlab, ensure that your team admin or program support adds you to the correct groups, corresponding to your team and roles. 
 
-These groups are also used for managing calendar invitations, so that invitations do not need to be updated or forwarded when new team members join. Because Alex was added to the groups "TEAM - IBM" and "JATIC Scrum Masters", she will automatically be sent meetings for their scrum meetings, as well as the scrum of scrums. 
+!!! example
+
+    If Alex is onboarding as a scrum master with the IBM team, she will want to be added as a Developer on "TEAM - IBM" at `jatic/ibm` and "JATIC Scrum Masters" at `roles/scrummasters`.
+
+    Because Alex was added to the groups "TEAM - IBM" and "JATIC Scrum Masters", she will automatically be sent meetings for their scrum meetings, as well as the scrum of scrums. 
 
 ### Getting added to the program org chart
 
@@ -76,7 +80,11 @@ To read more, see [Gitlab Runner](https://docs.gitlab.com/runner/) from Gitlab.
 
 ### Impact level
 
-The Gitlab instance is NOT approved for Controlled Unclassified Information (CUI). Please do not post CUI into Gitlab. All information which is shared on Gitlab must be below CUI level. 
+!!! warning
+
+    The Gitlab instance is NOT approved for Controlled Unclassified Information (CUI). 
+    
+Please do not post CUI into Gitlab. All information which is shared on Gitlab must be below CUI level. 
 
 For reference, our work within the JATIC program is generally below CUI, with some exceptions. 
 

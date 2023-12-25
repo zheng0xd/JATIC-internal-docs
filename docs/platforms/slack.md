@@ -32,7 +32,9 @@ After successfully logging into your account, you will be required to set up 2FA
 
 Any member of the Slack workspace can create channels, both public or private. Please feel free to do so for your team or working groups. 
 
-Any member of the Slack workspace can join any public channel. If you make a public channel, you should expect this.
+!!! note
+
+    Any member of the Slack workspace can join any public channel. If you make a public channel, you should expect this. Please be friendly!
 
 ## Helpful features
 
@@ -57,7 +59,11 @@ Please send a request in the `#help` channel if you would like to set up a workf
 
 ### Impact level
 
-The Slack workspace is NOT approved for Controlled Unclassified Information (CUI). Please do not post CUI into Slack. All information which is shared on Slack must be below CUI level. 
+!!! warning
+
+    The Slack workspace is NOT approved for Controlled Unclassified Information (CUI). 
+
+Please do not post CUI into Slack. All information which is shared on Slack must be below CUI level. 
 
 For reference, our work within the JATIC program is generally below CUI, with some exceptions.
 

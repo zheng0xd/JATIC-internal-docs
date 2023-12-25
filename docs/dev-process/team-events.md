@@ -52,11 +52,11 @@ An example meeting agenda for sprint planning may be the following:
 
 To read more, see the [Iteration Planning](https://scaledagileframework.com/iteration-planning/) from SAFe.
 
-### **Tips**
+!!! tip "Tips for sprint planning"
 
-1. A well-maintained backlog resulting from active product ownership can ensure this event is quick and easy. If the session tends to take more than an hour, more proactive backlog refinement is likely needed.
-2. Rather than "pushing" Issues onto development team members with direct assignments, consider queing up issues for the Sprint without an assignee and letting the development team members "pull" in issues as they are available. 
-3. Any activity that takes away from the development team's capacity should be captured as an issue with an appropriate Weight, including technical debt or general program support.
+    1. A well-maintained backlog resulting from active product ownership can ensure this event is quick and easy. If the session tends to take more than an hour, more proactive backlog refinement is likely needed.
+    2. Rather than "pushing" Issues onto development team members with direct assignments, consider queing up issues for the Sprint without an assignee and letting the development team members "pull" in issues as they are available. 
+    3. Any activity that takes away from the development team's capacity should be captured as an issue with an appropriate Weight, including technical debt or general program support.
 
 ## Daily stand-up (Day 2 - 13)
 
