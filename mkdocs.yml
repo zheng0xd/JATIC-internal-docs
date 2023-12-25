@@ -44,6 +44,7 @@ nav:
       - 'FAQs': 'empty.md'
       - 'Supported Use Cases & Roles': 'program-background/use-cases-roles.md'
     - 'Products':
+      - products/index.md
       - 'Armory': 'products/armory.md'
       - 'Adversarial Robustness Toolbox': 'products/art.md'
       - 'DAML': 'products/daml.md'
@@ -63,6 +64,7 @@ nav:
       - platforms/index.md
       - 'Slack Usage': 'platforms/slack.md'
       - 'Gitlab Usage': 'platforms/gitlab.md'
+      - 'Gitlab for Agile Software Development': 'platforms/gitlab-agile.md'
   - 'Software Requirements':
     - 'Common Protocols': 'sdp/protocols.md'
     - 'Testing Requirements': 'sdp/testing-plan.md'

@@ -1,0 +1,3 @@
+# Products index
+
+Placeholder
