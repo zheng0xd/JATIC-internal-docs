@@ -52,8 +52,8 @@ nav:
       - 'NRTK': 'products/nrtk.md'
       - 'RAVEN': 'products/raven.md'
       - 'XAITK': 'products/xaitk.md'
-  - 'Processes':
-    - 'Software Development Process':
+  - 'Processes': # this name seems reasonable
+    - 'Software Development Process': # this name seemed most emcompassing of the actual content. of course, it clashes with the SDP. but maybe SDP should be renamed? seems more like requirements.
       - dev-process/index.md
       - 'Key Agile Principles': 'dev-process/agile-principles.md'
       - 'Team Roles & Responsibilities': 'dev-process/roles.md'
@@ -64,7 +64,7 @@ nav:
       - 'Slack Usage': 'platforms/slack.md'
       - 'Gitlab Usage': 'platforms/gitlab.md'
       - 'Gitlab for Agile Software Development': 'platforms/gitlab-agile.md'
-  - 'Requirements & Guidelines':
+  - 'Requirements & Guidelines': # this name seems reasonable
       - 'Software':
         - sdp/index.md
         - 'Common Protocols': 'sdp/protocols.md'
@@ -73,13 +73,17 @@ nav:
         - 'Software Requirements': 'sdp/software-requirements.md'
         - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
         - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
-      - 'Other?':
+      - 'Other?': # not sure on name of this
         - guidance/index.md
         - 'Open-sourcing Guidance': 'guidance/open-source.md'
         - 'Product Naming Guidance': 'guidance/naming.md'
   - 'Calendar': 
-    - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
-    - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
+    - 'Increment Calendar':
+      - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
+      - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
+    - 'Calendar repo': 
+      - 'link': https://gitlab.jatic.net/jatic/calendar
+      - 'process': empty.md
   - 'Teams':
     - 'ARiA': 'teams/aria.md'
     - 'IBM': 'teams/ibm.md'
@@ -90,5 +94,11 @@ nav:
     - 'PM Team': 'teams/pm.md'
     - 'System Team': 'teams/systems.md'
     - 'TwoSix': 'teams/twosix.md'
-  - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
-    
+  - 'Presentations': # use to host all of our demo videos and presentations. need to figure out how to do this.
+    - empty.md
+  - 'Current Increment': # use to host resources that are useful in the current iteration. maybe just elevate program board to a top-level item.
+    - 'Archive':
+      - empty.md
+    - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
+    - 'Increment Demo Materials': https://gitlab.jatic.net/jatic/demos
+
