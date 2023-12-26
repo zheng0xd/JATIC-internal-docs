@@ -79,7 +79,6 @@ nav:
       - 'XAITK': 'products/xaitk.md'
     - 'About this site' : 'about.md'
   - 'Processes': # this name seems reasonable
-    - process/index.md
     - 'Software Development Process': # this name seemed most emcompassing of the actual content. of course, it clashes with the SDP. but maybe SDP should be renamed? seems more like requirements.
       - process/dev/index.md
       - 'Key Agile Principles': 'process/dev/agile-principles.md'
