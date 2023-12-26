@@ -2,7 +2,9 @@
 
 Our program uses Gitlab as the preferred platform for code storage, CI/CD, DevSecOps, maintaining the product backlog, and tracking in-progress work. 
 
-Our Gitlab instance can be reached at [https://gitlab.jatic.net](https://gitlab.jatic.net) and is open for registration to all U.S. government personnel, FFRDC, and UARCs. Furthermore, access to the Gitlab can be provided to all government contractors. 
+Our Gitlab instance can be reached at [`https://gitlab.jatic.net`](https://gitlab.jatic.net) and is open for registration to all U.S. government personnel, FFRDC, and UARCs. Furthermore, access to the Gitlab can be provided to all government contractors. 
+
+[Check out Gitlab! &nbsp; :simple-gitlab:](https://gitlab.jatic.net){ .md-button .md-button--primary }
 
 ## Joining the instance
 

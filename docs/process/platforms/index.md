@@ -8,6 +8,8 @@ Our program uses the following platforms for its work as much as is securely and
 
 Our program's communication platform is [Slack](https://cdaote.slack.com). Teams should ensure that they are quickly reachable within Slack and should use it for program communications as much as is securely possible. 
 
+[Slide into Slack! &nbsp; :simple-slack:](https://cdaote.slack.com){ .md-button .md-button--primary }
+
 ## Code
 
 Our program's platform for code storage and CI/CD is the [JATIC Gitlab](https://gitlab.jatic.net). Teams should use Gitlab for all code, documentation, and other artifacts created within the program, in order to enable continuous testing against software requirements. In order to provide transparency of work, all of the above should be easily viewable by the larger program. 
@@ -15,6 +17,8 @@ Our program's platform for code storage and CI/CD is the [JATIC Gitlab](https://
 !!! info
 
     Work that is transparent should be **visible, accessible, and understandable** - meaning that others can *locate it, access it, and recognize the content, context, and applicability of it*. 
+
+[Get into Gitlab! &nbsp; :simple-gitlab:](https://gitlab.jatic.net){ .md-button .md-button--primary }
 
 ## Project management
 

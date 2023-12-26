@@ -8,6 +8,7 @@ These docs are extended by many of the features of [PyMdown Extensions](https://
 
 The following is the full list of extensions that you can make use of within these docs:
 
+- Abbreviations
 - Admonitions
 - Annotations
 - Buttons

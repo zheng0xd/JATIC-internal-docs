@@ -38,6 +38,7 @@ extra:
       link: mailto:<cdao-jatic@mail.mil>
   generator: false
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - footnotes
@@ -70,8 +71,9 @@ nav:
       - 'NRTK': 'products/nrtk.md'
       - 'RAVEN': 'products/raven.md'
       - 'XAITK': 'products/xaitk.md'
-    - 'About this page' : 'about/index.md'
+    - 'About this page' : 'about.md'
   - 'Processes': # this name seems reasonable
+    - process/index.md
     - 'Software Development Process': # this name seemed most emcompassing of the actual content. of course, it clashes with the SDP. but maybe SDP should be renamed? seems more like requirements.
       - process/dev/index.md
       - 'Key Agile Principles': 'process/dev/agile-principles.md'
@@ -87,8 +89,9 @@ nav:
       - 'Gitlab for Agile Software Development': 'process/guides/gitlab-agile.md'
       - 'User Engagement Guide': 'process/guides/user-engagement.md'
   - 'Requirements & Guidelines': # this name seems reasonable
+      - sdp/index.md
       - 'Software':
-        - sdp/index.md
+        - sdp/readme.md
         - 'Common Protocols': 'sdp/protocols.md'
         - 'Testing Requirements': 'sdp/testing-plan.md'
         - 'DevSecOps Requirements': 'sdp/devsecops.md'
@@ -102,12 +105,9 @@ nav:
         - 'Open-sourcing Guidelines': 'guidelines/open-source.md'
         - 'Product Naming Guidelines': 'guidelines/naming.md'
   - 'Calendar': 
-    - 'Increment Calendar':
-      - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
-      - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
-      - 'Increment 5 (24 APR 24 - 15 JUL 24)': 'calendar/inc5.md'
-    - 'Calendar repo': 
-      - 'link': https://gitlab.jatic.net/jatic/calendar
+    - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
+    - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
+    - 'Increment 5 (24 APR 24 - 15 JUL 24)': 'calendar/inc5.md'
   - 'Teams':
     - 'ARiA': 'teams/aria.md'
     - 'IBM': 'teams/ibm.md'

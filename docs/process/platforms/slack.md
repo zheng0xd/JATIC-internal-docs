@@ -2,7 +2,9 @@
 
 Our program uses Slack as the preferred means of communication within the program. Teams should use Slack for their communications as much as is securely possible, including text communication and voice communication.
 
-Our Slack workspace can be reached at [https://cdaote.slack.com](https://cdaote.slack.com) and is hosted by MITRE. All members of the workspace work within or support the CDAO Assessment & Assurance (A2) Division. However, the workspace is also used for other projects and programs within the division which are not the JATIC program.
+Our Slack workspace can be reached at [`https://cdaote.slack.com`](https://cdaote.slack.com) and is hosted by MITRE. All members of the workspace work within or support the CDAO Assessment & Assurance (A2) Division. However, the workspace is also used for other projects and programs within the division which are not the JATIC program.
+
+[Hop over to Slack! &nbsp; :simple-slack:](https://cdaote.slack.com){ .md-button .md-button--primary }
 
 ## Joining the workspace
 
