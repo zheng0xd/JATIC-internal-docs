@@ -71,6 +71,10 @@ For reference, our work within the JATIC program is generally below CUI, with so
 
 ### Direct messages outside of the workspace
 
-Since our Slack workspace is hosted by MITRE, members are able send messages to people on MITRE Slack outside of the program. **Please do not do this**; please restrict direct messages to those within our program.
+!!! warning
+
+    Since our Slack workspace is hosted by MITRE, members are able send messages to people on MITRE Slack outside of the program. 
+
+Please restrict direct messages to those within our program.
 
 With all other members of the program, you should have a shared workspace called `CDAO Test & Evaluation`. You can view your shared workspaces with another user within their profile. 

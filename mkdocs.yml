@@ -36,7 +36,7 @@ extra:
     - icon: fontawesome/brands/slack
       link: https://cdaote.slack.com/
     - icon: fontawesome/solid/envelope
-      link: mailto:<cdao-jatic@mail.mil>
+      link: mailto:<cdao-jatic@mail.mil> # check that this is correct
   generator: false
 # plugins:
 #  - git-revision-date-localized:
@@ -90,7 +90,7 @@ nav:
       - 'Slack Usage': 'process/platforms/slack.md'
       - 'Gitlab Usage': 'process/platforms/gitlab.md'
     - 'Guides':
-      - process/guides/index.md
+      - process/guides/index.md # under construction!
       - 'Gitlab for Agile Software Development': 'process/guides/gitlab-agile.md'
       - 'User Engagement Guide': 'process/guides/user-engagement.md'
   - 'Requirements & Guidelines': # this name seems reasonable
@@ -125,11 +125,5 @@ nav:
     - 'TwoSix': 'teams/twosix.md'
   - 'Presentations': # use to host all of our demo videos and presentations. need to figure out how to do this.
     - presentations/index.md
-  - 'Acquisition Docs':
-    - acq/index.md
-    - 'Classification Strategy': 'acq/classification.md'
-    - 'Intellectual Property Strategy': 'acq/ip.md'
-    - 'Acquisition and Contracting Strategy': 'acq/contracting.md'
-    - 'Funding Profile': 'acq/funding.md'
   - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
 

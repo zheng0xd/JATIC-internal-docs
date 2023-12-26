@@ -5,7 +5,9 @@ hide:
 
 # Funding Profile
 
-The program is funded from FY23 to FY29. This page specifies the program funding as outlined by the Program Decision Memorandum, broken down by line item and funding appropriation categories
+The program is funded from FY23 to FY29. This page specifies the program funding as outlined by the Program Decision Memorandum, broken down by line item and funding appropriation categories.
+
+Numbers below are represented in thousands. 
 
 ## By line item
 

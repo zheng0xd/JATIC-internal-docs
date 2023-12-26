@@ -2,8 +2,9 @@
 
 This page outlines a general policy towards public release, open-source, and open-collaboration for our program. It outlines the situations where open-source or public release of features are desirable, and the situations where they are not. 
 
-Because of the numerous products within the program and their diverse development histories, we **does not** provide a technical and detailed guide on the management of public and internal versions. Each product is expected to create a detailed release strategy for their product, which should detail management of public and internal features.
+!!! note
 
+    Because of the numerous products within the program and their diverse development histories, we **does not** provide a technical and detailed guide on the management of public and internal versions. Each product is expected to create a detailed release strategy for their product, which should detail management of public and internal features.
 
 ## Definitions
 
@@ -13,7 +14,11 @@ For clarity, we define some related but distinct terms.
 - We say that a project is **open-source** when its software and its source code have been approved and released to the open internet with a license that allows any user to use, change, and re-distribute the source code without restriction. 
 - We say that a project is **open-collaboration** when its software and its source code have been approved and released to the open internet, and has a policy which allows any capable internet user to participate in its development. 
 
-Note that a project can be public release without being open-source, for example, if it has a license that restricts commercial and military use. A project can also be open-source without being open-collaboration, if it does not, in practice, accept external contributions requests.
+!!! example
+
+    A project can be public release without being open-source if it has a license that restricts commercial and military use. 
+    
+    A project can be open-source without being open-collaboration, if it does not accept external contributions requests.
 
 ## Overall objectives
 
@@ -78,6 +83,7 @@ This page does not provide specific guidance on the details, technical processes
 **Each project must create a release strategy that documents the particular details for their project. This document must be approved by the program prior to any public releases of the project.**
 
 At the very least, this document should discuss:
+
 - general strategy for public release, open-source, and open-collaboration
 - internal and public release cadence 
 - target platforms for public release, open-source, and open-collaboration

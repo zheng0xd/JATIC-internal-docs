@@ -28,8 +28,8 @@ The program holds the following events every program increment:
 
 Within a program increment, the program holds the following events for short-term inter-team planning and coordination.
 
-- Scrum of scrums - A weekly event to help coordinate dependencies within the program and provide visibility into progress and impediments. This event is generally attended by scrum masters from each team. SAFe calls this event the Coach Sync. 
-- Product owner (PO) sync - A weekly event to provide visibility into progression towards increment objectives, to discuss any scope adjustments, or to discuss problems / opportunities within development. This event is generally attended by product owners from each team.
+- Scrum of scrums - A weekly event to help coordinate dependencies within the program and provide visibility into progress and impediments. This event is attended by scrum masters from each team. SAFe calls this event the Coach Sync. 
+- Product owner (PO) sync - A weekly event to provide visibility into progression towards increment objectives, to discuss any scope adjustments, or to discuss problems / opportunities within development. This event is attended by product owners from each team.
 
 For more details on the scrum of scrums meeting or PO sync, see [Planning Interval](https://scaledagileframework.com/planning-interval/) from SAFe.
 

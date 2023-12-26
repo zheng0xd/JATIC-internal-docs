@@ -1,4 +1,4 @@
-# Intellectual Property Strategy
+# Intellectual Property Policy
 
 ## Government rights
 

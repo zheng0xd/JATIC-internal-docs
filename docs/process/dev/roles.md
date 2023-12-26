@@ -1,10 +1,12 @@
 # Team Roles & Responsibilities
 
-Our program uses a common framework for roles and responsibilities in each development team, closely following the scrum methodology. 
-
-This document outlines these roles and their responsibilities, including the areas where they have been tailored to the program's specific context. Each team must implement these roles, particularly a team scrum master and product owner.
+Our program uses a common framework for roles and responsibilities in each development team, closely following the scrum methodology. This page outlines these roles and their responsibilities, including the areas where they have been tailored to the program's specific context. 
 
 All of the blocks below are quotes from [Atlassian's Scrum Roles](https://www.atlassian.com/agile/scrum/roles).
+
+!!! note
+
+    Each team must have these roles, particularly a team scrum master and product owner.
 
 ## Development team
 

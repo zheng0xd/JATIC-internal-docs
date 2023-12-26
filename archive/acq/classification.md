@@ -1,4 +1,4 @@
-# Classification Strategy
+# Classification Policy
 
 This page details the classification level of products within the program, as well as consequent program limitations and risk controls.
 
