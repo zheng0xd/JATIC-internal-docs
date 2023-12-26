@@ -1,4 +1,12 @@
-# Products [TBD]
+# Products
+
+The program creates two categories of products.
+
+## AI T&E python libraries
+
+
+
+## RAVEN - AI T&E platform
 
 ## AI Assurance Toolbox
 

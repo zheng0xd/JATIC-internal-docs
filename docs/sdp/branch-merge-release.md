@@ -37,7 +37,6 @@ Product Owners can make note of any suggested or required reviewers when creatin
 Once the MR has been approved, the developer who opened the MR should merge the feature branch into the main/dev branch and the feature branch should be deleted.
 If the original Issue number is included as the prefix of the branch name, GitLab will automatically close the Issue when the MR is closed.
 
-
 ## Release Strategy
 - Releases should be created and timed according to the desires of the team handling the repo (which includes the product owner), to keep the release version functional.
 - [GitLab's Releases](https://docs.gitlab.com/ee/user/project/releases/) will be used to indicate the most stable, up-to-date, and thoroughly tested version of the code.

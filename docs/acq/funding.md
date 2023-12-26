@@ -1,12 +1,13 @@
-# Cost and Funding
+---
+hide:
+- toc
+---
 
-## Funding appropriation categories
+# Funding Profile
 
-JATIC funding is grouped into two primary appropriation categories: Research, Development, Test, and Evaluation (RDT&E) and Operations & Maintenance (O&M). JATIC software products will be developed primarily with RDT&E funding, while services such as enterprise cloud hosting, DevSecOps services, and system administration will be funding with O&M funding. Product support of JATIC capabilities, after the primary development phase, will also be funded with O&M funding.
+The program is funded from FY23 to FY29. This page specifies the program funding as outlined by the Program Decision Memorandum, broken down by line item and funding appropriation categories
 
-## Five-year funding plan
-
-JATIC is funded from FY23 to FY28. The program funding levels by year are specified below, as well as their line items, as required by the CAPE Program Decision Memorandum.
+## By line item
 
 |                    **Line Item**                    | **Fund Type** | **FY23** | **FY24** | **FY25** | **FY26** | **FY27** | **FY28** | **FY23-28** |
 | :-------------------------------------------------: | :-----------: | :------: | :------: | :------: | :------: | :------: | :------: | :---------: |
@@ -20,8 +21,10 @@ JATIC is funded from FY23 to FY28. The program funding levels by year are specif
 |                **JATIC Management**                 |      O&M      |  1,175   |  3,060   |  5,400   |  5,224   |  5,072   |  5,072   |   25,003    |
 |                      **Total**                      |               |  14,824  |  22,084  |  34,117  |  33,767  |  32,284  |  32,284  |   169,360   |
 
-| **Fund Type** | **FY23** | **FY24** | **FY25** | **FY26** | **FY27** | **FY28** | **FY24-28** |
+## By appropriation category
+
+| **Fund Type** | **FY23** | **FY24** | **FY25** | **FY26** | **FY27** | **FY28** | **FY23-28** |
 | :-----------: | :------: | :------: | :------: | :------: | :------: | :------: | :---------: |
 |    **O&M**    |  2,097   |  4,003   |  6,361   |  6,205   |  6,075   |  6,075   |   30,816    |
 |   **RDT&E**   |  12,727  |  18,081  |  27,756  |  27,562  |  26,209  |  26,209  |   138,544   |
-|   **Total**   |  14,824  |  22,083  |  34,117  |  33,767  |  32,284  |  32,284  |   169,360   
+|   **Total**   |  14,824  |  22,083  |  34,117  |  33,767  |  32,284  |  32,284  |   169,360   |

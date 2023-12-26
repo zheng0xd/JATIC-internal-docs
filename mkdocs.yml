@@ -126,4 +126,11 @@ nav:
     - 'TwoSix': 'teams/twosix.md'
   - 'Presentations': # use to host all of our demo videos and presentations. need to figure out how to do this.
     - presentations/index.md
+  - 'Acquisition Docs':
+    - acq/index.md
+    - 'Classification Strategy': 'acq/classification.md'
+    - 'Intellectual Property Strategy': 'acq/ip.md'
+    - 'Acquisition and Contracting Strategy': 'acq/contracting.md'
+    - 'Funding Profile': 'acq/funding.md'
   - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
+
