@@ -48,12 +48,13 @@ markdown_extensions:
 nav:
   - 'Home': 
     - index.md
-    - 'Program background':
-      - program-background/index.md
-      - 'Capability Description': 'program-background/cap-description.md'
-      - 'Supported Use Cases': 'program-background/use-cases.md'
-      - 'Supported Roles & Personas': 'program-background/roles-personas.md'
-      - 'FAQs': 'program-background/faq.md'
+    - 'Program Info':
+      - program-info/index.md
+      - 'Capability Description': 'program-info/cap-description.md'
+      - 'Documented Need': 'program-info/documented-need.md'
+      - 'Supported Use Cases': 'program-info/use-cases.md'
+      - 'Supported Roles & Personas': 'program-info/roles-personas.md'
+      - 'FAQs': 'program-info/faq.md'
     - 'Products':
       - products/index.md
       - 'Armory': 'products/armory.md'
@@ -93,6 +94,7 @@ nav:
     - 'Increment Calendar':
       - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
       - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
+      - 'Increment 5 (24 APR 24 - 15 JUL 24)': 'calendar/inc5.md'
     - 'Calendar repo': 
       - 'link': https://gitlab.jatic.net/jatic/calendar
   - 'Teams':
