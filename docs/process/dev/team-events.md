@@ -59,7 +59,7 @@ To read more, see the [Iteration Planning](https://scaledagileframework.com/iter
 !!! tip "Tips for sprint planning"
 
     1. A well-maintained backlog resulting from active product ownership can ensure this event is quick and easy. If the session tends to take more than an hour, more proactive backlog refinement is likely needed.
-    2. Rather than "pushing" Issues onto development team members with direct assignments, consider queing up issues for the Sprint without an assignee and letting the development team members "pull" in issues as they are available. 
+    2. Rather than "pushing" Issues onto development team members with direct assignments, consider queuing up issues for the Sprint without an assignee and letting the development team members "pull" in issues as they are available. 
     3. Any activity that takes away from the development team's capacity should be captured as an issue with an appropriate Weight, including technical debt or general program support.
 
 ## Daily stand-up (Day 2 - 13)
@@ -115,7 +115,7 @@ An example meeting agenda for sprint review may be the following:
 
 - The product owner reviews the sprint goals and their status
 - The development team runs through the issues that were committed to for the sprint and the assigned team member demonstrates its functionality
-- For each issue, the product owner decides whether the work completed meets the acceptance criteria, or if any further work is nededed
+- For each issue, the product owner decides whether the work completed meets the acceptance criteria, or if any further work is needed
 - The team reflects on any incomplete issues to identify risks, blockers, and/or any opportunities for improvement
 - The team discusses any issues or challenges that arose during the sprint and how they were resolved
 

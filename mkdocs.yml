@@ -64,9 +64,9 @@ nav:
       - program-info/index.md
       - 'Problem Statement': 'program-info/problem-statement.md'
       - 'Design Principles': 'program-info/design-principles.md'
-      - 'Supported Applications': 'program-info/applications.md'
-      - 'Supported Roles & Personas': 'program-info/roles-personas.md'
-      - 'FAQs': 'program-info/faq.md'
+      - 'Supported Applications': 'program-info/supported-applications.md'
+      - 'Supported Roles & Personas': 'program-info/supported-roles-personas.md'
+      - 'FAQ': 'program-info/faq.md'
     - 'Products':
       - products/index.md
       - 'Armory': 'products/armory.md'

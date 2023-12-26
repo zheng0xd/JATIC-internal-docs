@@ -2,7 +2,7 @@
 
 The products developed within our program support a number of different types of users within the MLOps lifecycle. 
 
-Below, we brovide an overview of the primary roles that we are focused on, as well as their characteristics. 
+Below, we provide an overview of the primary roles that we are focused on, as well as their characteristics. 
 
 ## Supported roles
 

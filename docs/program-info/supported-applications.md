@@ -22,7 +22,7 @@ These do not preclude application to other tasks, but serve as the primary missi
 
 CV classification and OD were chosen as the initial AI tasks for the program due to their wide use use across the DoD in many diverse operational contexts, including satellite imagery, medical imagery, and object detection on UAVs, and autonomous vehicles. 
 
-Throughout these operational contexts, the underlying AI models often had very similiar underlying architectures, which suggested the possibility of a common set of tools to test across these domains.
+Throughout these operational contexts, the underlying AI models often had very similar underlying architectures, which suggested the possibility of a common set of tools to test across these domains.
 
 ### For limiting to AI model testing 
 
@@ -34,4 +34,4 @@ Other areas of testing, such as systems integration testing, are far more diffic
 
 The program may create products for AI T&E within other AI modalities, such as natural language processing or generative AI, in its future years. The priority of each of these modalities is not fixed and will continue to evolve as CDAO gets clearer demand signals from the DoD on its AI T&E capability gaps.
 
-Currently, the overhead of supporting multiple AI modalities is too large to justify. This overhead includes supporting a divergent userbase and spreading out our market research across multiple modalities.
+Currently, the overhead of supporting multiple AI modalities is too large to justify. This overhead includes supporting a divergent user base and spreading out our market research across multiple modalities.

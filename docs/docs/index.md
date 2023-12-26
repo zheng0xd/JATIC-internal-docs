@@ -2,7 +2,7 @@
 
 ## Markup language
 
-Write documentation in some markup langague. We generally prefer Markdown.
+Write documentation in some markup language. We generally prefer Markdown.
 
 ## Style
 

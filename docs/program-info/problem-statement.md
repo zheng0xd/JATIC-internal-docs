@@ -62,7 +62,7 @@ The report concluded that "[T]here is widespread interest for DoD enterprise-lev
 
 ### AI Executive Order
 
-The AI Executive Order recognized the extraordinary potential of AI and outlined a series of steps to ensure that our development and usage of the technology is safe and responsible. The below sections explictly address the need for AI T&E and assurance capabilites to achieve this goal.
+The AI Executive Order recognized the extraordinary potential of AI and outlined a series of steps to ensure that our development and usage of the technology is safe and responsible. The below sections explicitly address the need for AI T&E and assurance capabilities to achieve this goal.
 
 !!! quote
 

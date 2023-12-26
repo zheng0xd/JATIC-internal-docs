@@ -26,8 +26,8 @@ After successfully logging into your account, you will be required to set up 2FA
 
 ### Default channels
 
-- `#announcements` is used for program-wide annoucements, such as releases, program events, outages, etc. 
-- `#general` is used for general discussion, including questions, coordination, technical dicussion, sharing relevant articles, etc. 
+- `#announcements` is used for program-wide announcements, such as releases, program events, outages, etc. 
+- `#general` is used for general discussion, including questions, coordination, technical discussion, sharing relevant articles, etc. 
 - `help` is used for technical support, onboarding support, and troubleshooting.
 
 ### Creating channels
@@ -42,7 +42,7 @@ Any member of the Slack workspace can create channels, both public or private. P
 
 ### Slack status
 
-Because our program is consituted of many teams and organizations, we lack shared calendars for tracking leave and travel.
+Because our program is constituted of many teams and organizations, we lack shared calendars for tracking leave and travel.
 
 Updating your status in Slack is a lightweight method to share information and increase situational awareness across the program. 
 
@@ -53,7 +53,7 @@ Updating your status in Slack is a lightweight method to share information and i
 
 ### Automated workflows
 
-Within the Slack workspace, we can set up automated workflows for asychronous meeting updates. On a pre-deterimend schedule, the workflow sends a message, inviting those to reply with their update. This can be useful for meetings such as the daily stand-up or scrum of scrums.
+Within the Slack workspace, we can set up automated workflows for asynchronous meeting updates. On a pre-determined schedule, the workflow sends a message, inviting those to reply with their update. This can be useful for meetings such as the daily stand-up or scrum of scrums.
 
 Please send a request in the `#help` channel if you would like to set up a workflow.
 

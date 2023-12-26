@@ -21,7 +21,7 @@ The program aims to use public release, open-source, and open-collaboration to a
 
 1. get new features in front of as many users as quickly as possible
 1. allow products to be distributed as easily and as widely as possible
-1. maintain compatability and relevancy with other products
+1. maintain compatibility and relevancy with other products
 1. reduce bugs by getting more eyes on the code
 1. increase trust and transparency of products
 1. increase adoption of open and common standards 
@@ -81,7 +81,7 @@ At the very least, this document should discuss:
 - general strategy for public release, open-source, and open-collaboration
 - internal and public release cadence 
 - target platforms for public release, open-source, and open-collaboration
-- strategy for sychronization with upstream versions or branches
+- strategy for synchronization with upstream versions or branches
 - strategy for reviewing pull requests from internet
 - type of open-source license which the project will use
 

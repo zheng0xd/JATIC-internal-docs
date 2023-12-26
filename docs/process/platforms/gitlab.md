@@ -19,7 +19,7 @@ After successfully logging into your account, you will be required to setup two-
 
 ### Getting added to groups
 
-The program use Gitlab groups to provide team-based and role-based access contol to different projects and repositories. These groups are also used for managing calendar invitations, so that invitations do not need to be updated or forwarded when new team members join. 
+The program use Gitlab groups to provide team-based and role-based access control to different projects and repositories. These groups are also used for managing calendar invitations, so that invitations do not need to be updated or forwarded when new team members join. 
 
 After you have logged in to Gitlab, ensure that your team admin or program support adds you to the correct groups, corresponding to your team and roles. 
 
@@ -54,7 +54,7 @@ In addition, we have recorded a series of [Gitlab lunch and learns](https://gitl
 
 ### Learning Gitlab terminology
 
-If you are familiar with the Scrum or SAFe agile methology, see [How to use GitLab for Agile software development](https://about.gitlab.com/blog/2018/03/05/gitlab-for-agile-software-development/) for a mapping of Agile artifacts to Gitlab features and terminology.
+If you are familiar with the Scrum or SAFe agile methodology, see [How to use GitLab for Agile software development](https://about.gitlab.com/blog/2018/03/05/gitlab-for-agile-software-development/) for a mapping of Agile artifacts to Gitlab features and terminology.
 
 If you are more familiar with Github or Bitbucket for project management, see [Comparing Gitlab, Github, and Bitbucket terms](https://about.gitlab.com/blog/2017/09/11/comparing-confusing-terms-in-github-bitbucket-and-gitlab/) for a mapping of the different terminologies. 
 
@@ -74,7 +74,7 @@ To read more, see [Groups](https://docs.gitlab.com/ee/user/group/) and [Organize
 
 The instance has a number of runners assigned to it which can run CI/CD jobs within a pipeline. These can be used to automatically run tests against code before merging, build artifacts, and deploy software. 
 
-New groups and projects are able to leverage the instace-wide runners by default. However, if your project requires particular compute resources, please make a request to program support. 
+New groups and projects are able to leverage the instance-wide runners by default. However, if your project requires particular compute resources, please make a request to program support. 
 
 To read more, see [Gitlab Runner](https://docs.gitlab.com/runner/) from Gitlab.
 
