@@ -1,6 +1,25 @@
-# Documented Need
+# Problem Statement
 
-The requirements and documented need for our program come from the following sources:
+There is widespread interest across the DoD for capabilities to address the novel challenges posed by the T&E of AI. 
+
+In this page, we outline some of the existing problems and consequent requirements.
+
+## Previous limitations
+
+While many AI T&E capabilities have been developed by previous DoD AI Programs, their usage throughout the Department has been limited by several key factors, including:
+
+1. Lack of functionality for advanced AI T&E functions, such as robustness of bias testing
+1. Lack of maturity, scalability, reproducibility, usability, or hardening of existing
+1. Difficulty in deployment or use within DoD environments, including deployment into high-side environments
+1. Difficulty in integration with MLOps pipelines different than the particular pipeline the capability was designed for
+1. Difficulty in modular use alongside other tools from open-source or industry.
+1. Inability for capabilities to evolve with developments in AI/ML research
+
+These limitations, in addition to other factors, such as a lack of best practices for AI T&E, have inhibited the ability for DoD AI programs to perform sufficient T&E of their AI models.
+
+## Documented need
+
+The formal documented need for our program comes from the following sources:
 
 1. *Responsible AI Strategy and Implementation Pathway*, issued by Deputy Secretary of Defense Kathleen Hicks in June 2022
 1. *The National Artificial Intelligence Test & Evaluation Infrastructure Capability*, issued by CDAO in August 2023
@@ -8,7 +27,7 @@ The requirements and documented need for our program come from the following sou
 
 We will refer to these documents as the *RAI S&I Pathway*, the *NAITIC Report*, and the *AI Executive Order*, respectively. 
 
-## RAI S&I Pathway
+### RAI S&I Pathway
 
 The RAI S&I Pathway document outlines a series of specific near-term steps for the implementation of the DoD's AI ethical principles and Responsible AI foundational tenets. Tenet 2 of the Pathway clearly defines the capability need that our program seeks to address. 
 
@@ -29,7 +48,7 @@ In particular, Tenet 2 charges the CDAO, in coordination with OUSD(R&E) and DOT&
 
     LOE 2.1.3: Create a test range environment and central repository of tools for T&E of Al, linking to existing and emerging equivalent DoD Component environments, that enables easy and continuous testing for DoD testers. Where appropriate, tools that are housed in this environment should comply with DoD Enterprise DevSecOps Reference Designs for portability across the Department.
 
-## NAITIC Report
+### NAITIC Report
 
 The NAITIC Report was developed in response to the Fiscal Year 23 Program Decision Memorandum, in which the Deputy Secretary of Defense and the Office of Cost Assessment and Program Evaluation requested more information to support data-driven decisions about AI T&E infrastructure investments at the DoD enterprise level.
 
@@ -41,7 +60,7 @@ The NAITIC Report was developed in response to the Fiscal Year 23 Program Decisi
 
 The report concluded that "[T]here is widespread interest for DoD enterprise-level T&E infrastructure to address the novel and exacerbated challenges posed by the T&E of AI. While programs are currently investing locally in T&E resources … there is still a consistent desire across survey programs for DoD enterprise support."
 
-## AI Executive Order
+### AI Executive Order
 
 The AI Executive Order recognized the extraordinary potential of AI and outlined a series of steps to ensure that our development and usage of the technology is safe and responsible. The below sections explictly address the need for AI T&E and assurance capabilites to achieve this goal.
 

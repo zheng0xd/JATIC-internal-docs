@@ -15,7 +15,7 @@ theme:
     - navigation.expand
     - navigation.path # this will only work on the Material for MkDocs insider's edition
   logo: assets/logo-white.png
-  favicon: assets/logo.png
+  favicon: assets/logo-blue.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -62,10 +62,8 @@ nav:
     - index.md
     - 'Program Info':
       - program-info/index.md
-      - 'Capability Description': 'program-info/cap-description.md'
+      - 'Problem Statement': 'program-info/problem-statement.md'
       - 'Design Principles': 'program-info/design-principles.md'
-      - 'AI T&E Areas': 'program-info/te-areas.md'
-      - 'Documented Need': 'program-info/documented-need.md'
       - 'Supported Applications': 'program-info/applications.md'
       - 'Supported Roles & Personas': 'program-info/roles-personas.md'
       - 'FAQs': 'program-info/faq.md'

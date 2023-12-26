@@ -1,14 +1,8 @@
 # Supported Roles & Personas
 
-The products developed within our program support a number of different types of users within the MLOps lifecycle. The primary roles that we are focused on are the following:
+The products developed within our program support a number of different types of users within the MLOps lifecycle. 
 
-1. AI T&E engineer
-1. Data scientist 
-1. AI red teamer
-
-For each of these roles, we have created have created concrete personas representing the role, including their backgrounds, preferences, and archetypal workflows. These personas can be found [TBD]. 
-
-Below, we brovide an overview of each user type and their characteristics. 
+Below, we brovide an overview of the primary roles that we are focused on, as well as their characteristics. 
 
 ## Supported roles
 
@@ -54,6 +48,12 @@ Below, we brovide an overview of each user type and their characteristics.
 !!! note
 
     For most products, the AI red teamer is a secondary user group. However, it is an important user group for our adversarial AI capabilities.
+
+## Corresponding personas
+
+For each of these roles, we have created have created concrete personas representing the role, including their backgrounds, preferences, and archetypal workflows. 
+
+These personas can be found [TBD]. 
 
 ## References
 

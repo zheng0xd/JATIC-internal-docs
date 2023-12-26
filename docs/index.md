@@ -12,9 +12,9 @@ The main objectives of this documentation are the following:
 
 - Provide a helpful "Getting Started" guide for those who are joining the program
 - Provide a central location to learn about all products within the program.
-- Provide program reference materials, such as the program board, increment calendar, and program org chart
+- Provide a common reference for the program's standards, processes, and requirements, both technical and programmatic
+- Provide program materials, such as the program board, increment calendar, and org chart
 - Provide a hosting platform for demos recordings and presentations
-- Provide a common reference for the program's standards and requirements, both technical and programmatic, in order to facilitate collaboration across our team-of-teams and create interoperable products
 
 !!! tip
 
