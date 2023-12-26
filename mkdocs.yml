@@ -104,9 +104,9 @@ nav:
         - 'Software Requirements': 'sdp/software-requirements.md'
         - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
         - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
-      - 'Documentation Requirements':
+      - 'Documentation':
         - docs/index.md
-      - 'Product':
+      - 'Products':
         - guidelines/index.md
         - 'Open-sourcing Guidelines': 'guidelines/open-source.md'
         - 'Product Naming Guidelines': 'guidelines/naming.md'

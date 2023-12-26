@@ -9,11 +9,18 @@ In this page, we outline some of the existing problems and consequent requiremen
 While many AI T&E capabilities have been developed by previous DoD AI Programs, their usage throughout the Department has been limited by several key factors, including:
 
 1. Lack of functionality for advanced AI T&E functions, such as robustness of bias testing
-1. Lack of maturity, scalability, reproducibility, usability, or hardening of existing
 1. Difficulty in deployment or use within DoD environments, including deployment into high-side environments
 1. Difficulty in integration with MLOps pipelines different than the particular pipeline the capability was designed for
-1. Difficulty in modular use alongside other tools from open-source or industry.
+1. Difficulty in application to AI use cases different than the particular use case the capability was designed for
+1. Inability to integration or use alongside other tools from open-source or industry
 1. Inability for capabilities to evolve with developments in AI/ML research
+
+While there exist many AI T&E capabilities within the academic and open-source community, their usage throughout the Department has also been limited by several factors, including:
+
+1. Difficulty in usage by non-AI/ML experts
+1. Lack of stability, maturity, or security
+1. Lack of scalability
+1. Lack of focus on operationally-realistic problems
 
 These limitations, in addition to other factors, such as a lack of best practices for AI T&E, have inhibited the ability for DoD AI programs to perform sufficient T&E of their AI models.
 
