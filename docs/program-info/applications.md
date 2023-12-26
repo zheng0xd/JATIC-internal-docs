@@ -7,7 +7,6 @@ The libraries and tools that the program are building are designed to be applica
 1. Satellite imagery
 1. UAV imagery
 1. Autonomous driving
-1. Medical imagery
 
 These do not preclude application to other tasks, but serve as the primary missions that guide our development.
 

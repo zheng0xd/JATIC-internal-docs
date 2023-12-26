@@ -1,6 +1,6 @@
-# About this page
+# About this site
 
-Created with Material for MkDocs
+This site was made with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
 ## Markdown extensions
 
@@ -18,7 +18,3 @@ The following is the full list of extensions that you can make use of within the
 - Tooltips
 
 To read more, see Material for MkDoc's [Reference](https://squidfunk.github.io/mkdocs-material/reference/).
-
-## Contributing
-
-...

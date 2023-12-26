@@ -4,10 +4,11 @@ The products developed within our program support a number of different types of
 
 1. AI T&E engineer
 1. Data scientist 
-1. Data analyst
 1. AI red teamer
 
-For each of these roles, we have created have created concrete personas representing the role, including their backgrounds, preferences, and archetypal workflows. These personas can be found [TBD]. Below, we brovide an overview of each user type and their characteristics. 
+For each of these roles, we have created have created concrete personas representing the role, including their backgrounds, preferences, and archetypal workflows. These personas can be found [TBD]. 
+
+Below, we brovide an overview of each user type and their characteristics. 
 
 ## Supported roles
 
@@ -15,41 +16,44 @@ For each of these roles, we have created have created concrete personas represen
 
 - Measures performance of models within various settings and contexts
 - Compares performance of models
+- Validates testing data with operational conditions
 - Verifies requirements satisfaction and validates evaluation results
 - Performs quantitative evaluation of risks
 - Explores potential unknown risks
 - Develops summary report of findings
 - Does not participate in model development
+- Often operates as a third-party from both developers or customers
 
-The AI T&E engineer, specifically within the DoD, is the primary role that we aim to support.
+!!! note
+
+    The AI T&E engineer, specifically within the DoD, is the primary role that we aim to support.
 
 ### Data scientist
 
-- Exploratory data and model analysis
-- Statistical analysis
-- Model experimentation
-- Feature engineering
-- Model training and continuous fine-tuning
-- Uses MLOps, end-to-end model pipelines
+- Performs exploratory data and model analysis
+- Performs statistical analysis over data
+- Performs feature engineering
+- Performs model experimentation, training, and fine-tuning
+- Uses MLOps pipelines and platforms
+- Calibrates and re-trains models after drift
 
-See Data Scientist and ML Engineer in [1], and Data Scientist in [2] and [3] for references and a general job description. 
+!!! note
 
-### Data analyst
-
-- Data visualization and analysis
-- Statistical analysis of dataset properties
-- Data set selection, curation, and validation
-- Data preparation and cleaning
-
-See Data Analyst in [3] and [4] for references and a general job description. 
+    The data scientist is the secondary role that we aim to support after the AI T&E engineer. 
+    
+    Because testing is performed continually during throughout model experimentation and training, many products built specifically for T&E may be relevant. 
 
 ### AI red teamer
 
-- Perform adversarial assessments of AI models
-- Perform threat analysis 
-- Find system failure models
-- Build proxy models to approximate real model performance
-- Often possess limited model information
+- Performs threat analysis 
+- Performs adversarial assessments of AI models
+- Finds system failure models
+- Builds proxy models to approximate real model performance
+- Possess limited model information
+
+!!! note
+
+    For most products, the AI red teamer is a secondary user group. However, it is an important user group for our adversarial AI capabilities.
 
 ## References
 
