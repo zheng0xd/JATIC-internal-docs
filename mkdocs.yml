@@ -13,8 +13,8 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.expand
-  logo: assets/logo.jpg # upgrade to SVG later
-  favicon: assets/logo.jpg # upgrade to SVG later
+  logo: assets/logo-white.png
+  favicon: assets/logo.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -39,9 +39,14 @@ extra:
   generator: false
 markdown_extensions:
   - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
-  - attr_list
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -52,7 +57,7 @@ nav:
       - program-info/index.md
       - 'Capability Description': 'program-info/cap-description.md'
       - 'Documented Need': 'program-info/documented-need.md'
-      - 'Supported Use Cases': 'program-info/use-cases.md'
+      - 'Supported Applications': 'program-info/applications.md'
       - 'Supported Roles & Personas': 'program-info/roles-personas.md'
       - 'FAQs': 'program-info/faq.md'
     - 'Products':
@@ -65,18 +70,22 @@ nav:
       - 'NRTK': 'products/nrtk.md'
       - 'RAVEN': 'products/raven.md'
       - 'XAITK': 'products/xaitk.md'
+    - 'About this page' : 'about/index.md'
   - 'Processes': # this name seems reasonable
     - 'Software Development Process': # this name seemed most emcompassing of the actual content. of course, it clashes with the SDP. but maybe SDP should be renamed? seems more like requirements.
-      - dev-process/index.md
-      - 'Key Agile Principles': 'dev-process/agile-principles.md'
-      - 'Team Roles & Responsibilities': 'dev-process/roles.md'
-      - 'Program-level Events': 'dev-process/program-events.md'
-      - 'Team-level Events': 'dev-process/team-events.md'
+      - process/dev/index.md
+      - 'Key Agile Principles': 'process/dev/agile-principles.md'
+      - 'Team Roles & Responsibilities': 'process/dev/roles.md'
+      - 'Program-level Events': 'process/dev/program-events.md'
+      - 'Team-level Events': 'process/dev/team-events.md'
     - 'Shared Platforms':
-      - platforms/index.md
-      - 'Slack Usage': 'platforms/slack.md'
-      - 'Gitlab Usage': 'platforms/gitlab.md'
-      - 'Gitlab for Agile Software Development': 'platforms/gitlab-agile.md'
+      - process/platforms/index.md
+      - 'Slack Usage': 'process/platforms/slack.md'
+      - 'Gitlab Usage': 'process/platforms/gitlab.md'
+    - 'Guides':
+      - process/guides/index.md
+      - 'Gitlab for Agile Software Development': 'process/guides/gitlab-agile.md'
+      - 'User Engagement Guide': 'process/guides/user-engagement.md'
   - 'Requirements & Guidelines': # this name seems reasonable
       - 'Software':
         - sdp/index.md
@@ -86,6 +95,8 @@ nav:
         - 'Software Requirements': 'sdp/software-requirements.md'
         - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
         - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
+      - 'Documentation Requirements':
+        - docs/index.md
       - 'Product':
         - guidelines/index.md
         - 'Open-sourcing Guidelines': 'guidelines/open-source.md'

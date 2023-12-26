@@ -8,7 +8,7 @@ This is the central location for all internal documentation within the JATIC pro
 
 The primary audience is those who are working on the program, including developers, scrum masters, project managers, etc. 
 
-The main objectives are the following:
+The main objectives of this documentation are the following:
 
 - Provide a helpful "Getting Started" guide for those who are joining the program
 - Provide a central location to learn about all products within the program.

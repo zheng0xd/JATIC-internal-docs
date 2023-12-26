@@ -1,6 +1,6 @@
 # Documented Need
 
-The requirements and documented need for the JATIC program come from the following sources:
+The requirements and documented need for our program come from the following sources:
 
 1. *Responsible AI Strategy and Implementation Pathway*, issued by Deputy Secretary of Defense Kathleen Hicks in June 2022
 1. *The National Artificial Intelligence Test & Evaluation Infrastructure Capability*, issued by CDAO in August 2023

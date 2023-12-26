@@ -53,7 +53,7 @@ See Data Analyst in [3] and [4] for references and a general job description.
 
 ## References
 
-1. [AWS Whitepapers ML Roles](https://docs.aws.amazon.com/whitepapers/latest/build-secure-enterprise-ml-platform/personas-for-an-ml-platform.html)
-1. [Red Hat ML Roles](https://cloud.redhat.com/blog/your-guide-to-the-red-hat-data-science-model-lifecycle)
-1. [Domino ML Roles](https://www.dominodatalab.com/blog/7-roles-in-mlops)
-1. [AWS Well-Architected ML Roles](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mloe-04.html)
+1. [AWS - Personas for an ML platform](https://docs.aws.amazon.com/whitepapers/latest/build-secure-enterprise-ml-platform/personas-for-an-ml-platform.html)
+1. [Red Hat - Your Guide to the Red Hat Data Science Model Lifecycle](https://cloud.redhat.com/blog/your-guide-to-the-red-hat-data-science-model-lifecycle)
+1. [Domino Data Labs - 7 Key Roles and Responsibilities in Enterprise MLOps](https://www.dominodatalab.com/blog/7-roles-in-mlops)
+1. [AWS - MLOE-04: Establish ML roles and responsibilities](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mloe-04.html)

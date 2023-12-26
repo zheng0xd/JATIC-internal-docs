@@ -1,26 +1,6 @@
 # Capability Descripition
 
-## Introduction
-
-This document provides a technical overview of the JATIC Capability, focusing on the MVP to be developed in FY23.
-
-## JATIC T&E Tools Vision
-
-Develop AI T&E tools that are widely adopted by DoD programs to increase the rigor of their missions and by the open-source community
-
-## Scope
-
-For this MVP, JATIC aims to develop T&E capabilities to test AI/ML models for Computer Vision (CV) classification and object detection (OD).
-
-While other AI modalities besides CV, such as autonomous agents and natural language processing also require T&E capabilities, they are out of scope for the current JATIC MVP.
-
-CV classification and object detection was chosen as the AI modality for JATIC's MVP due to its wide use across the DoD in many operational contexts. CV models, often of very similar underlying architectures, are used across diverse tasks such as automatic target recognition, satellite imagery classification, medical imagery diagnosis, and object detection on UAVs, UUVs, and autonomous vehicles. Thus, T&E capabilities which support CV classification and object detection models may have broad applicability across the Department. Future AI modalities (e.g. natural language processing, full motion video, image segmentation, etc.) will be addressed in future capabilities releases of JATIC. However, the ordering and priority of each of these modalities is yet to be firmly determined and will evolve as CDAO T&E comes to better understand the prevalence and demand for T&E capabilities within each one of these areas.
-
-While other areas of T&E, such as systems integration, human-machine, and operational T&E are complex issues with capabilities gaps, they are out of scope for JATIC.
-
-Other areas of testing, such as systems integration testing, are far more difficult to develop generalizable T&E capabilities for. For example, while the same T&E software may be able to test a CV OD model for radiology and a CV OD model for vehicle detection on UAVs, the required systems integration testing for these two capabilities looks completely different. Thus, we believe that capabilities for systems integration, human system interaction, and operational testing should be left to individual organizations, agencies, and services to develop, who have the best knowledge about their operational mission and systems.
-
-While operational monitoring of AI models and synthetic data generation are capabilities areas which are critical for AI/ML, they are out of scope for JATIC. This is because there are other programs within the CDAO which will address these capability gaps.
+This page provides a technical overview of the program's capability development within FY23. 
 
 ## Problem statement
 
