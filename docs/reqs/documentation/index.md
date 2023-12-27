@@ -1,4 +1,4 @@
-# Documentation Requirements
+# Documentation Guidelines
 
 ## Markup language
 
