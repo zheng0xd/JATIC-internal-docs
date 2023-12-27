@@ -137,14 +137,8 @@ nav:
         - Data Rights & Licensing Policy: reqs/product/data-rights-licensing.md
         - Public Release Guidelines: reqs/product/public-release.md
         - Product Naming Guidelines: reqs/product/naming.md
-  - Increment Details:
-    - Calendar: increment/3/calendar.md
-    - Objectives: increment/3/objectives.md
-    - Priority Engagements: increment/3/engagements.md
-    # the mural link below needs to be updated with the latest program board each increment!
-    - Link to Program Board: https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346 
-    - Archive:
-      - increment/archive/index.md
+  - Increment Info:
+    - Increment 3 (11 OCT 23 - 30 JAN 24): increment/3.md
   - Presentations: 
     - presentations/index.md
   - Teams:
