@@ -15,11 +15,11 @@ The PM team is the core management team for the JATIC program.
 - The AI T&E Expert has a deep technical understanding of the subject matter and domain in order to advise and support the product owners and development teams. Their primary role is the application of the software developed within the program to actual DoD AI algorithms to provide feedback for the team. They will also aid in the development, integration, and deployment of the products as necessary.
 - The User Engagement Coordinator helps run and coordinate engagements between the program and users or user stakeholders. Their focus is on program-level engagements, but also aids in coordination of product-level and distributed/democratized engagements.
 
-| Name | Email | Organization | Role |
-| ---- | ----- | ------------ | ---- |
-| David Jin | david.jin5.civ@mail.mil | CDAO | PM |
-| Ari Kapusta | akapusta@mitre.org | MITRE | Chief Engineer |
-| Michael Ide | mide@mitre.org | MITRE | Release Train Engineer |
-| Jason Gaulin | jason.c.gaulin.civ@mail.mil | CDAO | AI T&E Expert |
-| Tabitha Colter | tcolter@mitre.org | MITRE | Strategic Outreach & Communication Lead |
-| Susan Urban | surban@mitre.org | MITRE | User Engagement Coordinator |
+| Name | Email | Role |
+| ---- | ----- | ---- |
+| David Jin | david.jin5.civ@mail.mil | PM |
+| Ari Kapusta | akapusta@mitre.org | Chief Engineer |
+| Michael Ide | mide@mitre.org | Release Train Engineer |
+| Jason Gaulin | jason.c.gaulin.civ@mail.mil | AI T&E Expert |
+| Tabitha Colter | tcolter@mitre.org | Strategic Outreach & Communication Lead |
+| Susan Urban | surban@mitre.org | User Engagement Coordinator |

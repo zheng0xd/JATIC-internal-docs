@@ -6,18 +6,18 @@ hide:
 
 # MORSE
 
-| Name | Email | Organization | Role |
-| ---- | ----- | ------------ | ---- |
-| Peter Wein | pwein@morsecorp.com | MORSE | Team lead |
-| Michael Nishida | mnishida@morsecorp.com | MORSE |  |
-| Brian Lee | blee@morsecorp.com | MORSE | |
-| Andrew Briasco-Stewart | abriasco-stewart@morsecorp.com | MORSE |  |
-| George Bikhazi | gbikhazi@morsecorp.com | MORSE |  |
-| Matthew Larsen | mlarsen@morsecorp.com | MORSE |  |
-| Ziyang Huang | zhuang@morsecorp.com | MORSE |  |
-| Joel Sullivan | jsullivan@morsecorp.com | MORSE |  |
-| Eoin Daly | Edaly@morsecorp.com | MORSE |  |
-| Dan Gombos | DGombos@morsecorp.com | MORSE | |
-| Sarah Lipstone | slipstone@morsecorp.com | MORSE | |
-| Rachel Rajaseelan | rachel.m.rajaseelan.civ@mail.mil | CDAO | Product Owner |
-| Andreas Elterich | andreas.g.elterich.ctr@mail.mil | CDAO | Deputy Product Owner |
+| Name | Email | Role |
+| ---- | ----- | ---- |
+| Peter Wein | pwein@morsecorp.com | Team lead |
+| Michael Nishida | mnishida@morsecorp.com | |
+| Brian Lee | blee@morsecorp.com | |
+| Andrew Briasco-Stewart | abriasco-stewart@morsecorp.com | |
+| George Bikhazi | gbikhazi@morsecorp.com | |
+| Matthew Larsen | mlarsen@morsecorp.com | |
+| Ziyang Huang | zhuang@morsecorp.com | |
+| Joel Sullivan | jsullivan@morsecorp.com | |
+| Eoin Daly | Edaly@morsecorp.com | |
+| Dan Gombos | DGombos@morsecorp.com | |
+| Sarah Lipstone | slipstone@morsecorp.com | |
+| Rachel Rajaseelan | rachel.m.rajaseelan.civ@mail.mil | Product Owner |
+| Andreas Elterich | andreas.g.elterich.ctr@mail.mil | Deputy Product Owner |

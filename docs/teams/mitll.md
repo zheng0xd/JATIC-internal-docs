@@ -12,13 +12,13 @@ MIT-LL is building the MAITE, a set of common types, protocols, utilities, and t
 
 This product can be found internally at [`jatic/cdao/maite`](https://gitlab.jatic.net/jatic/cdao/maite).
 
-| Name | Email | Organization | Role |
-| ---- | ----- | ------------ | ---- |
-| Michael Yee | myee@ll.mit.edu | MIT-LL | Product Owner |
-| Lei Hamilton | lei.hamilton@ll.mit.edu | MIT-LL | Deputy Product Owner| 
-| Justin Goodwin | jgoodwin@ll.mit.edu | MIT-LL | | 
-| Garrett Botkin | garrett.botkin@ll.mit.edu | MIT-LL | | 
-| Manasi Sharma | manasi.sharma@ll.mit.edu | MIT-LL | |
-| Jeffrey Arena | jeffrey.arena@ll.mit.edu | MIT-LL | | 
-| Sanjeev Mohindra | smohindra@ll.mit.edu | MIT-LL | |
-| Vince Mancuso | vincent.mancuso@ll.mit.edu | MIT-LL | LL PM |
+| Name | Email | Role |
+| ---- | ----- | ---- |
+| Michael Yee | myee@ll.mit.edu | Product Owner |
+| Lei Hamilton | lei.hamilton@ll.mit.edu | Deputy Product Owner| 
+| Justin Goodwin | jgoodwin@ll.mit.edu | | 
+| Garrett Botkin | garrett.botkin@ll.mit.edu | | 
+| Manasi Sharma | manasi.sharma@ll.mit.edu | |
+| Jeffrey Arena | jeffrey.arena@ll.mit.edu | | 
+| Sanjeev Mohindra | smohindra@ll.mit.edu | |
+| Vince Mancuso | vincent.mancuso@ll.mit.edu | LL PM |
