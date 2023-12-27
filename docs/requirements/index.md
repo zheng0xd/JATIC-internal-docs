@@ -1,4 +1,4 @@
-# Requirements & Guidelines
+# Requirements & Guidelines &nbsp; :octicons-checklist-24:
 
 !!! warning
 

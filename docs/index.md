@@ -1,4 +1,4 @@
-# Welcome to the internal docs! :wave:
+# Welcome to the internal docs! &nbsp; :wave:
 
 !!! info inline end 
 
