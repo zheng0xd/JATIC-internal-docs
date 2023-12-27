@@ -39,7 +39,7 @@ extra:
     - icon: fontawesome/brands/slack
       link: https://cdaote.slack.com/
     - icon: fontawesome/solid/envelope
-      link: mailto:<cdao-jatic@mail.mil> # check that this is correct
+      link: mailto:<CDAO-jatic@groups.mail.mil> 
   generator: false
 plugins:
   - search
@@ -117,7 +117,7 @@ nav:
   - 'Increment Details':
     - 'Calendar': 'increment/3/calendar.md'
     - 'Objectives': 'increment/3/objectives.md'
-    - 'Priority Engagements': 'calendar/inc5.md'
+    - 'Priority Engagements': 'increment/3/engagements.md'
     - 'Archive':
       - increment/archive/index.md
   - 'Teams':
