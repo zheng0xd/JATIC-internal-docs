@@ -1,17 +1,23 @@
+# Project information
 site_name: JATIC Internal Docs
-repo_name: Gitlab
 site_url: https://jatic.pages.jatic.net/docs
+site_author: CDAO Assessment & Assurance
+site_description: >-
+  Internal documentation for the CDAO JATIC program
+
+# Repo information
+repo_name: Gitlab
 repo_url: https://gitlab.jatic.net/docs
+
+# Build information
 site_dir: public
 docs_dir: docs
+
+# Theme configuration
 theme:
   name: material
-  plugins:
-  - search
-  - tags:
-      tags_file: tags.md
   features:
-    - navigation.instant
+    # - navigation.instant # disable when using offline mode
     - navigation.tabs
     - navigation.sections
     - navigation.expand
@@ -22,8 +28,6 @@ theme:
     - search.highlight
     - search.suggest
     - search.share
-  logo: assets/logo-white.png
-  favicon: assets/logo-blue.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -37,6 +41,30 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
       primary: green
+  logo: assets/logo-white.png
+  favicon: assets/logo-blue.png
+
+# MkDocs plugins
+plugins:
+  - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
+  - search
+  - tags:
+      tags_file: tags.md
+
+# Additional configurations
+extra_css:
+  - stylesheets/extra.css
+extra: # These generate the footer
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.jatic.net/
+    - icon: fontawesome/brands/slack
+      link: https://cdaote.slack.com/
+    - icon: fontawesome/solid/envelope
+      link: mailto:<CDAO-jatic@groups.mail.mil> 
+  generator: false
+
+# Markdown extensions
 markdown_extensions:
   - abbr
   - admonition
@@ -51,88 +79,78 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-extra_css:
-  - stylesheets/extra.css
-extra:
-  social:
-    - icon: fontawesome/brands/gitlab
-      link: https://gitlab.jatic.net/
-    - icon: fontawesome/brands/slack
-      link: https://cdaote.slack.com/
-    - icon: fontawesome/solid/envelope
-      link: mailto:<CDAO-jatic@groups.mail.mil> 
-  generator: false
-nav:
-# Once indented lines become navigation tabs. Twice indented become sections in the right-hand navigation.
-  - 'Home': 
+
+# Page tree
+nav: # Once indented lines become navigation tabs. Twice indented become sections in the right-hand navigation.
+  - Home: 
     - index.md
-    - 'Program Info':
+    - Program Info:
       - info/index.md
-      - 'Problem Statement': 'info/problem-statement.md'
-      - 'Design Principles': 'info/design-principles.md'
-      - 'Supported Applications': 'info/supported-applications.md'
-      - 'Supported Roles & Personas': 'info/supported-roles-personas.md'
-      - 'FAQ': 'info/faq.md'
-    - 'Products':
+      - Problem Statement: info/problem-statement.md
+      - Design Principles: info/design-principles.md
+      - Supported Applications: info/supported-applications.md
+      - Supported Roles & Personas: info/supported-roles-personas.md
+      - FAQ: info/faq.md
+    - Products:
       - products/index.md
-      - 'Armory': 'products/armory.md'
-      - 'Adversarial Robustness Toolbox': 'products/art.md'
-      - 'DAML': 'products/daml.md'
-      - 'Gradient': 'products/gradient.md'
-      - 'MAITE': 'products/maite.md'
-      - 'NRTK': 'products/nrtk.md'
-      - 'RAVEN': 'products/raven.md'
-      - 'XAITK': 'products/xaitk.md'
-    - 'About this site' : 'about.md'
-  - 'Shared Processes': 
-    - 'process/index.md'
-    - 'Agile Methodology':
+      - Armory: products/armory.md
+      - Adversarial Robustness Toolbox: products/art.md
+      - DAML: products/daml.md
+      - Gradient: products/gradient.md
+      - MAITE: products/maite.md
+      - NRTK: products/nrtk.md
+      - RAVEN: products/raven.md
+      - XAITK: products/xaitk.md
+    - About this site : about.md
+  - Shared Processes: 
+    - process/index.md
+    - Agile Methodology:
       - process/agile/index.md
-      - 'Key Principles': 'process/agile/principles.md'
-      - 'Team Roles & Responsibilities': 'process/agile/roles.md'
-      - 'Program-level Events': 'process/agile/program-events.md'
-      - 'Team-level Events': 'process/agile/team-events.md'
-    - 'Common Platforms':
+      - Key Principles: process/agile/principles.md
+      - Team Roles & Responsibilities: process/agile/roles.md
+      - Program-level Events: process/agile/program-events.md
+      - Team-level Events: process/agile/team-events.md
+    - Common Platforms:
       - process/platforms/index.md
-      - 'Slack Usage': 'process/platforms/slack.md'
-      - 'Gitlab Usage': 'process/platforms/gitlab.md'
-    - 'Guides':
-      - 'Gitlab for Agile Software Development': 'process/guides/gitlab-agile.md'
-      - 'User Engagement Guide': 'process/guides/user-engagement.md'
-  - 'Requirements & Guidelines': 
+      - Slack Usage: process/platforms/slack.md
+      - Gitlab Usage: process/platforms/gitlab.md
+    - Guides:
+      - Gitlab for Agile Software Development: process/guides/gitlab-agile.md
+      - User Engagement Guide: process/guides/user-engagement.md
+  - Requirements & Guidelines: 
       - reqs/index.md
-      - 'Software': # each of these should be brought under the "reqs" folder eventually
+      - Software: # each of these should be brought under the "reqs" folder eventually
         - sdp/index.md
-        - 'Common Protocols': 'sdp/protocols.md'
-        - 'Testing Requirements': 'sdp/testing-plan.md'
-        - 'DevSecOps Requirements': 'sdp/devsecops.md'
-        - 'Software Requirements': 'sdp/software-requirements.md'
-        - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
-        - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
-      - 'Documentation':
+        - Common Protocols: sdp/protocols.md
+        - Testing Requirements: sdp/testing-plan.md
+        - DevSecOps Requirements: sdp/devsecops.md
+        - Software Requirements: sdp/software-requirements.md
+        - Branch, Merge, Release Guidance: sdp/branch-merge-release.md
+        - General Python Coding Guidelines: sdp/coding-guidelines.md
+      - Documentation:
         - reqs/documentation/index.md
-      - 'Product':
+      - Product:
         - reqs/product/index.md
-        - 'Classification Policy': 'reqs/product/classification.md'
-        - 'Data Rights & Licensing Policy': 'reqs/product/data-rights-licensing.md'
-        - 'Public Release Guidelines': 'reqs/product/public-release.md'
-        - 'Product Naming Guidelines': 'reqs/product/naming.md'
-  - 'Increment Details':
-    - 'Calendar': 'increment/3/calendar.md'
-    - 'Objectives': 'increment/3/objectives.md'
-    - 'Priority Engagements': 'increment/3/engagements.md'
-    - 'Archive':
+        - Classification Policy: reqs/product/classification.md
+        - Data Rights & Licensing Policy: reqs/product/data-rights-licensing.md
+        - Public Release Guidelines: reqs/product/public-release.md
+        - Product Naming Guidelines: reqs/product/naming.md
+  - Increment Details:
+    - Calendar: increment/3/calendar.md
+    - Objectives: increment/3/objectives.md
+    - Priority Engagements: increment/3/engagements.md
+    - Archive:
       - increment/archive/index.md
-  - 'Teams':
-    - 'ARiA': 'teams/aria.md'
-    - 'IBM': 'teams/ibm.md'
-    - 'Kitware': 'teams/kitware.md'
-    - 'MIT-LL': 'teams/mitll.md'
-    - 'MORSE': 'teams/morse.md'
-    - 'Team MetroStar': 'teams/msqs.md'
-    - 'PM Team': 'teams/pm.md'
-    - 'System Team': 'teams/systems.md'
-    - 'TwoSix': 'teams/twosix.md'
-  - 'Presentations': 
+  - Teams:
+    - ARiA: teams/aria.md
+    - IBM: teams/ibm.md
+    - Kitware: teams/kitware.md
+    - MIT-LL: teams/mitll.md
+    - MORSE: teams/morse.md
+    - Team MetroStar: teams/msqs.md
+    - PM Team: teams/pm.md
+    - System Team: teams/systems.md
+    - TwoSix: teams/twosix.md
+  - Presentations: 
     - presentations/index.md
-  - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
+  - Program Board: https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
