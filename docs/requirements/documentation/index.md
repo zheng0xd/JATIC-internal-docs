@@ -2,11 +2,11 @@
 
 ## Markup language
 
-Write documentation in some markup language. We generally prefer Markdown.
+Write documentation in some markup language. Markdown is the preferred markup language for documentation.
 
 ## Style
 
-Follow the [Markdown style guide](https://google.github.io/styleguide/docguide/style.html) from Google or the [Markdown Style Guide for about.GitLab.com](https://about.gitlab.com/handbook/markdown-guide/) from Gitlab.
+For markdown, follow the [Markdown style guide](https://google.github.io/styleguide/docguide/style.html) from Google or the [Markdown Style Guide for about.GitLab.com](https://about.gitlab.com/handbook/markdown-guide/) from Gitlab.
 
 ## Generation
 

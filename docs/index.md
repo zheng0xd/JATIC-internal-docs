@@ -2,7 +2,7 @@
 
 !!! info inline end 
 
-    Please contribute to this documentation with merge requests if you would like to add more detail about your team or your products!
+    Please contribute with merge requests if you would like to add more detail about your products or your team!
 
 This is the central location for all internal documentation within the JATIC program. 
 

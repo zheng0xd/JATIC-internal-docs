@@ -13,6 +13,7 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.expand
+    - navigation.sections
     - navigation.path # this will only work on the Material for MkDocs insider's edition
   logo: assets/logo-white.png
   favicon: assets/logo-blue.png
@@ -92,13 +93,12 @@ nav:
       - 'Slack Usage': 'process/platforms/slack.md'
       - 'Gitlab Usage': 'process/platforms/gitlab.md'
     - 'Guides':
-      - process/guides/index.md # under construction!
       - 'Gitlab for Agile Software Development': 'process/guides/gitlab-agile.md'
       - 'User Engagement Guide': 'process/guides/user-engagement.md'
   - 'Requirements & Guidelines': # this name seems reasonable
-      - sdp/index.md
+      - requirements/index.md
       - 'Software':
-        - sdp/readme.md
+        - sdp/index.md
         - 'Common Protocols': 'sdp/protocols.md'
         - 'Testing Requirements': 'sdp/testing-plan.md'
         - 'DevSecOps Requirements': 'sdp/devsecops.md'
@@ -106,12 +106,12 @@ nav:
         - 'Branch, Merge, Release Guidance': 'sdp/branch-merge-release.md'
         - 'General Python Coding Guidelines': 'sdp/coding-guidelines.md'
       - 'Documentation':
-        - docs/index.md
-      - 'Products':
-        - product-reqs/index.md
-        - 'Classification Policy': 'product-reqs/classification.md'
-        - 'Open-sourcing Guidelines': 'product-reqs/open-source.md'
-        - 'Product Naming Guidelines': 'product-reqs/naming.md'
+        - requirements/documentation/index.md
+      - 'Product':
+        - requirements/product/index.md
+        - 'Classification Policy': 'requirements/product/classification.md'
+        - 'Open-sourcing Guidelines': 'requirements/product/open-source.md'
+        - 'Product Naming Guidelines': 'requirements/product/naming.md'
   - 'Calendar': 
     - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
     - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
