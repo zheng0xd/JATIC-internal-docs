@@ -148,7 +148,7 @@ These epics should be created for each product routinely by the product owner be
 
 Similar to issue boards, epic boards can be used to larger lines of effort across a team. See the [JATIC epic board](https://gitlab.jatic.net/groups/jatic/-/epic_boards/) as an example
 
-#### Roadmps
+#### Roadmaps
 
 Epics can also be visualized on a roadmap. See the [JATIC roadmap](https://gitlab.jatic.net/groups/jatic/-/roadmap) as an example. 
 
