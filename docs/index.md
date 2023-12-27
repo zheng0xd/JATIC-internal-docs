@@ -6,7 +6,7 @@
 
 This is the central location for all internal documentation within the JATIC program. 
 
-The primary audience is those who are working on the program, including developers, scrum masters, project managers, etc. 
+The primary audience for this documentation is those who are working on the program, including developers, scrum masters, project managers, etc. 
 
 The main objectives of this documentation are the following:
 

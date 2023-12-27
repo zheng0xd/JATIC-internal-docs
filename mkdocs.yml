@@ -29,6 +29,8 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
       primary: green
+extra_css:
+  - stylesheets/extra.css
 extra:
   social:
     - icon: fontawesome/brands/gitlab
@@ -106,9 +108,10 @@ nav:
       - 'Documentation':
         - docs/index.md
       - 'Products':
-        - guidelines/index.md
-        - 'Open-sourcing Guidelines': 'guidelines/open-source.md'
-        - 'Product Naming Guidelines': 'guidelines/naming.md'
+        - product-reqs/index.md
+        - 'Classification Policy': 'product-reqs/classification.md'
+        - 'Open-sourcing Guidelines': 'product-reqs/open-source.md'
+        - 'Product Naming Guidelines': 'product-reqs/naming.md'
   - 'Calendar': 
     - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
     - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
