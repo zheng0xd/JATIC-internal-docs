@@ -1,4 +1,4 @@
-# Open-sourcing Guidelines
+# Public Release Guidelines
 
 This page outlines a general policy towards public release, open-source, and open-collaboration for our program. It outlines the situations where open-source or public release of features are desirable, and the situations where they are not. 
 
@@ -57,7 +57,7 @@ For products that are publicly released, it is preferable that they use licenses
 
 If there is opportunity to choose a license for a new product (for instance, if the product began within the program, or previously has never been previously released externally), a discussion on the license should be held between the development team, the government, and the product owner.
 
-Permissive licenses such as Apache, MIT, or BSD are preferred. 
+Open-source permissive licenses such as Apache, BSD, MIT, are strongly preferred. 
 
 ## Public release / open-source process
 

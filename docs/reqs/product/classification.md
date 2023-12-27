@@ -2,7 +2,7 @@
 
 This page details the classification policy of products within the program, as well as consequent program limitations and risk controls
 
-## Classification level
+## Security classification level
 
 In order to most effectively meet capability needs, software products and other artifacts developed under the program will be unclassified.
 

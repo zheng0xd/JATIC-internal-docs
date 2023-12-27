@@ -113,7 +113,8 @@ nav:
       - 'Product':
         - reqs/product/index.md
         - 'Classification Policy': 'reqs/product/classification.md'
-        - 'Open-sourcing Guidelines': 'reqs/product/open-source.md'
+        - 'Data Rights & Licensing Policy': 'reqs/product/data-rights-licensing.md'
+        - 'Public Release Guidelines': 'reqs/product/public-release.md'
         - 'Product Naming Guidelines': 'reqs/product/naming.md'
   - 'Calendar': 
     - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
