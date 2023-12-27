@@ -17,7 +17,7 @@ docs_dir: docs
 theme:
   name: material
   features:
-    # - navigation.instant # disable when using offline mode
+    - navigation.instant # disable when using offline mode
     - navigation.tabs
     - navigation.sections
     - navigation.expand
@@ -46,7 +46,7 @@ theme:
 
 # MkDocs plugins
 plugins:
-  - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
+  # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
   - search
   - tags:
       tags_file: tags.md
