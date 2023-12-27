@@ -7,7 +7,7 @@ site_description: >-
 
 # Repo information
 repo_name: Gitlab
-repo_url: https://gitlab.jatic.net/docs
+repo_url: https://gitlab.jatic.net/docs # needs updating
 
 # Build information
 site_dir: public
@@ -56,12 +56,14 @@ extra_css:
   - stylesheets/extra.css
 extra: # These generate the footer
   social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:<CDAO-jatic@groups.mail.mil> 
     - icon: fontawesome/brands/gitlab
       link: https://gitlab.jatic.net/
     - icon: fontawesome/brands/slack
       link: https://cdaote.slack.com/
-    - icon: fontawesome/solid/envelope
-      link: mailto:<CDAO-jatic@groups.mail.mil> 
+    - icon: simple/mural # the mural link below needs to be updated with the latest program board each increment!
+      link: https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346 
   generator: false
 
 # Markdown extensions
@@ -81,7 +83,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 # Page tree
-nav: # Once indented lines become navigation tabs. Twice indented become sections in the right-hand navigation.
+nav: 
   - Home: 
     - index.md
     - Program Info:
@@ -139,8 +141,12 @@ nav: # Once indented lines become navigation tabs. Twice indented become section
     - Calendar: increment/3/calendar.md
     - Objectives: increment/3/objectives.md
     - Priority Engagements: increment/3/engagements.md
+    # the mural link below needs to be updated with the latest program board each increment!
+    - Link to Program Board: https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346 
     - Archive:
       - increment/archive/index.md
+  - Presentations: 
+    - presentations/index.md
   - Teams:
     - ARiA: teams/aria.md
     - IBM: teams/ibm.md
@@ -151,6 +157,3 @@ nav: # Once indented lines become navigation tabs. Twice indented become section
     - PM Team: teams/pm.md
     - System Team: teams/systems.md
     - TwoSix: teams/twosix.md
-  - Presentations: 
-    - presentations/index.md
-  - Program Board: https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346

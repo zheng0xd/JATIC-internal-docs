@@ -32,6 +32,6 @@ Similar to code, all work items should be easily viewable by the larger program 
 
 Our program's platform for program-level planning is MURAL, because of its excellent collaborative virtual whiteboarding features. Our major increment planning artifacts, including [program boards](https://miro.com/templates/safe-program-board/) and [ROAM boards](https://miro.com/templates/safe-roam-board/), will be created and continually updated on MURAL.
 
-!!! info
+!!! tip
 
-    The "Program Board" navigation tab in the top right will take you to current program board.
+    The MURAL icon in the bottom right of the page footer will take you to current program board.
