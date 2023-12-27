@@ -1,4 +1,4 @@
-# Key agile principles
+# Key Agile Principles
 
 We highlight three foundational agile principles which are most critical to success within our program's context.
 
