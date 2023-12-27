@@ -6,7 +6,7 @@ This section documents the shared processes, constructs, and tools that we use w
 
 !!! note
 
-    The items documented in this section are both technical and organizational. They include common methods of team organization, synchronized sprints, and usage of shared platforms.
+    The items documented in this section are both technical and organizational. They include common methods of team organization, synchronized sprints, and usage of common platforms.
 
 !!! tip
 

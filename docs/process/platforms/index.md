@@ -1,6 +1,6 @@
-# Shared Platforms
+# Common Platforms
 
-Shared platforms with collective adoption are critical for facilitating collaboration, coordination, information sharing, and situational awareness across a large, multi-organizational team-of-teams. 
+Common platforms with collective adoption are critical for facilitating collaboration, coordination, information sharing, and situational awareness across a large, multi-organizational team-of-teams. 
 
 Our program uses the following platforms for its work as much as is securely and practically possible.
 
