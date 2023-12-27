@@ -14,7 +14,7 @@ theme:
     - navigation.top
     - navigation.expand
     - navigation.sections
-    - navigation.path # this will only work on the Material for MkDocs insider's edition
+    - navigation.path # this currently only works on the Material for MkDocs insider's edition
   logo: assets/logo-white.png
   favicon: assets/logo-blue.png
   palette:
@@ -45,9 +45,6 @@ plugins:
   - search
   - tags:
       tags_file: tags.md
-#;  - git-revision-date-localized:
-#      enable_creation_date: true
-#      type: timeago
 markdown_extensions:
   - abbr
   - admonition
@@ -63,6 +60,7 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 nav:
+# Once indented lines become navigation tabs. Twice indented become sections in the right-hand navigation.
   - 'Home': 
     - index.md
     - 'Program Info':
@@ -83,7 +81,7 @@ nav:
       - 'RAVEN': 'products/raven.md'
       - 'XAITK': 'products/xaitk.md'
     - 'About this site' : 'about.md'
-  - 'Shared Processes': # this name seems reasonable
+  - 'Shared Processes': 
     - 'process/index.md'
     - 'Agile Methodology':
       - process/agile/index.md
@@ -98,9 +96,9 @@ nav:
     - 'Guides':
       - 'Gitlab for Agile Software Development': 'process/guides/gitlab-agile.md'
       - 'User Engagement Guide': 'process/guides/user-engagement.md'
-  - 'Requirements & Guidelines': # this name seems reasonable
+  - 'Requirements & Guidelines': 
       - reqs/index.md
-      - 'Software':
+      - 'Software': # each of these should be brought under the "reqs" folder eventually
         - sdp/index.md
         - 'Common Protocols': 'sdp/protocols.md'
         - 'Testing Requirements': 'sdp/testing-plan.md'
@@ -116,10 +114,12 @@ nav:
         - 'Data Rights & Licensing Policy': 'reqs/product/data-rights-licensing.md'
         - 'Public Release Guidelines': 'reqs/product/public-release.md'
         - 'Product Naming Guidelines': 'reqs/product/naming.md'
-  - 'Calendar': 
-    - 'Increment 3 (11 OCT 23 - 30 JAN 24)': 'calendar/inc3.md'
-    - 'Increment 4 (31 JAN 24 - 23 APR 24)': 'calendar/inc4.md'
-    - 'Increment 5 (24 APR 24 - 15 JUL 24)': 'calendar/inc5.md'
+  - 'Increment Details':
+    - 'Calendar': 'increment/3/calendar.md'
+    - 'Objectives': 'increment/3/objectives.md'
+    - 'Priority Engagements': 'calendar/inc5.md'
+    - 'Archive':
+      - increment/archive/index.md
   - 'Teams':
     - 'ARiA': 'teams/aria.md'
     - 'IBM': 'teams/ibm.md'
@@ -130,6 +130,6 @@ nav:
     - 'PM Team': 'teams/pm.md'
     - 'System Team': 'teams/systems.md'
     - 'TwoSix': 'teams/twosix.md'
-  - 'Presentations': # use to host all of our demo videos and presentations. need to figure out how to do this.
+  - 'Presentations': 
     - presentations/index.md
   - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
