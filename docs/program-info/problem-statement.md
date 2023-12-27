@@ -32,11 +32,9 @@ The formal documented need for our program comes from the following sources:
 1. *The National Artificial Intelligence Test & Evaluation Infrastructure Capability*, issued by CDAO in August 2023
 1. *Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence*, issued by President Joe Biden in October 2023
 
-We will refer to these documents as the *RAI S&I Pathway*, the *NAITIC Report*, and the *AI Executive Order*, respectively. 
+### *Responsible AI Strategy and Implementation Pathway* { data-toc-label="RAI S&I Pathway" }
 
-### RAI S&I Pathway
-
-The RAI S&I Pathway document outlines a series of specific near-term steps for the implementation of the DoD's AI ethical principles and Responsible AI foundational tenets. Tenet 2 of the Pathway clearly defines the capability need that our program seeks to address. 
+This document outlines a series of specific near-term steps for the implementation of the DoD's AI ethical principles and Responsible AI foundational tenets. Tenet 2 of the Pathway clearly defines the capability need that our program seeks to address. 
 
 In particular, Tenet 2 charges the CDAO, in coordination with OUSD(R&E) and DOT&E, to execute the following:
 
@@ -55,9 +53,9 @@ In particular, Tenet 2 charges the CDAO, in coordination with OUSD(R&E) and DOT&
 
     LOE 2.1.3: Create a test range environment and central repository of tools for T&E of Al, linking to existing and emerging equivalent DoD Component environments, that enables easy and continuous testing for DoD testers. Where appropriate, tools that are housed in this environment should comply with DoD Enterprise DevSecOps Reference Designs for portability across the Department.
 
-### NAITIC Report
+### *The National Artificial Intelligence Test & Evaluation Infrastructure Capability* { data-toc-label="NAITIC Report" }
 
-The NAITIC Report was developed in response to the Fiscal Year 23 Program Decision Memorandum, in which the Deputy Secretary of Defense and the Office of Cost Assessment and Program Evaluation requested more information to support data-driven decisions about AI T&E infrastructure investments at the DoD enterprise level.
+This report was developed in response to the Fiscal Year 23 Program Decision Memorandum, in which the Deputy Secretary of Defense and the Office of Cost Assessment and Program Evaluation requested more information to support data-driven decisions about AI T&E infrastructure investments at the DoD enterprise level.
 
 !!! quote 
 
@@ -65,11 +63,13 @@ The NAITIC Report was developed in response to the Fiscal Year 23 Program Decisi
 
     AI T&E capability is critical for responsible development and fielding of autonomous and artificial intelligence systems. DoD must target investments in this area at key gaps, leverage existing infrastructure in government, industry, and academia where possible, and ensure alignment of T&E investments at all levels—from the programs up to the enterprise—with a coherent vision. This study is essential to inform the decision space for AI T&E investments, and the TOR outlines criteria that will be used to evaluate the roadmap’s utility in this regard.
 
-The report concluded that "[T]here is widespread interest for DoD enterprise-level T&E infrastructure to address the novel and exacerbated challenges posed by the T&E of AI. While programs are currently investing locally in T&E resources … there is still a consistent desire across survey programs for DoD enterprise support."
+!!! quote
 
-### AI Executive Order
+    There is widespread interest for DoD enterprise-level T&E infrastructure to address the novel and exacerbated challenges posed by the T&E of AI. While programs are currently investing locally in T&E resources … there is still a consistent desire across survey programs for DoD enterprise support.
 
-The AI Executive Order recognized the extraordinary potential of AI and outlined a series of steps to ensure that our development and usage of the technology is safe and responsible. The below sections explicitly address the need for AI T&E and assurance capabilities to achieve this goal.
+### *Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence* { data-toc-label="AI Executive Order" }
+
+This executive order recognized the extraordinary potential of AI and outlined a series of steps to ensure that our development and usage of the technology is safe and responsible. The below sections explicitly address the need for AI T&E and assurance capabilities to achieve this goal.
 
 !!! quote
 
