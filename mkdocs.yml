@@ -41,11 +41,13 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:<cdao-jatic@mail.mil> # check that this is correct
   generator: false
-# plugins:
-#  - git-revision-date-localized:
-#      enable_creation_date: true
-#      type: timeago
-#  - git-authors
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
 markdown_extensions:
   - abbr
   - admonition
@@ -130,4 +132,3 @@ nav:
   - 'Presentations': # use to host all of our demo videos and presentations. need to figure out how to do this.
     - presentations/index.md
   - 'Program Board': https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
-

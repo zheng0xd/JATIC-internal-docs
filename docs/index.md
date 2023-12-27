@@ -1,8 +1,15 @@
+---
+tags:
+  - HTML5
+  - JavaScript
+  - CSS
+---
+
 # Welcome to the internal docs! &nbsp; :wave:
 
-!!! info inline end 
+!!! question inline end "Have something to add?"
 
-    Please contribute with merge requests if you would like to add more detail about your products or your team!
+    Please contribute with merge requests to add any information, clarify any sections, or fix any mistakes!
 
 This is the central location for all internal documentation within the JATIC program. 
 
