@@ -48,8 +48,6 @@ theme:
 plugins:
   # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
   - search
-  - social: # disable when generating documentation for offline use 
-      cards_layout: default/variant
   - tags:
       tags_file: tags.md
 
