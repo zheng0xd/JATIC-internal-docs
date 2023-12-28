@@ -1,15 +1,25 @@
 # Product Naming Guidelines
 
-This page establishes some guidelines in choosing names for products within our program. 
+This page establishes guidelines for choosing product names within our program. 
 
 !!! note
 
-    These guidelines does not apply to capabilities which already have well-established names. Those products definitely do not need to be renamed.
+    These guidelines do not apply to products which already have well-established names. Those products definitely do not need to be renamed.
 
 ## Guidelines
 
-- The program will continue to run for several years. Therefore, the naming of a product should consider its long-term audience, adoption, scope, and vision. 
-- Most of the products that are created within the program will be consumed at a diverse audience, including testers, developers, and researchers from government, open-source, academia, and industry. Therefore, the naming of a product should be understandable across this larger community. In particular, we prefer that products do not use "JATIC" within their name and similarly, do not use any words, acronyms, or phrases that don’t mean anything to the larger AI community within their name. For example, "CDAO", "T&E", and "TEVV" are primarily DoD acronyms, and therefore should be generally avoided. On the other hand, "Test & Evaluation", is generally understandable, and thus preferred. 
-- In the long-term, we envision that most teams will not [first learn about JATIC, and then find all of the tools], but rather [naturally find one of the tools, then perhaps find that its part of a larger set of AI assurance capabilities]. Therefore, products should have names are able to stand alone. 
-- The program's primary customers are DoD organizations. Therefore, naming of tools should consider conflict and overlap with other DoD programs and products.
-- The program plans to transition numerous tools from open-source and research with diverse backgrounds, and does not plan on renaming these tools. Therefore, the naming of capabilities within the program do not need to be standardized. Some tools may be a single word, providing little detail of their actual functioning (e.g., Gradient, Armory), while some maybe much more descriptive (e.g., Adversarial Robustness Toolbox, Explainable AI Toolkit).
+- Our program will run for several years. Product names should thus consider the **long-term scope, vision, adoption, and audience**.
+
+- Each product should have a name that is **understandable to a wide audience**.
+  
+  - Products developed within the program will be consumed by a [diverse audience](https://jatic.pages.jatic.net/internal-docs/process/guides/user-engagement/), including testers, developers, and researchers from government, open-source, academia, and industry. To ensure product names are easily understood by this broad community, please avoid using words, acronyms, or phrases that are primarily DoD acronyms (e.g. “CDAO”, “T&E”, and “TEVV”). Phrases such as “Test & Evaluation” that are more widely used are preferred.
+
+- Each product should have a name that can **stand alone**.
+
+  -  Some users will encounter individual products first before learning that they are one piece of our larger toolbox or program. To reduce confusion as users encounter individual products, we prefer that teams do not use “JATIC” within the product name.
+- Product names **do not need to be standardized**. 
+
+  - The  program plans to transition numerous products from open-source and research communities across diverse backgrounds. Such products with well-established names will not be renamed and there will be no requirements for standardization across the program. 
+  
+  - Some tools may be a single word that provides little detail of the actual function (e.g. Gradient, Armory) while others may be more descriptive (e.g. Adversarial Robustness Toolbox, Explainable AI Toolkit).
+- Since our primary customers are DoD organizations, please ensure that capability names **do not conflict or overlap** with other DoD programs and products.
