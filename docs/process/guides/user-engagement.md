@@ -3,6 +3,7 @@
 Frequent user engagement helps our program understand the mission tasks, needs, and interests of the wider DoD community - enabling us to better build products that meet their needs.
 
 This document covers the following topics:
+
 - The program's high-level strategy for user engagement
 - Key user-engagement categories and mechanisms for engaging different categories of users
 - Key responsibilities for user engagement
