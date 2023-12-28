@@ -1,9 +1,10 @@
 # Project information
 site_name: JATIC Internal Docs
-site_url: https://jatic.pages.jatic.net/docs
+site_url: https://jatic.pages.jatic.net/internal-docs/ 
 site_author: CDAO Assessment & Assurance
+# consider updating later, duplicative with site_name
 site_description: >-
-  Internal documentation for the CDAO JATIC program
+  Enabling AI test & evaluation across the DoD
 
 # Repo information
 repo_name: Gitlab
@@ -17,7 +18,7 @@ docs_dir: docs
 theme:
   name: material
   features:
-    - navigation.instant # disable when using offline mode
+    - navigation.instant # disable when generating documentation for offline use
     - navigation.tabs
     - navigation.sections
     - navigation.expand
@@ -48,6 +49,8 @@ theme:
 plugins:
   # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
   - search
+  - social: # disable when generating documentation for offline use 
+      cards_layout: default
   - tags:
       tags_file: tags.md
 
