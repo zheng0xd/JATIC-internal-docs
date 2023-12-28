@@ -2,7 +2,7 @@
 
 This is the central location for all internal documentation within the JATIC program!
 
-Please view on pages: [https://jatic.pages.jatic.net/docs/test-website/](https://jatic.pages.jatic.net/docs/test-website/)
+Please view on pages: [https://jatic.pages.jatic.net/internal-docs/](https://jatic.pages.jatic.net/internal-docs/)
 
 ## Running locally
 
