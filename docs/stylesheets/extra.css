@@ -1,3 +1,4 @@
+/*makes fonts slightly smaller and more aesthetic*/
 .md-typeset h1 {
     font-size: 1.8em; 
     margin-bottom: 0.64em;
@@ -19,4 +20,9 @@ p {
 }
 li {
     font-size: 0.875em; 
+}
+
+/*removes next and previous buttons on the bottom of the page*/
+.md-footer__inner:not([hidden]) {
+    display: none
 }
