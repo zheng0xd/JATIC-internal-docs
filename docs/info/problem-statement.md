@@ -1,8 +1,6 @@
 # Problem Statement
 
-There is widespread interest across the DoD for capabilities to address the novel challenges posed by the T&E of AI. 
-
-In this page, we outline some of the existing problems and consequent requirements.
+There is widespread interest across the DoD for capabilities to address the novel challenges posed by the T&E of AI. In this page, we outline some of the existing problems and consequent requirements.
 
 ## Previous limitations
 

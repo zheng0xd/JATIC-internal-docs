@@ -1,13 +1,59 @@
 # Products
 
-Our program provides several categories of products.
+!!! warning
 
-- **Python libraries for AI T&E**: Each of these libraries is a standalone product, narrowly scoped to a particular aspect of AI T&E. The lightweight and flexible nature of these libraries allows for easy deployment into your environment and integration into your MLOps pipeline. 
-- **A source of common types**: The `maite` library provides common types and protocols for AI objects such as models, datasets, and metrics. These types allow the development of seamless, synergistic workflows using multiple tools.
-- **An AI T&E Platform**: `RAVEN` is a data science platform for AI T&E, providing best-in-class open-source MLOps capabilities in an easy-to-deploy package. It may be particularly relevant for teams who have not already adopted an MLOps pipeline.
+    This page is under construction ... and we need your help!
 
-!!! note
-    
-    Which products are most relevant to your team will depend on your existing AI T&E pipeline, AI use case, testing requirements, mission requirements, etc. 
+Our program offers a wide range of product offerings that can be tailored to fit your environment and T&E requirements. 
 
-    With multiple products and product offerings in the program (each of which can standalone or operate together) you are able to tailor your AI T&E capabilities to fit your requirements. 
+<div class="grid cards" markdown>
+
+-   :material-shield: [**Armory**](armory.md)
+
+    ---
+
+    A testbed for scalable evaluations of adversarial attacks and defenses
+
+-   :fontawesome-solid-user-secret: [**Adversarial Robustness Toolbox**](art.md)
+
+    ---
+
+    Evaluate models against the adversarial threats of evasion, poisoning, extraction, and inference
+
+-   :material-vector-intersection: [**Data-Analysis Metrics Library**](daml.md)
+
+    ---
+
+    Characterize image datasets and their impact on model performance
+
+-   :material-chart-box: [**Gradient**](gradient.md)
+
+    ---
+
+    Programmatic data visualization and report generation of test and evaluation results
+
+-   :pirate_flag: [**MAITE**](maite.md)
+
+    ---
+
+    A library of common types, protocols, and utilities for test and evaluation
+
+-   :material-camera-iris: [**Natural Robustness Toolkit**](nrtk.md)
+
+    ---
+
+    Evaluate model robustness to perturbations such as focal length, aperture diameter, etc.
+
+-   :material-bird: [**RAVEN**](raven.md)
+
+    ---
+
+    An evaluation platform using best-in-class free and open-source software
+
+-   :material-magnify: [**XAITK**](xaitk.md)
+
+    ---
+
+    Explain model inferences using eXplainable AI visual saliency maps
+
+</div>

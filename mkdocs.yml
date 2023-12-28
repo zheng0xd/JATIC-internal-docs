@@ -3,7 +3,7 @@ site_name: JATIC Internal Docs
 site_url: https://jatic.pages.jatic.net/internal-docs/ 
 site_author: CDAO Assessment & Assurance
 site_description: >-
-  Accelerating AI test & evaluation
+  Enabling DoD AI test & evaluation
 
 # Repo information
 repo_name: Gitlab
@@ -89,6 +89,7 @@ nav:
     - Program Info:
       - info/index.md
       - Problem Statement: info/problem-statement.md
+      - Capability Overview: info/capability-overview.md
       - Design Principles: info/design-principles.md
       - Supported Applications: info/supported-applications.md
       - Supported Roles & Personas: info/supported-roles-personas.md
@@ -101,7 +102,6 @@ nav:
       - Gradient: products/gradient.md
       - MAITE: products/maite.md
       - NRTK: products/nrtk.md
-      - rAI Toolbox: products/rai-toolbox.md
       - RAVEN: products/raven.md
       - XAITK: products/xaitk.md
     - About this site : about.md

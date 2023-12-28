@@ -21,6 +21,9 @@ p {
 li {
     font-size: 0.875em; 
 }
+.md-typeset .grid.cards {
+    font-size: 1.15em;
+}
 
 /*removes next and previous buttons on the bottom of the page*/
 .md-footer__inner:not([hidden]) {
