@@ -1,8 +1,13 @@
-# test website
+# internal-docs
 
-[Link to pages: https://jatic.pages.jatic.net/docs/test-website/](https://jatic.pages.jatic.net/docs/test-website/)
+This is the central location for all internal documentation within the JATIC program!
+
+Please view on pages: [https://jatic.pages.jatic.net/docs/test-website/](https://jatic.pages.jatic.net/docs/test-website/)
+
+## Running locally
 
 To view this website locally, do the following:
+
 1. Install poetry through pip: `pip install poetry`
 2. Install project dependencies through poetry: 
    1. Navigate to the project directory then enter: `poetry install --no-root` "`--no-root`" prevents a somewhat meaningless error that occurs because there are no python files in the repo.
