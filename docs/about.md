@@ -24,9 +24,9 @@ The following is the full list of extensions that you can make use of within the
 - Annotations
 - Buttons
 - Content tabs
-- Emojis
 - Footnotes
 - Grids
+- Icons and emojis
 - Tooltips
 
 To read more, see Material for MkDoc's [Reference](https://squidfunk.github.io/mkdocs-material/reference/).
