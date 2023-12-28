@@ -10,7 +10,6 @@ The following is the full list of plugins and extensions that are enabled within
 
 - Search
 - Tags
-- Git revision date
 
 To read more, see Material for MkDoc's [Setup](https://squidfunk.github.io/mkdocs-material/setup/).
 
@@ -27,6 +26,7 @@ The following is the full list of extensions that you can make use of within the
 - Content tabs
 - Emojis
 - Footnotes
+- Grids
 - Tooltips
 
 To read more, see Material for MkDoc's [Reference](https://squidfunk.github.io/mkdocs-material/reference/).

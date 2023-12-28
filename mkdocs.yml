@@ -87,7 +87,7 @@ nav:
   - Home: 
     - index.md
     - Program Info:
-      - info/index.md
+      - info/index.md # potentiall redo this page to be an overview page with grid cards
       - Problem Statement: info/problem-statement.md
       - Capability Overview: info/capability-overview.md
       - Design Principles: info/design-principles.md
@@ -110,7 +110,7 @@ nav:
     - Agile Methodology:
       - process/agile/index.md
       - Key Principles: process/agile/principles.md
-      - Team Roles & Responsibilities: process/agile/roles.md
+      - Team Roles & Responsibilities: process/agile/roles.md # potentially add program roles here
       - Program-level Events: process/agile/program-events.md
       - Team-level Events: process/agile/team-events.md
     - Common Platforms:
