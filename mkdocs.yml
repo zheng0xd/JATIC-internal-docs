@@ -145,9 +145,9 @@ nav:
     - Guides:
       - Using Gitlab for Agile Planning: process/guides/gitlab-agile.md
       - User Engagement Guide: process/guides/user-engagement.md
-  - Policies & Guidelines: 
-      - policy/index.md
-      - For Software: # each of these should be brought under the "policy" folder eventually
+  - Requirements & Guidelines: 
+      - reqs/index.md
+      - Software Requirements: # each of these should be brought under the "reqs" folder eventually
         - sdp/index.md
         - Protocol Requirements: sdp/protocols.md
         - Testing Requirements: sdp/testing-plan.md
@@ -155,14 +155,16 @@ nav:
         - Software Requirements: sdp/software-requirements.md
         - Branch, Merge, Release Guidance: sdp/branch-merge-release.md
         - General Python Coding Guidelines: sdp/coding-guidelines.md
-      - For Documentation:
-        - policy/documentation/index.md
-      - For Products:
-        - policy/product/index.md
-        - Classification Policy: policy/product/classification.md
-        - Data Rights & Licensing Policy: policy/product/data-rights-licensing.md
-        - Product Naming Guidelines: policy/product/naming.md
-        - Public Release Guidelines: policy/product/public-release.md
+      - Documentation Requirements:
+        - reqs/documentation/index.md
+      - Product Requirements:
+        - reqs/product/index.md
+        - Classification Policy: reqs/product/classification.md
+        - Data Rights & Licensing Policy: reqs/product/data-rights-licensing.md
+        - Public Release Guidelines: reqs/product/public-release.md
+        - Product Naming Guidelines: reqs/product/naming.md
+  - Increment Info:
+    - Increment 3 (11 OCT 23 - 30 JAN 24): increment/3.md
   - Presentations: 
     - presentations/index.md 
     - Powerpoints:
