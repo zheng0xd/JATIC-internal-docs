@@ -1,17 +1,4 @@
 window.addEventListener('DOMContentLoaded', async function () {
-  async function get(url) {
-    const now = new Date().getTime();
-    const prevResp = JSON.parse(localStorage.getItem(url));
-    if (prevResp && Math.abs(now - prevResp.time) < 60000 * 60) {
-      return prevResp.data;
-    }
-    const resp = await fetch(url);
-    const json = await resp.json();
-    localStorage.setItem(url, JSON.stringify({ time: now, data: json }));
-    return json;
-  }
-
-  const colors = await get('https://raw.githubusercontent.com/ozh/github-colors/master/colors.json');
 
   const themes = {
     'light-default': {
@@ -41,7 +28,7 @@ window.addEventListener('DOMContentLoaded', async function () {
         <div style="font-size: 12px; margin-bottom: 16px; margin-top: 8px; color: ${theme.color}; flex: 1;">${data.description}</div>
         <div style="font-size: 12px; color: ${theme.color}; display: flex; flex: 0;">
           <div style="display: ${data.language ? 'flex' : 'none'}; align-items: center; margin-right: 16px;">
-            <span style="width: 12px; height: 12px; border-radius: 100%; background-color: ${data.language ? colors[data.language].color : ''}; display: inline-block; top: 1px; position: relative; margin-right: 0.2rem"></span>
+            <span style="width: 12px; height: 12px; border-radius: 100%; background-color: '#586069'; display: inline-block; top: 1px; position: relative; margin-right: 0.2rem"></span>
             <span>${data.language}</span>
           </div>
           <div style="display: ${data.stars === 0 ? 'none' : 'flex'}; align-items: center; margin-right: 16px;">
