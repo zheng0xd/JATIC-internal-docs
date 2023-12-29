@@ -1,0 +1,24 @@
+{% extends "main.html" %}
+{% block libs %}
+<script src="/javascripts/repo-card.js"></script>
+<link rel="stylesheet" href="/stylesheets/portfolio.css">
+{% endblock %}
+{% block content %}
+<section class="mdx-container portfolio-section">
+  <div class="md-grid md-typeset">
+    <div class="text-center">
+    </div>
+    <div class="grid">
+      <p class="card repo-card" data-repo="mit-ll-responsible-ai/responsible-ai-toolbox"></p>
+      <p class="card repo-card" data-repo="XAITK/xaitk-saliency"></p>
+      <p class="card repo-card" data-repo="twosixlabs/armory-library"></p>
+      <p class="card repo-card" data-repo="Trusted-AI/adversarial-robustness-toolbox"></p>
+      <p class="card repo-card" data-repo="aria-ml/daml"></p>
+      <p class="card repo-card" data-repo="mit-ll-ai-technology/maite"></p>
+      <p class="card repo-card" data-repo="Kitware/nrtk"></p>
+      <p></p>
+      <p></p>
+    </div>
+  </div>
+</section>
+{% endblock %}

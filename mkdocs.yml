@@ -1,13 +1,11 @@
 # Project information
 site_name: JATIC Internal Docs
-site_url: https://jatic.pages.jatic.net/internal-docs/ 
 site_author: CDAO Assessment & Assurance
 site_description: >-
   Enabling DoD AI test & evaluation
 
 # Repo information
-repo_name: Gitlab
-repo_url: https://gitlab.jatic.net/docs # needs updating
+repo_url: https://gitlab.jatic.net/jatic/internal-docs
 
 # Build information
 site_dir: public
@@ -16,6 +14,7 @@ docs_dir: docs
 # Theme configuration
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant # disable when generating documentation for offline use
     - navigation.tabs
@@ -107,6 +106,7 @@ nav:
       - RAVEN: products/raven.md
       - XAITK: products/xaitk.md
     - About this site : about.md
+  - Github: portfolio.md
   - Shared Processes: 
     - process/index.md
     - Agile Methodology:
