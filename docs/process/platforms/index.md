@@ -42,4 +42,4 @@ Our program's platform for program-level planning is MURAL, because of its excel
 
 !!! tip
 
-    The MURAL icon in the bottom right of the page footer will take you to current program board.
+    The MURAL icon in the page footer will take you to current program board!
