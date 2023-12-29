@@ -14,16 +14,14 @@ This section documents the shared processes, constructs, and tools that we use w
 
     This is a helpful section to read if you're just joining the program!
 
----
-
 <div class="grid cards" markdown>
 
 -   ###### :material-rotate-right: &nbsp; [Agile Methodology](agile/index.md) 
 
-    agile words
+    Roles, events, and practices for organizing software development
 
 -   ###### :octicons-stack-24: &nbsp; [Common Platforms](platforms/index.md) 
 
-    platforms words
+    Tools for communication, collaboration, devsecops, and planning
 
 </div>
