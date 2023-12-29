@@ -4,11 +4,21 @@ Common platforms with collective adoption are critical for facilitating collabor
 
 Our program uses the following platforms for its work as much as is securely and practically possible.
 
+<div class="grid cards" markdown>
+
+-   ###### :simple-slack: &nbsp; [Slack](https://cdaote.slack.com) 
+    
+    For discussions and huddles
+
+-   ###### :simple-gitlab: &nbsp; [Gitlab](https://gitlab.jatic.net) 
+
+    For code and project management
+
+</div>
+
 ## Communication
 
 Our program's communication platform is [Slack](https://cdaote.slack.com). Teams should ensure that they are quickly reachable within Slack and should use it for program communications as much as is securely possible. 
-
-[Slide into Slack! &nbsp; :simple-slack:](https://cdaote.slack.com){ .md-button .md-button--primary }
 
 ## Code
 
@@ -17,8 +27,6 @@ Our program's platform for code storage and CI/CD is the [JATIC Gitlab](https://
 !!! note
 
     Work that is transparent should be **visible, accessible, and understandable** - meaning that others can *locate it, access it, and recognize the content, context, and applicability of it*. 
-
-[Get into Gitlab! &nbsp; :simple-gitlab:](https://gitlab.jatic.net){ .md-button .md-button--primary }
 
 ## Project management
 

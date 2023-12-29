@@ -25,6 +25,14 @@ li {
     font-size: 1.15em;
 }
 
+/*sets style for h6 to be ~h2; to be used with grid cards*/
+.md-typeset h6 {
+    font-size: 1.2em;
+    margin-top: 0.83em;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
 /*removes next and previous buttons on the bottom of the page*/
 .md-footer__inner:not([hidden]) {
     display: none
