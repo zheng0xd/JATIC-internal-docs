@@ -10,13 +10,13 @@ We develop a wide range of product offerings that can be tailored to fit your en
 
 <div class="grid cards" markdown>
 
--   :material-shield: [**Armory**](armory.md)
-
-    A testbed for scalable evaluations of adversarial attacks and defenses
-
 -   :fontawesome-solid-user-secret: [**Adversarial Robustness Toolbox**](art.md)
 
     Evaluate models against the adversarial threats of evasion, poisoning, extraction, and inference
+
+-   :material-shield: [**Armory**](armory.md)
+
+    A testbed for scalable evaluations of adversarial attacks and defenses
 
 -   :material-vector-intersection: [**Data-Analysis Metrics Library**](daml.md)
 

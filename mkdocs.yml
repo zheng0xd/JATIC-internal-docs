@@ -99,8 +99,8 @@ nav:
   - Products:
     - products/index.md
     # consider removing these
-    - Armory: products/armory.md
     - Adversarial Robustness Toolbox: products/art.md
+    - Armory: products/armory.md
     - DAML: products/daml.md
     - Gradient: products/gradient.md
     - MAITE: products/maite.md
