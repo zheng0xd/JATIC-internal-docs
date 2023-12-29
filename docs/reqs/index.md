@@ -1,5 +1,5 @@
 # Requirements & Guidelines
-# :octicons-checklist-24:
+<!-- :octicons-checklist-24: -->
 
 This section of the docs goes over the requirements that must be met by all teams in the JATIC program. Additionally, we provide some guidelines, recommendation, and guides. 
 
@@ -14,7 +14,9 @@ All teams must comply with the requirements specified in this documentation, wit
 
 Our intention is for requirements to be reasonable and feasible. They are not intended to be onerous. They are meant to provide some guardrails against poor development practices and poor final products. They are also meant to ensure some level of consistency across tools created by our program. Some of the requirements are simply "opinions", a choice between several good options for consistency.
 
-The requirements can be changed. If any requirements seem wrong, infeasible, poorly chosen, overly difficult to adhere to, or otherwise cause strife, let program management know. Adding options for requirements is a common response to such issues.
+!!! info
+    
+    The requirements can be changed. If any requirements seem wrong, infeasible, poorly chosen, overly difficult to adhere to, or otherwise cause strife, let program management know. Adding options for requirements is a common response to such issues.
 
 ## Requirement Classification
 
