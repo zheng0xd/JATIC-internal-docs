@@ -14,7 +14,6 @@ docs_dir: docs
 # Theme configuration
 theme:
   name: material
-  custom_dir: overrides
   features:
     - navigation.instant # disable when generating documentation for offline use
     - navigation.tabs
@@ -87,7 +86,6 @@ markdown_extensions:
 nav: 
   - Home: 
     - index.md
-    - portfolio.md
     - Program Info:
       - info/index.md # potentially redo this page to be an overview page with grid cards
       - Problem Statement: info/problem-statement.md
@@ -96,18 +94,18 @@ nav:
       - Supported Applications: info/supported-applications.md
       - Supported Roles & Personas: info/supported-roles-personas.md
       - FAQ: info/faq.md
-    - Products:
-      - products/index.md
-      - Armory: products/armory.md
-      - Adversarial Robustness Toolbox: products/art.md
-      - DAML: products/daml.md
-      - Gradient: products/gradient.md
-      - MAITE: products/maite.md
-      - NRTK: products/nrtk.md
-      - RAVEN: products/raven.md
-      - XAITK: products/xaitk.md
     - About this site : about.md
-  - Github: portfolio.md
+  - Products:
+    - products/index.md
+    # consider removing these
+    - Armory: products/armory.md
+    - Adversarial Robustness Toolbox: products/art.md
+    - DAML: products/daml.md
+    - Gradient: products/gradient.md
+    - MAITE: products/maite.md
+    - NRTK: products/nrtk.md
+    - RAVEN: products/raven.md
+    - XAITK: products/xaitk.md
   - Shared Processes: 
     - process/index.md
     - Agile Methodology:
