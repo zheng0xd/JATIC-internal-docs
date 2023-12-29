@@ -121,9 +121,9 @@ nav:
     - Guides:
       - Gitlab for Agile Software Development: process/guides/gitlab-agile.md
       - User Engagement Guide: process/guides/user-engagement.md
-  - Requirements & Guidelines: 
-      - reqs/index.md
-      - Software: # each of these should be brought under the "reqs" folder eventually
+  - Policies & Guidelines: 
+      - policy/index.md
+      - For Software: # each of these should be brought under the "policy" folder eventually
         - sdp/index.md
         - Common Protocols: sdp/protocols.md
         - Testing Requirements: sdp/testing-plan.md
@@ -131,14 +131,14 @@ nav:
         - Software Requirements: sdp/software-requirements.md
         - Branch, Merge, Release Guidance: sdp/branch-merge-release.md
         - General Python Coding Guidelines: sdp/coding-guidelines.md
-      - Documentation:
-        - reqs/documentation/index.md
-      - Product:
-        - reqs/product/index.md
-        - Classification Policy: reqs/product/classification.md
-        - Data Rights & Licensing Policy: reqs/product/data-rights-licensing.md
-        - Product Naming Guidelines: reqs/product/naming.md
-        - Public Release Guidelines: reqs/product/public-release.md
+      - For Documentation:
+        - policy/documentation/index.md
+      - For Products:
+        - policy/product/index.md
+        - Classification Policy: policy/product/classification.md
+        - Data Rights & Licensing Policy: policy/product/data-rights-licensing.md
+        - Product Naming Guidelines: policy/product/naming.md
+        - Public Release Guidelines: policy/product/public-release.md
   - Increment Info:
     - increment/index.md
     - Calendar: increment/calendar.md
