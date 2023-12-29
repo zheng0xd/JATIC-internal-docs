@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # System team
 
 MITRE is the lead systems integrator for the JATIC program and is working as the ["System team"](https://scaledagileframework.com/system-team/) from the Scaled Agile Framework, but labeled as SysEng within JATIC. This covers the Software Development Plan (SDP), DevSecOps, security, infrastructure, product testing, product integration, and onboarding. 

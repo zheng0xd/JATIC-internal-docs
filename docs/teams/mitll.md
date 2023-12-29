@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # MIT-LL
 
 MIT-LL is building the MAITE, a set of common types, protocols, utilities, and tooling to support and facilitate other tools development within the AI Assurance Toolbox.

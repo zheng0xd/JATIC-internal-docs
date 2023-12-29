@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # ARiA
 
 [This board](https://gitlab.jatic.net/groups/jatic/aria/-/boards) can be used track ongoing work by this team.

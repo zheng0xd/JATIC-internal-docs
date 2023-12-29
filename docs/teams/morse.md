@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # MORSE
 
 | Name | Email | Role |

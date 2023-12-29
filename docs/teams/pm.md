@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # Program management team
 
 The PM team leads the program's team-of-teams. Its responsibilities include the following:

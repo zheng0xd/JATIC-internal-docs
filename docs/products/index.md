@@ -6,7 +6,7 @@ hide:
 
 # Products
 
-Our program offers a wide range of product offerings that can be tailored to fit your environment and T&E requirements. 
+We develop a wide range of product offerings that can be tailored to fit your environment and T&E requirements. 
 
 <div class="grid cards" markdown>
 

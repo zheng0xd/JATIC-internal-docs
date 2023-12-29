@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # IBM
 
 | Name | Email | Role |

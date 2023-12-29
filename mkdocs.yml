@@ -142,15 +142,16 @@ nav:
   - Increment Info:
     - increment/index.md
     - Calendar: increment/calendar.md
-  - Presentations: 
-    - presentations/index.md
+  #- Presentations: 
+  #  - presentations/index.md 
   - Teams:
+    - teams/index.md
     - ARiA: teams/aria.md
     - IBM: teams/ibm.md
     - Kitware: teams/kitware.md
     - MIT-LL: teams/mitll.md
     - MORSE: teams/morse.md
-    - Team MetroStar: teams/msqs.md
     - PM Team: teams/pm.md
     - System Team: teams/systems.md
+    - Team MetroStar: teams/msqs.md
     - TwoSix: teams/twosix.md

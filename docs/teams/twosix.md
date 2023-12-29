@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # TwoSix Technologies
 
 The TwoSix team is building Armory, a testbed for running scalable evaluations of adversarial defenses. 
