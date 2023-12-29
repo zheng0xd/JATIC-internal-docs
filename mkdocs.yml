@@ -87,6 +87,7 @@ markdown_extensions:
 nav: 
   - Home: 
     - index.md
+    - portfolio.md
     - Program Info:
       - info/index.md # potentially redo this page to be an overview page with grid cards
       - Problem Statement: info/problem-statement.md
