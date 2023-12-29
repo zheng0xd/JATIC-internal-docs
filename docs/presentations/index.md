@@ -4,12 +4,16 @@
 
     This section is under construction!
 
-## Example embedded video
+<div class="grid cards" markdown>
 
-<iframe src="https://streamable.com/e/yslhdu" allowfullscreen></iframe>
+- ###### [Program Overview (Distro C)](powerpoints/overview-distro-c.md)
 
-## Todo
+- ###### [Program Overview (Distro A)](powerpoints/overview-distro-a.md)
 
-- Set up `git-lfs` and move videos over to this docs repo
-- Figure out how to make the video bigger
-- Figure out how to make the video player capable of scrubbing (currently you can't skip around when using local videos) 
+- ###### Increment Demos
+
+- ###### Weekly Deep Dives
+
+- ###### Gitlab Lunch and Learns
+
+</div>

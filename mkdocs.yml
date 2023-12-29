@@ -39,13 +39,14 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
       primary: green
-  logo: assets/logo-white.png
-  favicon: assets/logo-blue.png
+  logo: assets/logos/cdao-white.png
+  favicon: assets/logos/cdao-blue.png
 
 # MkDocs plugins
 plugins:
   # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
   - search
+  - mkdocs-pdf
   - tags:
       tags_file: tags.md
 
@@ -139,11 +140,14 @@ nav:
         - Data Rights & Licensing Policy: policy/product/data-rights-licensing.md
         - Product Naming Guidelines: policy/product/naming.md
         - Public Release Guidelines: policy/product/public-release.md
+  - Presentations: 
+    - presentations/index.md 
+    - Powerpoints:
+      - Program Overview (Distro C): presentations/powerpoints/overview-distro-c.md
+      - Program Overview (Distro A): presentations/powerpoints/overview-distro-a.md
   - Increment Info:
     - increment/index.md
     - Calendar: increment/calendar.md
-  #- Presentations: 
-  #  - presentations/index.md 
   - Teams:
     - teams/index.md
     - ARiA: teams/aria.md
