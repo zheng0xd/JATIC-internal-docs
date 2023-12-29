@@ -87,13 +87,13 @@ nav:
   - Home: 
     - index.md
     - Program Info:
-      - info/index.md # potentially redo this page to be an overview page with grid cards
-      - Problem Statement: info/problem-statement.md
-      - Capability Overview: info/capability-overview.md
-      - Design Principles: info/design-principles.md
-      - Supported Applications: info/supported-applications.md
-      - Supported Roles & Personas: info/supported-roles-personas.md
-      - FAQ: info/faq.md
+      - program/index.md # potentially redo this page to be an overview page with grid cards
+      - Problem Statement: program/problem-statement.md
+      - Capability Overview: program/capability-overview.md
+      - Design Principles: program/design-principles.md
+      - Supported Applications: program/supported-applications.md
+      - Supported Roles & Personas: program/supported-roles-personas.md
+      - FAQ: program/faq.md
     - About this site : about.md
   - Products:
     - products/index.md
