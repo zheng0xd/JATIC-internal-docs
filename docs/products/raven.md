@@ -1,3 +1,8 @@
+---
+hide:
+- navigation
+---
+
 # RAVEN
 
 RAVEN is a Computer Vision Model Test & Evaluation Platform using best-in-class Free and Open-Source Software (FOSS). 

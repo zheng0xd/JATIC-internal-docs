@@ -1,3 +1,8 @@
+---
+hide:
+- navigation
+---
+
 # XAITK - Saliency
 
 The Explainable AI Toolkit (XAITK) contains a variety of tools and resources to help users, developers, and researchers understand complex machine learning models. 

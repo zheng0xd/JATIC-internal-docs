@@ -1,3 +1,8 @@
+---
+hide:
+- navigation
+---
+
 # Adversarial Robustness Toolbox (ART)
 
 Adversarial Robustness Toolbox (ART) is a Python library for Machine Learning Security. 

@@ -1,3 +1,8 @@
+---
+hide:
+- navigation
+---
+
 # MAITE (Modular AI Trustworthy Engineering)
 
 MAITE is a library of common types, protocols (a.k.a. structural subtypes), and utilities for test and evaluation of supervised machine learning models. 
