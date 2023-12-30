@@ -3,6 +3,7 @@ site_name: JATIC Internal Docs
 site_author: CDAO Assessment & Assurance
 site_description: >-
   Enabling DoD AI test & evaluation
+site_url: https://jatic.pages.jatic.net/internal_docs
 
 # Repo information
 repo_url: https://gitlab.jatic.net/jatic/internal-docs
@@ -43,6 +44,7 @@ theme:
 
 # MkDocs plugins
 plugins:
+  - social
   # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
   - search
   - mkdocs-pdf

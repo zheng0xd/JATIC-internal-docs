@@ -1,4 +1,4 @@
-# Welcome to the internal docs! &nbsp; :wave:
+# Welcome to the internal docs!
 
 !!! question inline end "Have something to add?"
 
