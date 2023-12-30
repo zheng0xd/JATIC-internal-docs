@@ -9,4 +9,4 @@ This page presents a short series of administrative steps for smooth offboarding
 
 !!! note 
 
-    Thank you for all of your work on the program! We should stay in touch!
+    Thank you for all of your work on the program! We should definitely stay in touch! :fontawesome-solid-face-smile-beam:

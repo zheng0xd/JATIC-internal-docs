@@ -30,4 +30,8 @@ With everything moving so quickly, we want to make sure that you have the help y
 
     A tutorial for using Gitlab Pages and `mkdocs` to generate static documentation
 
+-   ###### :fontawesome-solid-ship: &nbsp; [Offboarding Guide](offboarding.md)
+
+    A short series of administrative steps for smooth program offboarding 
+
 </div>
