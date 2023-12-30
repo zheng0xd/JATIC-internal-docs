@@ -29,7 +29,7 @@ theme:
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
-        icon: material/toggle-switch-off
+        icon: material/toggle-switch-off-outline
         name: Switch to light mode
       primary: indigo
     # Palette toggle for light mode
@@ -37,7 +37,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-      primary: green
+      primary: indigo
   logo: assets/logos/cdao-white.png
   favicon: assets/logos/cdao-blue.png
 
@@ -119,7 +119,6 @@ nav:
       - Slack Usage: process/platforms/slack.md
       - Gitlab Usage: process/platforms/gitlab.md
     - Guides:
-      - Requesting Support: process/guides/support.md
       - Using Gitlab for Agile Planning: process/guides/gitlab-agile.md
       - User Engagement Guide: process/guides/user-engagement.md
   - Policies & Guidelines: 
@@ -163,3 +162,6 @@ nav:
     - System Team: teams/systems.md
     - Team MetroStar: teams/msqs.md
     - TwoSix: teams/twosix.md
+  - Support: 
+    - support/index.md
+    - Onboarding Guide: support/onboarding.md

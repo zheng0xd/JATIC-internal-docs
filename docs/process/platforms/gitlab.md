@@ -17,6 +17,10 @@ An account can be created in two different ways.
 
 After successfully logging into your account, you will be required to setup two-factor authentication (2FA). Personal devices are authorized for 2FA use.
 
+??? note
+
+    If you're reading this, you probably already have access to Gitlab! Hopefully this can still be a helpful reference. :smile:
+
 ### Getting added to groups
 
 The program use Gitlab groups to provide team-based and role-based access control to different projects and repositories. These groups are also used for managing calendar invitations, so that invitations do not need to be updated or forwarded when new team members join. 
@@ -28,10 +32,6 @@ After you have logged in to Gitlab, ensure that your team admin or program suppo
     If Alex is onboarding as a scrum master with the IBM team, she will want to be added as a Developer on "TEAM - IBM" at `jatic/ibm` and "JATIC Scrum Masters" at `roles/scrummasters`.
 
     Because Alex was added to the groups "TEAM - IBM" and "JATIC Scrum Masters", she will automatically be sent meetings for their scrum meetings, as well as the scrum of scrums. 
-
-### Getting added to the program org chart
-
-To help others within the program contact you, please add yourself to the [TBD program org chart](../org-chart/) and open a merge request. 
 
 ### Setting up a personal access token
 
