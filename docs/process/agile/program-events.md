@@ -35,6 +35,10 @@ For more details on the scrum of scrums meeting or PO sync, see [Planning Interv
 
 ## Example PI calendar
 
+!!! tip
+
+    Check out the [Increment Info](../../increment/index.md) page for the current PI calendar and particular event details.
+
 | Week # | SUN | MON | TUE | WED | THU | FRI | SAT | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | | | | **Increment Start; Sprint 1 Start** | SoS | | | 
