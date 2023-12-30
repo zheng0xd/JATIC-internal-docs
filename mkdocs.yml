@@ -44,7 +44,7 @@ theme:
 
 # MkDocs plugins
 plugins:
-  - social
+  # - social
   # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
   - search
   - mkdocs-pdf

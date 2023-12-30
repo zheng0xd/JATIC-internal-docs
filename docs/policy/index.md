@@ -1,4 +1,4 @@
-# Policies & Guidelines
+# Policies & Guidelines &nbsp; :octicons-checklist-24:
 
 !!! warning
 

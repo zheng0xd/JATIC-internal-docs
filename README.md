@@ -14,7 +14,6 @@ To view this website locally, do the following:
       1. You can increase verbosity by adding -vvv (number of v's indicated level of verbosity) `poetry -vvv install --no-root`.
       1. If you have a hangup on Keyring, add to your bashrc `export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring` and re-source your bashrc.
    1. Wait until installation completes
-1. Install the [image processing dependencies](https://squidfunk.github.io/mkdocs-material/plugins/requirements/image-processing/). If you would not like to install these and still build locally, simply comments out the `- social` line under plugins within `mkdocs.yml`.
 1. Choose of the following:
    1. Navigate to the project directory then enter: `poetry run mkdocs serve`
    1. Run mkdocs within the poetry environment

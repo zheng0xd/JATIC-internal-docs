@@ -1,4 +1,4 @@
-# Shared Processes
+# Shared Processes &nbsp; :material-account-group:
 
 Our program creates many different software products across a large, multi-organizational team-of-teams. While it is inherently challenging to keep organized and coordinated across such a team, it's ultimately necessary to deliver capability at scale.
 
