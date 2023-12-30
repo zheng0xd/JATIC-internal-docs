@@ -16,12 +16,12 @@ This section documents the shared processes, constructs, and tools that we use w
 
 <div class="grid cards" markdown>
 
--   ###### :octicons-stack-24: &nbsp; [Common Platforms](platforms/index.md) 
-
-    Tools for communication, collaboration, devsecops, and planning
-
 -   ###### :material-rotate-right: &nbsp; [Agile Methodology](agile/index.md) 
 
     Roles, events, and practices for organizing software development
+
+-   ###### :octicons-stack-24: &nbsp; [Common Platforms](platforms/index.md) 
+
+    Tools for communication, collaboration, devsecops, and planning
 
 </div>

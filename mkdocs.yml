@@ -122,16 +122,16 @@ nav:
       - Program Overview (Distro A): presentations/powerpoints/overview-distro-a.md
   - Shared Processes: 
     - process/index.md
-    - Common Platforms:
-      - process/platforms/index.md
-      - Slack Usage: process/platforms/slack.md
-      - Gitlab Usage: process/platforms/gitlab.md
     - Agile Methodology:
       - process/agile/index.md
       - Key Principles: process/agile/principles.md
       - Team Roles & Responsibilities: process/agile/roles.md
       - Program-level Events: process/agile/program-events.md
       - Team-level Events: process/agile/team-events.md
+    - Common Platforms:
+      - process/platforms/index.md
+      - Slack Usage: process/platforms/slack.md
+      - Gitlab Usage: process/platforms/gitlab.md
     - Guides:
       - Using Gitlab for Agile Planning: process/guides/gitlab-agile.md
       - User Engagement Guide: process/guides/user-engagement.md
