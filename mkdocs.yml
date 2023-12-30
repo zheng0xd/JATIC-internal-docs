@@ -96,6 +96,13 @@ nav:
       - Supported Applications: program/applications.md
       - Supported Roles & Personas: program/roles-personas.md
       - FAQ: program/faq.md
+    - Increment Info:
+      - increment/index.md
+      - Calendar: increment/3/calendar.md
+      - Objectives: increment/3/objectives.md
+      - Previous Increments:
+        - Increment 2:
+          - Objectives: increment/2/objectives.md
     - About this site : about.md
   - Products:
     - products/index.md
@@ -108,18 +115,23 @@ nav:
     - NRTK: products/nrtk.md
     - RAVEN: products/raven.md
     - XAITK: products/xaitk.md
+  - Presentations: 
+    - presentations/index.md 
+    - Powerpoints:
+      - Program Overview (Distro C): presentations/powerpoints/overview-distro-c.md
+      - Program Overview (Distro A): presentations/powerpoints/overview-distro-a.md
   - Shared Processes: 
     - process/index.md
+    - Common Platforms:
+      - process/platforms/index.md
+      - Slack Usage: process/platforms/slack.md
+      - Gitlab Usage: process/platforms/gitlab.md
     - Agile Methodology:
       - process/agile/index.md
       - Key Principles: process/agile/principles.md
       - Team Roles & Responsibilities: process/agile/roles.md
       - Program-level Events: process/agile/program-events.md
       - Team-level Events: process/agile/team-events.md
-    - Common Platforms:
-      - process/platforms/index.md
-      - Slack Usage: process/platforms/slack.md
-      - Gitlab Usage: process/platforms/gitlab.md
     - Guides:
       - Using Gitlab for Agile Planning: process/guides/gitlab-agile.md
       - User Engagement Guide: process/guides/user-engagement.md
@@ -141,18 +153,6 @@ nav:
         - Data Rights & Licensing Policy: policy/product/data-rights-licensing.md
         - Product Naming Guidelines: policy/product/naming.md
         - Public Release Guidelines: policy/product/public-release.md
-  - Presentations: 
-    - presentations/index.md 
-    - Powerpoints:
-      - Program Overview (Distro C): presentations/powerpoints/overview-distro-c.md
-      - Program Overview (Distro A): presentations/powerpoints/overview-distro-a.md
-  - Increment Info:
-    - increment/index.md
-    - Calendar: increment/3/calendar.md
-    - Objectives: increment/3/objectives.md
-    - Archive:
-      - Increment 2:
-        - Objectives: increment/2/objectives.md
   - Teams:
     - teams/index.md
     - ARiA: teams/aria.md
