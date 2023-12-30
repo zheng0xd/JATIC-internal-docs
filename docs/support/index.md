@@ -26,4 +26,8 @@ With everything moving so quickly, we want to make sure that you have the help y
 
     A list of initial steps and resources to streamline onboarding
 
+-   ###### :material-gitlab: &nbsp; [Gitlab Pages Setup Guide](gitlab-pages-setup.md)
+
+    A tutorial for using Gitlab Pages and `mkdocs` to generate static documentation
+
 </div>

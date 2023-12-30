@@ -167,3 +167,4 @@ nav:
   - Support: 
     - support/index.md
     - Onboarding Guide: support/onboarding.md
+    - Gitlab Pages Setup Guide: support/gitlab-pages-setup.md
