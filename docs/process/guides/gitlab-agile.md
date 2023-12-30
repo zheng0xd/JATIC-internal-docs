@@ -1,4 +1,4 @@
-# Gitlab for Agile Software Development
+# Using Gitlab for Agile Planning
 
 This page provides program guidelines on the usage of Gitlab's features for agile. It is particularly focused on Scrum, but can also be adapted to Kanban. 
 

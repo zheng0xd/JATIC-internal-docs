@@ -119,7 +119,7 @@ nav:
       - Slack Usage: process/platforms/slack.md
       - Gitlab Usage: process/platforms/gitlab.md
     - Guides:
-      - Gitlab for Agile Software Development: process/guides/gitlab-agile.md
+      - Using Gitlab for Agile Planning: process/guides/gitlab-agile.md
       - User Engagement Guide: process/guides/user-engagement.md
   - Policies & Guidelines: 
       - policy/index.md
