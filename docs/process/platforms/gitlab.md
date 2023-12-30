@@ -15,11 +15,25 @@ An account can be created in two different ways.
 - Users with a `.mil`, `.gov`, or an FFRDC/UARC-affiliated email can self-register for an account at [https://gitlab.jatic.net](https://gitlab.jatic.net).
 - Users without such an email should contact program support to have an account created on their behalf. After the account is created, they will receive an email to confirm their email address and reset their password. 
 
-After successfully logging into your account, you will be required to setup two-factor authentication (2FA). Personal devices are authorized for 2FA use.
-
 ??? note
 
     If you're reading this, you probably already have access to Gitlab! Hopefully this can still be a helpful reference. :smile:
+
+### Requesting an account for someone else
+
+You can request an account for someone else by create an issue ticket within [`jatic/support`](https://gitlab.jatic.net/jatic/support/-/issues/new#) using the "onboarding" template. 
+
+After the account is created for them, they will receive an email to confirm their email address and reset their password.
+
+### Two-factor authentication
+
+After successfully logging into your account, you will be required to setup two-factor authentication (2FA). Personal devices are authorized for 2FA use.
+
+### Setting up a personal access token
+
+Since our Gitlab instance requires 2FA to login, you will need to set up a personal access token to authenticate with Git or the Gitlab API. See [Personal Access Tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) from Gitlab for more details. 
+
+If you are not familiar with using Git, feel free to ignore this step.
 
 ### Getting added to groups
 
@@ -32,10 +46,6 @@ After you have logged in to Gitlab, ensure that your team admin or program suppo
     If Alex is onboarding as a scrum master with the IBM team, she will want to be added as a Developer on "TEAM - IBM" at `jatic/ibm` and "JATIC Scrum Masters" at `roles/scrummasters`.
 
     Because Alex was added to the groups "TEAM - IBM" and "JATIC Scrum Masters", she will automatically be sent meetings for their scrum meetings, as well as the scrum of scrums. 
-
-### Setting up a personal access token
-
-Since our Gitlab instance requires 2FA to login, you will need to set up a personal access token to authenticate with Git or the Gitlab API. See [Personal Access Tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) from Gitlab for more details.
 
 ## Learning how to use Gitlab
 
@@ -58,7 +68,7 @@ If you are familiar with the Scrum or SAFe agile methodology, see [How to use Gi
 
 If you are more familiar with Github or Bitbucket for project management, see [Comparing Gitlab, Github, and Bitbucket terms](https://about.gitlab.com/blog/2017/09/11/comparing-confusing-terms-in-github-bitbucket-and-gitlab/) for a mapping of the different terminologies. 
 
-## Gitlab organization
+## Gitlab instance organization
 
 ### Groups and projects
 
@@ -88,7 +98,7 @@ To read more, see [Gitlab Runner](https://docs.gitlab.com/runner/) from Gitlab.
     
 Please do not post CUI into Gitlab. All information which is shared on Gitlab must be below CUI level. 
 
-For reference, our work within the JATIC program is generally below CUI, with some exceptions. 
+For reference, our work within the program is generally below CUI, with some exceptions. 
 
 ### Sharing outside Gitlab
 

@@ -67,7 +67,7 @@ Please send a request in the `#help` channel if you would like to set up a workf
 
 Please do not post CUI into Slack. All information which is shared on Slack must be below CUI level. 
 
-For reference, our work within the JATIC program is generally below CUI, with some exceptions.
+For reference, our work within the program is generally below CUI, with some exceptions.
 
 ### Direct messages outside of the workspace
 
