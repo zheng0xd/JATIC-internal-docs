@@ -4,7 +4,7 @@ This section provides up-to-date resources and information about the current pro
 
 <div class="grid cards" markdown>
 
--   ###### :material-calendar: &nbsp; [Calendar](calendar.md)
+-   ###### :material-calendar: &nbsp; [Calendar](3/calendar.md)
 
     Schedule of events for this program increment
 
@@ -12,7 +12,7 @@ This section provides up-to-date resources and information about the current pro
 
     MURAL board of goals, risks, and dependencies
 
--   ###### :material-bullseye-arrow: &nbsp; Objectives
+-   ###### :material-bullseye-arrow: &nbsp; [Objectives](3/objectives.md)
 
     Program-level increment objectives
 

@@ -18,7 +18,6 @@ theme:
     - navigation.instant # disable when generating documentation for offline use
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.indexes
     - navigation.path # this currently only works on the Material for MkDocs insider's edition
     - navigation.top
@@ -147,7 +146,11 @@ nav:
       - Program Overview (Distro A): presentations/powerpoints/overview-distro-a.md
   - Increment Info:
     - increment/index.md
-    - Calendar: increment/calendar.md
+    - Calendar: increment/3/calendar.md
+    - Objectives: increment/3/objectives.md
+    - Archive:
+      - Increment 2:
+        - Objectives: increment/2/objectives.md
   - Teams:
     - teams/index.md
     - ARiA: teams/aria.md
