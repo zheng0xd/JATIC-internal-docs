@@ -10,7 +10,7 @@ Our Slack workspace can be reached at [`https://cdaote.slack.com`](https://cdaot
 
 A request to the the Slack workspace can be made for yourself or made by a team member on your behalf. If you have already successfully joined Gitlab, you can make a request for yourself.
 
-1. Create an issue ticket within [`jatic/support`](https://gitlab.jatic.net/jatic/support/-/issues/new#) using the "onboarding" template. 
+1. Create an issue ticket within [`support`](https://gitlab.jatic.net/jatic/support/-/issues/new#) using the "onboarding" template. 
 1. Under the "Slack onboarding" section, add your:
     1. First name
     1. Last name

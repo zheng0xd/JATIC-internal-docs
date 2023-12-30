@@ -21,7 +21,7 @@ An account can be created in two different ways.
 
 ### Requesting an account for someone else
 
-You can request an account for someone else by create an issue ticket within [`jatic/support`](https://gitlab.jatic.net/jatic/support/-/issues/new#) using the "onboarding" template. 
+You can request an account for someone else by create an issue ticket within [`support`](https://gitlab.jatic.net/jatic/support/-/issues/new#) using the "onboarding" template. 
 
 After the account is created for them, they will receive an email to confirm their email address and reset their password.
 
