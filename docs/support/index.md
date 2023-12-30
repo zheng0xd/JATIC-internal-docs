@@ -12,12 +12,18 @@ With everything moving so quickly, we want to make sure that you have the help y
 
     Open a new issue in `support` to request new accounts or platform features!
 
--   ###### :fontawesome-solid-envelope: &nbsp; [`CDAO-jatic@groups.mail.mil`](mailto:<CDAO-jatic@groups.mail.mil>)
-
-    If all else fails ... you can always reach us on Outlook :fontawesome-solid-face-laugh-beam:
-
 </div>
 
-!!! tip
+??? question "What about product-specific support?"
 
-    For product support, such as problems integrating with a specific library, reach out on directly on Slack to the team! Each team has a public channel in which you can reach them.
+    For product support, such as problems integrating with a specific library, reach out on directly on Slack to the team! Each team has a public channel where you can reach them.
+
+## Guides by topic
+
+<div class="grid cards" markdown>
+
+-   ###### :material-compass: &nbsp; [Onboarding Guide](onboarding.md)
+
+    A list of initial steps and resources to streamline onboarding
+
+</div>
