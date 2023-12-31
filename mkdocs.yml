@@ -96,17 +96,19 @@ nav:
       - Supported Applications: program/applications.md
       - Supported Roles & Personas: program/roles-personas.md
       - FAQ: program/faq.md
-    - Increment Info:
+    - Increment Info: # needs to be updated each increment
       - increment/index.md
       - Calendar: increment/3/calendar.md
       - Objectives: increment/3/objectives.md
+      - Program Board (MURAL): https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346 
       - Previous Increments:
         - Increment 2:
           - Objectives: increment/2/objectives.md
-    - About this site : about.md
+    - Contributing: 
+      - contributing/index.md
+      - About the site: contributing/about.md
   - Products:
     - products/index.md
-    # consider removing these
     - Adversarial Robustness Toolbox: products/art.md
     - Armory: products/armory.md
     - DAML: products/daml.md

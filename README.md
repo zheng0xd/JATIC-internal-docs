@@ -6,7 +6,7 @@ Please view on pages at [https://jatic.pages.jatic.net/internal-docs/](https://j
 
 This project is the central location for all internal documentation within the JATIC program! It contains helpful guides, resources, and references aimed at the program's internal teams. 
 
-The aim of this project is to create a central set of useful documentation (as opposed to a sprawling assembly of docs in various states of disrepair). By putting all internal documentation in one place, we hope to make it both easier to find and easier to maintain.
+The aim of this project is to create a central set of useful documentation (as opposed to a sprawling assembly of docs in various states of disrepair). By putting all internal documentation in one place, we hope to make the information both easier to find and easier to maintain.
 
 This project is maintained by the program management team, but contributions of any relevant documentation is highly encouraged. Please see [CONTRIBUTING.md](contributing.md) for more details!
 
