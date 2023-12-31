@@ -1,16 +1,16 @@
 # Contributing
 
-In order to create a well-maintained, central, and useful set of documentation for the program, we highly encourage contributions to this project, including content modifications, suggestions, and (especially) additions. 
+To help create a well-maintained and useful set of documentation for the program, we highly encourage contributions, including content modifications, suggestions, and (especially) additions. 
 
-The main ways to contribute are by creating an issue or contributing content directly.
+The main ways to contribute are to create an issue or contribute content directly.
 
 ### Creating an issue
 
-[Create an issue](https://gitlab.jatic.net/jatic/internal-docs/-/issues) for any of the following:
+You can [create an issue](https://gitlab.jatic.net/jatic/internal-docs/-/issues) to do any of the following:
 
-- Suggesting additional content or pages that would be helpful to the program
-- Requesting a change or improvement 
-- Reporting a bug or documentation issue 
+- Suggest additional content that would be helpful
+- Request a change or improvement 
+- Report a bug or mistake 
 
 ### Contributing directly
 
