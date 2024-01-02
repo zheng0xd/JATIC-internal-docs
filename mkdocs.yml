@@ -141,7 +141,7 @@ nav:
       - policy/index.md
       - For Software: # each of these should be brought under the "policy" folder eventually
         - sdp/index.md
-        - Common Protocols: sdp/protocols.md
+        - Protocol Requirements: sdp/protocols.md
         - Testing Requirements: sdp/testing-plan.md
         - DevSecOps Requirements: sdp/devsecops.md
         - Software Requirements: sdp/software-requirements.md
