@@ -10,7 +10,7 @@ This page explains the design principles by which products within the program ar
 - **Extremely accessible and easy-to-use**: Users with limited AI/ML experience can quickly come up to speed on our products, enabled by excellent documentation and highly usable software.
 - **Useful defaults**: Useful default settings allow users to quickly get started and fine-tune as they learn more.
 - **Mature, stable, and secure**: Our products bring high levels of software maturity, stability, and security in order to be used within enterprise settings.
-- **Validated**: Outputs from our products are validated in order to support high-consequence T&E activities.
+- **Validated**: Functionality from our products is validated in order to support high-consequence T&E activities.
 - **Open-source**: Our products heavily make use of, build upon, and contribute to the open-source community. They are available freely with open-source licenses. No vendor lock-in, no reinventing the wheel. 
 
 *[HPC]: High-Performance Computing
