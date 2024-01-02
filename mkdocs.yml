@@ -104,9 +104,9 @@ nav:
       - Previous Increments:
         - Increment 2:
           - Objectives: increment/2/objectives.md
-    - Contributing: 
-      - contributing/index.md
-      - About the site: contributing/about.md
+    - About the site: 
+      - about/index.md
+      - Contributing: about/contributing.md
   - Products:
     - products/index.md
     - Adversarial Robustness Toolbox: products/art.md

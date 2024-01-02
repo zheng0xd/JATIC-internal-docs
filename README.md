@@ -8,7 +8,7 @@ This project is the central location for all internal documentation within the J
 
 The aim of this project is to create a central set of useful documentation (as opposed to a sprawling assembly of docs in various states of disrepair). By putting all internal documentation in one place, we hope to make the information both easier to find and easier to maintain.
 
-This project is maintained by the program management team, but contributions of any relevant documentation is highly encouraged. Please see [Contributing](https://jatic.pages.jatic.net/internal-docs/contributing/) for more details!
+This project is maintained by the program management team, but contributions of any relevant documentation is highly encouraged. Please see [Contributing](https://jatic.pages.jatic.net/internal-docs/about/contributing/) for more details!
 
 ## Running locally
 
