@@ -7,6 +7,8 @@ site_url: https://jatic.pages.jatic.net/internal_docs
 
 # Repo information
 repo_url: https://gitlab.jatic.net/jatic/internal-docs
+repo_name: jatic/internal-docs
+edit_uri: edit/main/docs/
 
 # Build information
 site_dir: public
@@ -26,6 +28,7 @@ theme:
     - search.highlight
     - search.suggest
     - search.share
+    - content.action.edit
   palette:
     # Palette toggle for dark mode
     - scheme: slate
