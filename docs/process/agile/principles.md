@@ -6,7 +6,7 @@ We highlight three foundational agile principles which are most critical to succ
 
 Products within our program involve multiple teams, each with different areas of expertise, experience, and focus. While each team is developing their own products, there will often exist areas of overlap and ambiguity between efforts, as well as areas for synergy and collaboration. 
 
-In order to be successful, teams must work collaboratively, directly connecting with each other in order to share findings, discover areas of synergy, and collaborate on products. In particular, teams should not allow the government to become a bottleneck in communication or collaboration with other teams (as it often can in government programs).
+In order to be successful, teams should work collaboratively and openly, directly connecting with each other in order to share findings, discover areas of synergy, and collaborate on products. In particular, teams should not allow the government to become a bottleneck in communication or collaboration with other teams (as it often can in government programs).
 
 ## Continuous learning and improvement
 
@@ -18,8 +18,8 @@ To read more, see [Continuous Learning Culture](https://scaledagileframework.com
 
 ## Iterative value delivery
 
-Products should not be made for their own sake, but rather should be aimed at delivering value by meeting the needs and requirements of the customer. Teams must organize their work around value delivery and impact towards this customer.
+Products should not be made for their own sake, but rather should be aimed at delivering value by meeting the needs and requirements of the customer. Teams should organize their work around value delivery towards this customer, and there should be a direct relationship between their needs and the work that gets done.
 
-Furthermore, iterative delivery presents opportunities for discovery of and re-prioritization to customer requirements, as well as opportunities for inter-team collaboration. Teams must deliver in-progress work items iteratively, in order to receive feedback from the customer, government, and larger program, as well as to allow greater opportunity for collaboration and coordination with other teams. 
+Furthermore, iterative delivery presents opportunities for discovery of and re-prioritization to customer requirements, as well as opportunities for inter-team collaboration. Teams should deliver in-progress work items iteratively, in order to receive feedback from the customer, government, and larger program, as well as to allow greater opportunity for collaboration and coordination with other teams. 
 
 To read more, see [Agile Product Delivery](https://scaledagileframework.com/agile-product-delivery) from SAFe.
