@@ -1,6 +1,9 @@
 # Kitware
 
-The Kitware team is building two products: 1) [XAITK Saliency](../products/xaitk.md), an open-source python library for visual saliency algorithm interfaces and implementations to support explainable AI, and 2) [NRTK](../products/nrtk.md), an open-source python library for validated scene- and sensor-specific perturbations for evaluating the robustness of computer vision models.
+The Kitware team is building:
+
+1. [XAITK Saliency](../products/xaitk.md), an open-source python library for visual saliency algorithm interfaces and implementations to support explainable AI
+2. [NRTK](../products/nrtk.md), an open-source python library for validated scene- and sensor-specific perturbations for evaluating the robustness of computer vision models.
 
 [This board](https://gitlab.jatic.net/groups/jatic/kitware/-/boards) can be used track ongoing work by this team. 
 
