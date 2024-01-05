@@ -18,6 +18,4 @@ You can contribute to the project directly by [opening a merge request](https://
 
 We recommend creating a new branch for your development and opening a merge request when you are satisfied. Your merge request will be reviewed by maintainers and integrated into the docs when approved!
 
-!!! note
-
-    If you plan to dedicate significant effort for a given merge request, consider first opening an issue to discuss what you want to add or change.
+**Note:** If you plan to dedicate significant effort for a given merge request, consider first opening an issue to discuss what you want to add or change.
