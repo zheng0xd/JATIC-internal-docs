@@ -30,7 +30,7 @@ We develop a wide range of product offerings that can be tailored to fit differe
 
     A library of common types, protocols, and utilities for test and evaluation
 
--   :material-camera-iris: [**Natural Robustness Toolkit (NRTK)**](nrtk.md)
+-   :material-camera-iris: [**Natural Robustness Toolkit**](nrtk.md)
 
     Evaluate model robustness to perturbations such as focal length, aperture diameter, etc.
 
@@ -38,7 +38,7 @@ We develop a wide range of product offerings that can be tailored to fit differe
 
     An evaluation platform using best-in-class free and open-source software
 
--   :material-magnify: [**Explainable AI Toolkit (XAITK)**](xaitk.md)
+-   :material-magnify: [**Explainable AI Toolkit**](xaitk.md)
 
     Explain model inferences using eXplainable AI visual saliency maps
 
