@@ -8,38 +8,20 @@
 
 -   [**ARiA**](aria.md)
 
-    :octicons-arrow-right-16:
-
 -   [**IBM**](ibm.md)
-
-    :octicons-arrow-right-16:
 
 -   [**Kitware**](kitware.md)
 
-    :octicons-arrow-right-16:
-
--   [**MIT-LL**](mitll.md)
-
-    :octicons-arrow-right-16:
+-   [**MIT Lincoln Laboratory**](mitll.md)
 
 -   [**MORSE**](morse.md)
 
-    :octicons-arrow-right-16:
-
--   [**PM Team**](pm.md)
-
-    :octicons-arrow-right-16:
+-   [**Program Management Team**](pm.md)
 
 -   [**Systems Team**](systems.md)
 
-    :octicons-arrow-right-16:
-
 -   [**Team MetroStar**](msqs.md)
 
-    :octicons-arrow-right-16:
-
 -   [**TwoSix**](twosix.md)
-
-    :octicons-arrow-right-16:
 
 </div>

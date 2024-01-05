@@ -1,4 +1,4 @@
-# Program management team
+# Program Management Team
 
 The PM team leads the program's team-of-teams. Its responsibilities include the following:
 
