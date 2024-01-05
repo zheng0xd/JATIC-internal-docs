@@ -9,3 +9,7 @@ The `nrtk` package is an open source toolkit for evaluating the natural robustne
 
 - [NRTK github](https://github.com/Kitware/nrtk)
 - [NRTK documentation](https://nrtk.readthedocs.io/)
+
+```
+pip install nrtk
+```

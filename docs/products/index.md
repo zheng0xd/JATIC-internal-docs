@@ -38,7 +38,7 @@ We develop a wide range of product offerings that can be tailored to fit differe
 
     An evaluation platform using best-in-class free and open-source software
 
--   :material-magnify: [**XAITK**](xaitk.md)
+-   :material-magnify: [**Explainable AI Toolkit**](xaitk.md)
 
     Explain model inferences using eXplainable AI visual saliency maps
 
