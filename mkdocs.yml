@@ -3,7 +3,7 @@ site_name: JATIC Internal Docs
 site_author: CDAO Assessment & Assurance
 site_description: >-
   Enabling DoD AI test & evaluation
-site_url: https://jatic.pages.jatic.net/internal_docs
+site_url: https://jatic.pages.jatic.net/internal-docs
 
 # Repo information
 repo_url: https://gitlab.jatic.net/jatic/internal-docs
