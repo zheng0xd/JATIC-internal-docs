@@ -6,7 +6,7 @@ MITRE is the lead systems integrator for the JATIC program and is working as the
 
 | Name | Email | Role |
 | ---- | ----- | ---- |
-| Shane Ficorilli | sficorilli@mitre.org | Team lead |
-| Tony Rice | arice@mitre.org | Development team member |
-| Chris Dillon | cdillon@mitre.org | Development team member |
-| Craig Sims | csims@mitre.org | Scrum master |
+| Shane Ficorilli | <sficorilli@mitre.org> | Team lead |
+| Tony Rice | <arice@mitre.org> | Development team member |
+| Chris Dillon | <cdillon@mitre.org> | Development team member |
+| Craig Sims | <csims@mitre.org> | Scrum master |

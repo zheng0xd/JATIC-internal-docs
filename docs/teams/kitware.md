@@ -11,12 +11,12 @@ The XAITK can be found internally at [`jatic/kitware/xaitk-cdao`](https://gitlab
 
 | Name | Email | Role |
 | ---- | ----- | ---- |
-| Brian Hu | brian.hu@kitware.com | Principal Investigator |
-| Paul Tunison | paul.tunison@kitware.com | Scrum Master |
-| Alex Lynch | alexander.lynch@kitware.com | | 
-| Emily Veenhuis | emily.veenhuis@kitware.com | |
-| Barry Ravichandran | bharadwaj.ravichandran@kitware.com | |
-| Brandon Richardwebster | b.richardwebster@kitware.com | |
-| Stephen Crowell | stephen.crowell@kitware.com | |
-| Mary Elise Dedicke | maryelise.dedicke@kitware.com | Technical writer/documentation expert |
-| Austin Whitesell | awhitesell@mitre.org | Product Owner |
+| Brian Hu | <brian.hu@kitware.com> | Principal Investigator |
+| Paul Tunison | <paul.tunison@kitware.com> | Scrum Master |
+| Alex Lynch | <alexander.lynch@kitware.com> | | 
+| Emily Veenhuis | <emily.veenhuis@kitware.com> | |
+| Barry Ravichandran | <bharadwaj.ravichandran@kitware.com> | |
+| Brandon Richardwebster | <b.richardwebster@kitware.com> | |
+| Stephen Crowell | <stephen.crowell@kitware.com> | |
+| Mary Elise Dedicke | <maryelise.dedicke@kitware.com> | Technical writer/documentation expert |
+| Austin Whitesell | <awhitesell@mitre.org> | Product Owner |

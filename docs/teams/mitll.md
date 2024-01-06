@@ -8,11 +8,11 @@ This product can be found internally at [`jatic/cdao/maite`](https://gitlab.jati
 
 | Name | Email | Role |
 | ---- | ----- | ---- |
-| Michael Yee | myee@ll.mit.edu | Product Owner |
-| Lei Hamilton | lei.hamilton@ll.mit.edu | Deputy Product Owner| 
-| Justin Goodwin | jgoodwin@ll.mit.edu | | 
-| Garrett Botkin | garrett.botkin@ll.mit.edu | | 
-| Manasi Sharma | manasi.sharma@ll.mit.edu | |
-| Jeffrey Arena | jeffrey.arena@ll.mit.edu | | 
-| Sanjeev Mohindra | smohindra@ll.mit.edu | |
-| Vince Mancuso | vincent.mancuso@ll.mit.edu | LL PM |
+| Michael Yee | <myee@ll.mit.edu> | Product Owner |
+| Lei Hamilton | <lei.hamilton@ll.mit.edu> | Deputy Product Owner| 
+| Justin Goodwin | <jgoodwin@ll.mit.edu> | | 
+| Garrett Botkin | <garrett.botkin@ll.mit.edu> | | 
+| Manasi Sharma | <manasi.sharma@ll.mit.edu> | |
+| Jeffrey Arena | <jeffrey.arena@ll.mit.edu> | | 
+| Sanjeev Mohindra | <smohindra@ll.mit.edu> | |
+| Vince Mancuso | <vincent.mancuso@ll.mit.edu> | LL PM |
