@@ -12,7 +12,7 @@ hide:
 | 22 OCT 23 | | PO Sync | Sprint 1 End | Sprint 2 Start | SoS | | | 
 | 29 OCT 23 | | PO Sync | | | SoS | | | 
 | 05 NOV 23 | | PO Sync | Sprint 2 End | Sprint 3 Start | SoS | _Veterans' Day_ | | 
-| 12 NOV 23 | | PO Sync  | | SoS | | | 
+| 12 NOV 23 | | PO Sync | | | SoS | | | 
 | 19 NOV 23 | | PO Sync | Sprint 3 End | Sprint 4 Start | _Thanksgiving Day_ | | | 
 | 26 NOV 23 | | PO Sync | | | SoS | | | 
 | 03 DEC 23 | | PO Sync | Sprint 4 End | Sprint 5 Start | SoS | | | 
