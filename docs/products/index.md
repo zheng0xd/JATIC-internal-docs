@@ -14,10 +14,6 @@ We develop a wide range of product offerings that can be tailored to fit differe
 
     Evaluate models against the adversarial threats of evasion, poisoning, extraction, and inference
 
--   :material-shield: [**Armory**](armory.md)
-
-    A testbed for scalable evaluations of adversarial attacks and defenses
-
 -   :material-vector-intersection: [**Data-Analysis Metrics Library**](daml.md)
 
     Characterize image datasets and their impact on model performance

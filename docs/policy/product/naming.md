@@ -18,4 +18,4 @@ This page establishes guidelines for choosing product names within our program.
     - To reduce confusion as users encounter individual products, we prefer that teams do not use “JATIC” within the product name.
 - Product names **do not need to be standardized**. 
     - The  program plans to transition numerous products from open-source and research. These products with well-established names will not be renamed and there will be no requirements for standardization across the program. 
-    - For example, some products may be a single word that provides little detail of the actual function (e.g. Gradient, Armory) while others may be more descriptive (e.g. Adversarial Robustness Toolbox, Explainable AI Toolkit).;
+    - For example, some products may be a single word that provides little detail of the actual function (e.g. Gradient) while others may be more descriptive (e.g. Adversarial Robustness Toolbox).;

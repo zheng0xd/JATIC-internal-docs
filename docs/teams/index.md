@@ -22,6 +22,4 @@
 
 -   [**Team MetroStar**](msqs.md)
 
--   [**TwoSix**](twosix.md)
-
 </div>
