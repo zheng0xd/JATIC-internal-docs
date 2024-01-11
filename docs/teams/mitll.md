@@ -14,6 +14,6 @@ This product can be found internally at [`jatic/cdao/maite`](https://gitlab.jati
 | Garrett Botkin | <garrett.botkin@ll.mit.edu> | Developer | 
 | Manasi Sharma | <manasi.sharma@ll.mit.edu> | Developer |
 | Jeffrey Arena | <jeffrey.arena@ll.mit.edu> | Developer | 
-| Sanjeev Mohindra | <smohindra@ll.mit.edu> | Developer |
 | Santiago Paredes | <santiago.paredes@ll.mit.edu> | Developer |
 | Vince Mancuso | <vincent.mancuso@ll.mit.edu> | MIT-LL Project Manager |
+| Sanjeev Mohindra | <smohindra@ll.mit.edu> | MIT-LL Group Leader |
