@@ -7,6 +7,6 @@ This page presents a short series of administrative steps for smooth offboarding
 1. **Remove mentions from internal documentation** - Remove references to the individual from internal product documentation, as well as the program's organization chart.
 1. **Close accounts** - Create an issue ticket within [`support`](https://gitlab.jatic.net/jatic/support/-/issues/new#) using the "user removal" template. Request account closure for Gitlab and Slack.
 
-!!! note 
+!!! note
 
     Thank you for all of your work on the program! We should definitely stay in touch! :fontawesome-solid-face-smile-beam:

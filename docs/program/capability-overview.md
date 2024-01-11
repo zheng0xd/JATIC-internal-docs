@@ -11,7 +11,7 @@ Our program provides several categories of products.
 - **An AI T&E Platform**: `RAVEN` is a data science platform for AI T&E, providing best-in-class open-source MLOps capabilities in an easy-to-deploy package. It may be particularly relevant for teams who have not already adopted an MLOps pipeline.
 
 !!! note
-    
+
     Which products are most relevant to your team will depend on your existing AI T&E pipeline, AI use case, testing requirements, mission requirements, etc. 
 
     With multiple products and product offerings in the program (each of which can standalone or operate together) you are able to tailor your AI T&E capabilities to fit your requirements. 

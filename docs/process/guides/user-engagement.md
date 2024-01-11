@@ -12,19 +12,20 @@ This document covers the following topics:
 
 Our user engagement strategy has the following objectives:
 
-- Identificication of priority AI domains, mission use cases, and T&E requirements across the DoD
-- Identificication of the above for key user groups
-- Promote clear traceability of these requirements from different users and organizations in our capability development process.
-- Supporting active collaboration between tool users & the team to create a consistent feedback loop that allows us to ensure our delivered capabilities address priority needs across the DoD. 
-- Developing, maintaining, and utilizing long-term partnerships with key users.
+- Identification of priority AI domains, mission use cases, and T&E requirements across the DoD
+- Identification of the above for key user groups
+- Promote clear traceability of these requirements from different users and organizations in our capability development process
+- Supporting active collaboration between tool users & the team to create a consistent feedback loop that allows us to ensure our delivered capabilities address priority needs across the DoD
+- Developing, maintaining, and utilizing long-term partnerships with key users
 
 Each engagement will broadly involve these tasks:
-1.  Sourcing and connecting with users (current or potential).
-2.  Sharing the high-level vision for the program.
-3.  Identifying T&E problems users are facing now or that they’re anticipating as they look to increase their adoption of AI. 
-4.  Describing the products that might solve those problems that have been identified.
-5.  Supporting users as they adopt our tools & capabilities.
-6.  Continued conversations with users to receive input on other features they desire that can help shape development for existing tools or provide demand signals for additional tools that should be built into the program.
+
+1. Sourcing and connecting with users (current or potential).
+2. Sharing the high-level vision for the program.
+3. Identifying T&E problems users are facing now or that they’re anticipating as they look to increase their adoption of AI.
+4. Describing the products that might solve those problems that have been identified.
+5. Supporting users as they adopt our tools & capabilities.
+6. Continued conversations with users to receive input on other features they desire that can help shape development for existing tools or provide demand signals for additional tools that should be built into the program.
 
 ## Key user engagement categories
 
@@ -154,7 +155,7 @@ Product owners serve a unique role in the user engagement process for both their
 
 The program management team’s responsibilities for user engagement include, but are not limited to:
 
-- Promoting the program across key user bases & identifying strategic opportunities for engagement. 
+- Promoting the program across key user bases & identifying strategic opportunities for engagement.
 - Lead higher-level "organization to organization" user engagements with key partners to establish MOUs or user agreements.
 - Developing acquisition strategies for new products based on demand signals provided by external users.
 - Providing high-level guidance to program teams about the priority use cases, exemplar users & personas that should be targeted on an annual & per increment basis.
@@ -162,7 +163,7 @@ The program management team’s responsibilities for user engagement include, bu
 - Working with Product Owners to ensure user communities are informed in a timely manner about the program & its capabilities. This includes overseeing outreach activities such as quarterly capability demos, weekly deep dives, program partnerships, etc.
 - Maintaining awareness of external engagements with key user groups to lead next-level engagements that require more formal commitments such as MOUs or user agreements.
 - Providing frequent summary of capabilities to DoD/CDAO leadership.
- 
+
 ### Development teams
 
 A development team’s responsibilities for user engagement include, but are not limited to:

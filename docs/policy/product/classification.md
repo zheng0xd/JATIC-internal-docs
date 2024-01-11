@@ -42,7 +42,7 @@ The program will implement a review process as detailed in the [Software Develop
 
 ### Datasets, models, and third-party software
 
-Development and testing will be driven by open-source datasets and models. 
+Development and testing will be driven by open-source datasets and models.
 
 No new data sources will be distributed within the program. Any examples, data samples, or pre-trained models that are used as examples within the program's documentation will be derived from open datasets or publicly available sources.
 

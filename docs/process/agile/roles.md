@@ -10,7 +10,7 @@ All of the blocks below are quotes from [Atlassian's Scrum Roles](https://www.at
 
 ## Development team
 
-Each development team is a cross-functional group of individuals, typically 5 - 10, with all of the skills necessary to deliver working software to our customers. 
+Each development team is a cross-functional group of individuals, typically 5 - 10, with all of the skills necessary to deliver working software to our customers.
 
 !!! quote
 
@@ -80,6 +80,6 @@ Teams within the program will have varying levels of familiarity and experience 
 
 Some emphasized or additional product owner responsibilities within our program's context include:
 
-- Roadmap creation: In addition to managing the scrum backlog for the short term, the product owner is also responsible for creating epics, together constituting a roadmap, for the longer term development of the product. This roadmap and long term vision for the product must be clearly communicated with the product team. 
+- Roadmap creation: In addition to managing the scrum backlog for the short term, the product owner is also responsible for creating epics, together constituting a roadmap, for the longer term development of the product. This roadmap and long term vision for the product must be clearly communicated with the product team.
 - Stakeholder coordination: The DoD has a huge number of stakeholders, many who are working in adjacent or overlapping spaces. In addition to stakeholder management to set priorities, the product owner must actively engage, coordinate, and collaborate with others working in the space to achieve adoption of our products.
-- Programmatic coordination: Since the JATIC program has multiple loosely coupled components, product owner is responsible for coordinating with the program manager and other product owners and managing the backlog to align their development to the broader vision. 
+- Programmatic coordination: Since the JATIC program has multiple loosely coupled components, product owner is responsible for coordinating with the program manager and other product owners and managing the backlog to align their development to the broader vision.

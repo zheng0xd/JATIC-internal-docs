@@ -6,12 +6,12 @@ This page explains the design principles by which products within the program ar
 
 - **Wide interoperability**: Our products work naturally with each other, with common ML frameworks, and with common MLOps platforms.
 - **Standalone and modular**: Each product is usable independently, but also fits within a larger, compatible, and modular tool suite.
-- **Straightforward deployment**: Users can easily deploy our products into their own environments at various classification levels, whether they are local machines, on-prem servers, cloud servers, or HPC. 
+- **Straightforward deployment**: Users can easily deploy our products into their own environments at various classification levels, whether they are local machines, on-prem servers, cloud servers, or HPC.
 - **Extremely accessible and easy-to-use**: Users with limited AI/ML experience can quickly come up to speed on our products, enabled by excellent documentation and highly usable software.
 - **Useful defaults**: Useful default settings allow users to quickly get started and fine-tune as they learn more.
 - **Mature, stable, and secure**: Our products bring high levels of software maturity, stability, and security in order to be used within enterprise settings.
 - **Validated**: Functionality from our products is validated in order to support high-consequence T&E activities.
-- **Open-source**: Our products heavily make use of, build upon, and contribute to the open-source community. They are available freely with open-source licenses. No vendor lock-in, no reinventing the wheel. 
+- **Open-source**: Our products heavily make use of, build upon, and contribute to the open-source community. They are available freely with open-source licenses. No vendor lock-in, no reinventing the wheel.
 
 *[HPC]: High-Performance Computing
 
@@ -25,7 +25,7 @@ Many of the products developed within the program are python libraries which add
 
 - **Narrow scope of functionality**: Each library has a narrow scope of functionality which is restricted to a particular AI T&E function, allowing easy integration into sophisticated and tailored pipelines.
 
-With heavy use of open-source, narrow functionality, and a lightweight form factor, these libraries are sufficiently flexible to be used across many different AI T&E workflows, ML technology stacks, and computing environments. 
+With heavy use of open-source, narrow functionality, and a lightweight form factor, these libraries are sufficiently flexible to be used across many different AI T&E workflows, ML technology stacks, and computing environments.
 
 !!! note
 

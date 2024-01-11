@@ -13,7 +13,7 @@ The XAITK can be found internally at [`jatic/kitware/xaitk-cdao`](https://gitlab
 | ---- | ----- | ---- |
 | Brian Hu | <brian.hu@kitware.com> | Principal Investigator |
 | Paul Tunison | <paul.tunison@kitware.com> | Scrum Master |
-| Alex Lynch | <alexander.lynch@kitware.com> | | 
+| Alex Lynch | <alexander.lynch@kitware.com> | |
 | Emily Veenhuis | <emily.veenhuis@kitware.com> | |
 | Barry Ravichandran | <bharadwaj.ravichandran@kitware.com> | |
 | Brandon Richardwebster | <b.richardwebster@kitware.com> | |

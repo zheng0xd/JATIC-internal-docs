@@ -16,4 +16,4 @@ Use a static website generator, such as Sphinx, Jekyll, or MkDocs to generate do
 
 For documentation that is publicly released, please host on [Read the Docs](https://docs.readthedocs.io/) or [Github Pages](https://pages.github.com/) when possible.
 
-For documentation that is not publicly released, please host using the Gitlab domain. 
+For documentation that is not publicly released, please host using the Gitlab domain.

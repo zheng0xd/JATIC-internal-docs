@@ -4,15 +4,15 @@ To help create a well-maintained and useful set of documentation for the program
 
 The main ways to contribute are to create an issue or contribute content directly.
 
-### Creating an issue
+## Creating an issue
 
 You can [create an issue](https://gitlab.jatic.net/jatic/internal-docs/-/issues) to do any of the following:
 
 - Suggest additional content that would be helpful
-- Request a change or improvement 
-- Report a bug or mistake 
+- Request a change or improvement
+- Report a bug or mistake
 
-### Contributing directly
+## Contributing directly
 
 You can contribute to the project directly by [opening a merge request](https://gitlab.jatic.net/jatic/internal-docs/-/merge_requests) on Gitlab. 
 

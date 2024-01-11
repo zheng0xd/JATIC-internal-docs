@@ -1,6 +1,6 @@
 # Public Release Guidelines
 
-This page outlines a general policy towards public release, open-source, and open-collaboration for our program. It outlines the situations where open-source or public release of features are desirable, and the situations where they are not. 
+This page outlines a general policy towards public release, open-source, and open-collaboration for our program. It outlines the situations where open-source or public release of features are desirable, and the situations where they are not.
 
 !!! note
 
@@ -11,8 +11,8 @@ This page outlines a general policy towards public release, open-source, and ope
 For clarity, we define some related but distinct terms.
 
 - We say that a project is **publicly released** when its software has been approved and released to the open internet.
-- We say that a project is **open-source** when its software and its source code have been approved and released to the open internet with a license that allows any user to use, change, and re-distribute the source code without restriction. 
-- We say that a project is **open-collaboration** when its software and its source code have been approved and released to the open internet, and has a policy which allows any capable internet user to participate in its development. 
+- We say that a project is **open-source** when its software and its source code have been approved and released to the open internet with a license that allows any user to use, change, and re-distribute the source code without restriction.
+- We say that a project is **open-collaboration** when its software and its source code have been approved and released to the open internet, and has a policy which allows any capable internet user to participate in its development.
 
 !!! example
 
@@ -29,7 +29,7 @@ The program aims to use public release, open-source, and open-collaboration to a
 1. maintain compatibility and relevancy with other products
 1. reduce bugs by getting more eyes on the code
 1. increase trust and transparency of products
-1. increase adoption of open and common standards 
+1. increase adoption of open and common standards
 1. get feedback and contributions from the larger AI community
 1. establish positive DoD and CDAO image within the space
 
@@ -39,9 +39,9 @@ On the other hand, there are situations where public release, open-source, and o
 1. reduce industry competitive incentives
 1. provide potential for malicious contributions
 
-Case-by-case determinations of public release and open-source will attempt to strike a balance between these factors. 
+Case-by-case determinations of public release and open-source will attempt to strike a balance between these factors.
 
-**In general, we would like to publicly release, open-source, and allow open-collaboration on as much of what we develop within the program as possible.** 
+**In general, we would like to publicly release, open-source, and allow open-collaboration on as much of what we develop within the program as possible.**
 
 Some products may need to maintain a publicly released version, as well as modules that are kept internal for DoD use. The most common instance where this is not possible will be when a feature is directly requested by a DoD organization and is uniquely relevant to their mission application. In cases like these, we would like to develop a project construct which allows us to still achieve the benefits of public release for the rest of the capability.
 
@@ -57,7 +57,7 @@ For products that are publicly released, it is preferable that they use licenses
 
 If there is opportunity to choose a license for a new product (for instance, if the product began within the program, or previously has never been previously released externally), a discussion on the license should be held between the development team, the government, and the product owner.
 
-Open-source permissive licenses such as Apache, BSD, MIT, are strongly preferred. 
+Open-source permissive licenses such as Apache, BSD, MIT, are strongly preferred.
 
 ## Public release / open-source process
 
@@ -78,14 +78,14 @@ Please follow these two principles when synchronizing with other versions or bra
 
 ## Project-specific release strategies
 
-This page does not provide specific guidance on the details, technical processes, or schedule to follow for public release or open-source. 
+This page does not provide specific guidance on the details, technical processes, or schedule to follow for public release or open-source.
 
 **Each project must create a release strategy that documents the particular details for their project. This document must be approved by the program prior to any public releases of the project.**
 
 At the very least, this document should discuss:
 
 - general strategy for public release, open-source, and open-collaboration
-- internal and public release cadence 
+- internal and public release cadence
 - target platforms for public release, open-source, and open-collaboration
 - strategy for synchronization with upstream versions or branches
 - strategy for reviewing pull requests from internet

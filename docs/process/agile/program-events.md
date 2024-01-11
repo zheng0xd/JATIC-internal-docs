@@ -2,7 +2,7 @@
 
 In order to coordinate development efforts across its teams, our program uses recurring planning events at different time-horizons. These events closely follow Essential SAFe.
 
-This page outlines the program-wide events that take place across a program increment. 
+This page outlines the program-wide events that take place across a program increment.
 
 !!! note
 
@@ -10,9 +10,9 @@ This page outlines the program-wide events that take place across a program incr
 
 ## Cadence
 
-The program follows a quarterly cadence for its mid-term planning. We call each of these quarters a *program increment (PI)*. 
+The program follows a quarterly cadence for its mid-term planning. We call each of these quarters a *program increment (PI)*.
 
-The program follows a biweekly cadence for its short-term planning. We call each of these periods a *sprint*. 
+The program follows a biweekly cadence for its short-term planning. We call each of these periods a *sprint*.
 
 Sprints start on a Wednesday morning and end on a Tuesday night. Generally, there are 6 sprints per program increment, except for the fourth quarter of the year, in which there are 8 sprints.
 
@@ -39,18 +39,18 @@ For more details on the scrum of scrums meeting or PO sync, see [Planning Interv
 
     Check out the [Increment Info](../../increment/index.md) page for the current PI calendar and particular event details.
 
-| Week # | SUN | MON | TUE | WED | THU | FRI | SAT | 
+| Week # | SUN | MON | TUE | WED | THU | FRI | SAT |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | | | | **Increment Start; Sprint 1 Start** | SoS | | | 
-| 2 | | PO Sync | | | SoS | | | 
-| 3 | | PO Sync | Sprint 1 End | Sprint 2 Start | SoS | | | 
-| 4 | | PO Sync | | | SoS | | | 
-| 5 | | PO Sync | Sprint 2 End | Sprint 3 Start | SoS | | | 
-| 6 | | PO Sync | | | SoS | | | 
-| 7 | | PO Sync | Sprint 3 End | Sprint 4 Start | SoS | | | 
-| 8 | | PO Sync | | | SoS | | | 
-| 9 | | PO Sync | Sprint 4 End | Sprint 5 Start | SoS | | | 
-| 10 | | PO Sync | | | SoS | | | 
-| 11 | | PO Sync | Sprint 5 End | Sprint 6 Start | SoS | | | 
-| 12 | | PO Sync | **Increment Demo** | **Increment Retrospective** | **Increment Planning** | **Increment Planning** | | 
-| 13 | | | **Sprint 6 End; Increment End** | | | | | 
+| 1 | | | | **Increment Start; Sprint 1 Start** | SoS | | |
+| 2 | | PO Sync | | | SoS | | |
+| 3 | | PO Sync | Sprint 1 End | Sprint 2 Start | SoS | | |
+| 4 | | PO Sync | | | SoS | | |
+| 5 | | PO Sync | Sprint 2 End | Sprint 3 Start | SoS | | |
+| 6 | | PO Sync | | | SoS | | |
+| 7 | | PO Sync | Sprint 3 End | Sprint 4 Start | SoS | | |
+| 8 | | PO Sync | | | SoS | | |
+| 9 | | PO Sync | Sprint 4 End | Sprint 5 Start | SoS | | |
+| 10 | | PO Sync | | | SoS | | |
+| 11 | | PO Sync | Sprint 5 End | Sprint 6 Start | SoS | | |
+| 12 | | PO Sync | **Increment Demo** | **Increment Retrospective** | **Increment Planning** | **Increment Planning** | |
+| 13 | | | **Sprint 6 End; Increment End** | | | | |

@@ -2,7 +2,7 @@
 
 In order to iteratively develop and deliver software, the program creates a recurring series of short-term planning events in which work is committed to and completed. These events closely follow Essential SAFe.
 
-This page outlines the team-wide events that take place across a program increment. 
+This page outlines the team-wide events that take place across a program increment.
 
 !!! note
 
@@ -10,11 +10,11 @@ This page outlines the team-wide events that take place across a program increme
 
 ## Cadence
 
-The program follows a biweekly cadence for its short-term planning. We call each of these periods a *sprint*. Sprints start on a Wednesday morning and end on a Tuesday night. 
+The program follows a biweekly cadence for its short-term planning. We call each of these periods a *sprint*. Sprints start on a Wednesday morning and end on a Tuesday night.
 
 ### Example sprint calendar
 
-| Day | Events | 
+| Day | Events |
 | --- | --- |
 | Day 1 - WED | Sprint planning |
 | Day 2 - THU | Stand-up |
@@ -44,13 +44,13 @@ The program follows a biweekly cadence for its short-term planning. We call each
 
 Sprint planning is a meeting held at the beginning of each sprint where the team comes together to decide on the sprint's objectives and make commitments to the work that will be completed within the sprint.
 
-Commitments made during sprint planning are based on the team's capacity and the team's top prioritized issues. These issues are prioritized by the team's overall increment objectives, any feedback from previous sprints, and the overall product vision (maintained by the product owner). 
+Commitments made during sprint planning are based on the team's capacity and the team's top prioritized issues. These issues are prioritized by the team's overall increment objectives, any feedback from previous sprints, and the overall product vision (maintained by the product owner).
 
 An example meeting agenda for sprint planning may be the following:
 
 - Determine the work capacity of the team, considering travel, leave, etc.
 - Review prioritized and refined backlog issues
-- Estimate issue weights 
+- Estimate issue weights
 - Create the sprint goal(s)
 - Commit to issues and goal(s) for the sprint
 
@@ -73,7 +73,7 @@ To read more, see the [Iteration Planning](https://scaledagileframework.com/iter
 
 ### Description
 
-The daily stand-up is a time for team members to discuss their progress since the last stand-up, their plans for the day, and any obstacles they're facing. 
+The daily stand-up is a time for team members to discuss their progress since the last stand-up, their plans for the day, and any obstacles they're facing.
 
 !!! note
 
@@ -94,22 +94,22 @@ To read more, see the [Iteration Execution](https://v5.scaledagileframework.com/
 
 Backlog refinement is a meeting where the team collaboratively review, refine, prioritize, and flesh out issues within the product backlog. It is informed by any feedback received from stakeholders during the sprint review, any adjustments to scope or priorities at the program or team level, and any technical considerations which have become clear.
 
-For a refined issue, the team should have a good understanding of its technical dependencies and difficulty, its estimated time, its priority, and how it contributes to the team's objectives. By collaboratively bringing the team together for backlog refinement, the team is best able to develop a shared, holistic, and accurate understanding of an issue. 
+For a refined issue, the team should have a good understanding of its technical dependencies and difficulty, its estimated time, its priority, and how it contributes to the team's objectives. By collaboratively bringing the team together for backlog refinement, the team is best able to develop a shared, holistic, and accurate understanding of an issue.
 
 To read more, see the [Backlog Refinement](https://www.atlassian.com/agile/scrum/backlog-refinement) from Atlassian.
 
 ## Sprint review (Day 14)
 
-### Details 
+### Details
 
 - **Attendees:** Product owner, scrum master, development team, relevant stakeholders
 - **Inputs:** Completed issues from sprint and demonstrations of their functionality, sprint goals
-- **Outputs:** Stakeholder, product owner, and team feedback on demoed functionality 
+- **Outputs:** Stakeholder, product owner, and team feedback on demoed functionality
 - **Recommended time:** 30 minutes - 1 hour
 
 ### Description
 
-Sprint review is a meeting held at the end of each sprint where the development team demonstrates the work completed during the sprint. 
+Sprint review is a meeting held at the end of each sprint where the development team demonstrates the work completed during the sprint.
 
 An example meeting agenda for sprint review may be the following:
 

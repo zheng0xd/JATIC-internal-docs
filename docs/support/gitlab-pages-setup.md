@@ -4,13 +4,14 @@ The Gitlab Pages functionality allows a project in Gitlab to generate a static w
 
 It's possible to generate static websites with many different packages, but the process described here specifically focuses on using `mkdocs`.
 
-!!! example 
+!!! example
 
     This site is generated with Gitlab Pages from the `internal-docs` project  on Gitlab. You can find the project using the top right "Gitlab" link.
 
 ## Steps to set up pages
 
 ### 1. Enable CI/CD for the Project
+
 1. In the Project, on the left side of the page go to Settings.
 1. Expand "Visibility, project features, permissions".
 1. Enable CI/CD (click the toggle) and click Apply at the end of the list of items. The page will refresh, showing new options.
@@ -19,6 +20,7 @@ It's possible to generate static websites with many different packages, but the 
 1. Ensure that the are available runners to execute the job.
 
 ### 2. Create `requirements.txt`, `mkdocs.yml`, and `.gitlab-ci.yml`
+
 1. Create a new file in the project root called `requirements.txt` and copy the followingCopy the following into a new file named 
 ```
 mkdocs>=1.1.2

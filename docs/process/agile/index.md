@@ -8,4 +8,4 @@ Within this framework, our program is defined as a single [Agile Release Train](
 
     While these products ultimately need to be complimentary in scope and operate interoperably, the standalone nature of each product greatly simplifies interdependencies and integration. 
 
-In this section, we outline the roles, events, practices, and principles that constitute our agile software development methodology. 
+In this section, we outline the roles, events, practices, and principles that constitute our agile software development methodology.

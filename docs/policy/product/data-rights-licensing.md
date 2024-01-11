@@ -4,7 +4,7 @@
 
 The Government shall have **government purpose rights** over the source code, technical data, and artifacts created from a contract within the program.
 
-These shall be all items necessary to compile, test, secure, deploy, and operate the software, including: 
+These shall be all items necessary to compile, test, secure, deploy, and operate the software, including:
 
 - all appropriate documentation, including setup guides, reference architectures, interface control documents, and example use cases
 - all appropriate technical information on the development, build, and operation of the software, including requirements versioning, dependencies, development environment, build automation software, etc. 

@@ -1,6 +1,6 @@
 # About the program
 
-The Joint AI T&E Infrastructure Capability (JATIC) program develops software products for AI Test & Evaluation (T&E) and AI Assurance. 
+The Joint AI T&E Infrastructure Capability (JATIC) program develops software products for AI Test & Evaluation (T&E) and AI Assurance.
 
 !!! info "Program objective"
 

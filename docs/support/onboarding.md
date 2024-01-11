@@ -27,4 +27,3 @@ As you are onboarding, these resources should provide you with a solid foundatio
     Please reach out if you have any questions or need any help during the onboarding process!
 
     We're also always interested to hear any feedback about what went well, what was confusing, and how we can improve for the next time.
-    

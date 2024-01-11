@@ -1,6 +1,6 @@
 # Using Gitlab for Agile Planning
 
-This page provides program guidelines on the usage of Gitlab's features for agile. It is particularly focused on Scrum, but can also be adapted to Kanban. 
+This page provides program guidelines on the usage of Gitlab's features for agile. It is particularly focused on Scrum, but can also be adapted to Kanban.
 
 ## Issues
 
@@ -10,9 +10,9 @@ Issues are used to represent user stories or work items. As an issue moves throu
 
 #### Added to the backlog
 
-An issue added to the product backlog can simply be a neat idea, unrelated to the current objectives. 
+An issue added to the product backlog can simply be a neat idea, unrelated to the current objectives.
 
-Issues which require more information, scoping, or decomposition should be labeled as `stub`. 
+Issues which require more information, scoping, or decomposition should be labeled as `stub`.
 
 #### Fully refined
 
@@ -37,7 +37,7 @@ After starting to actively work on an issue, the assignee should change its stat
 
 #### Opened merge request
 
-After opening a merge request (MR) that fulfills an issue, the assignee should change its status to `status::in review`. 
+After opening a merge request (MR) that fulfills an issue, the assignee should change its status to `status::in review`.
 
 #### Issue closed
 
@@ -59,17 +59,17 @@ Weights are standardized across all teams and follow the Fibonacci sequence. Sto
 
 | Weight | Approximate hours |
 | --- | --- |
-| 1	| 0-4 hours |
-| 2	| 4-8 hours |
-| 3	| 8-16 hours |
-| 5	| 16-32 hours |
-| 8	| 32-64 hours |
+| 1 | 0-4 hours |
+| 2 | 4-8 hours |
+| 3 | 8-16 hours |
+| 5 | 16-32 hours |
+| 8 | 32-64 hours |
 
 To read more, see [Story points and estimation](https://www.atlassian.com/agile/project-management/estimation) from Atlassian.
 
 ## Merge requests
 
-Many issues will create changes which must be incorporated into the larger project. These changes should be incorporated using a Merge request (MR). 
+Many issues will create changes which must be incorporated into the larger project. These changes should be incorporated using a Merge request (MR).
 
 Merge requests include the following information:
 
@@ -78,22 +78,22 @@ Merge requests include the following information:
 - CI/CD status and logs
 - Commit history
 
-Before incorporating changes from an MR into the large project, the content typically needs to be reviewed. A Merge request review (MRR) provides mechanisms for the team to leave comments or make suggestions on the MR, giving evidence of the review and naturally documenting the relevant discussion, considerations, suggestions, and decision. 
+Before incorporating changes from an MR into the large project, the content typically needs to be reviewed. A Merge request review (MRR) provides mechanisms for the team to leave comments or make suggestions on the MR, giving evidence of the review and naturally documenting the relevant discussion, considerations, suggestions, and decision.
 
 To read more, see [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) and [Merge Request Reviews](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/) from Gitlab.
 
 ### Best practices for reviewing & approving
 
-- MRRs should only be performed by those who did not make any commits in the MR. In other words, reviewers only review, make comments, and discuss with the people who suggested the changes. This is slower, but cleaner and less susceptible to bias. 
+- MRRs should only be performed by those who did not make any commits in the MR. In other words, reviewers only review, make comments, and discuss with the people who suggested the changes. This is slower, but cleaner and less susceptible to bias.
 - A MR should be approved by the project maintainer or their delegated reviewer before being incorporated in to the main branch
-- Projects should document their acceptance criteria for MRs within their documentation. 
+- Projects should document their acceptance criteria for MRs within their documentation.
 
 ### MRRs within an agile sprint
 
-- MRRs do not not need to be completed within the same sprint that an issue was committed to. However, reviewers should consider reviewing MRs a priority and complete reviews in a timely fashion. 
+- MRRs do not not need to be completed within the same sprint that an issue was committed to. However, reviewers should consider reviewing MRs a priority and complete reviews in a timely fashion.
 - If a sprint is particularly heavy with MRRs, sprint capacity should be adjusted accordingly.
 - An issue should not be closed until the corresponding MR has been merged.
-- An issue and the corresponding MR should both be assigned to the author, while reviewers should be assigned as reviewers. 
+- An issue and the corresponding MR should both be assigned to the author, while reviewers should be assigned as reviewers.
 
 !!! note
 
@@ -101,9 +101,9 @@ To read more, see [Merge Requests](https://docs.gitlab.com/ee/user/project/merge
 
 ## Epics
 
-Epics are collections of issues and other epics which are used to group larger work efforts. 
+Epics are collections of issues and other epics which are used to group larger work efforts.
 
-We will track two types of epics: program epics and feature epics. 
+We will track two types of epics: program epics and feature epics.
 
 ### Program epics
 
@@ -150,12 +150,12 @@ Similar to issue boards, epic boards can be used to larger lines of effort acros
 
 #### Roadmaps
 
-Epics can also be visualized on a roadmap. See the [JATIC roadmap](https://gitlab.jatic.net/groups/jatic/-/roadmap) as an example. 
+Epics can also be visualized on a roadmap. See the [JATIC roadmap](https://gitlab.jatic.net/groups/jatic/-/roadmap) as an example.
 
 ### Best practices
 
 - Epics should be created at the lowest group possible. For example, if an epic only involves work involving one team, it should be creating in that team's subgroup.
 - Epics should be labelled with the teams that are involved in the effort. This allows easy tracking and filtering at the top-level group.
-- Near-term epics should be labeled with their work status, either `status::ready to start`, or `status::in progress`. This helps differentiating between epics which are actively being worked compared to epics which are used for longer term planning. 
-- Epics which are actively being worked should be created with start and due dates. 
-- Epics should not go on forever! Some larger teams may complete one or more epics per week. For teams working multiple efforts in parallel, they have multiple epics open at the same time for multiple sprints. 
+- Near-term epics should be labeled with their work status, either `status::ready to start`, or `status::in progress`. This helps differentiating between epics which are actively being worked compared to epics which are used for longer term planning.
+- Epics which are actively being worked should be created with start and due dates.
+- Epics should not go on forever! Some larger teams may complete one or more epics per week. For teams working multiple efforts in parallel, they have multiple epics open at the same time for multiple sprints.

@@ -1,6 +1,6 @@
 # Supported Applications
 
-The program is currently focused on developing AI T&E capabilities to test AI models for computer vision (CV) classification and object detection (OD) tasks. 
+The program is currently focused on developing AI T&E capabilities to test AI models for computer vision (CV) classification and object detection (OD) tasks.
 
 The libraries and tools that the program are building are designed to be applicable across domains and missions that employ these types of AI algorithms. In particular, the primary mission use cases which we are focused on are:
 
@@ -24,7 +24,7 @@ CV classification and OD were chosen as the initial AI tasks for the program due
 
 Throughout these operational contexts, the underlying AI models often had very similar underlying architectures, which suggested the possibility of a common set of tools to test across these domains.
 
-### For limiting to AI model testing 
+### For limiting to AI model testing
 
 The program limits its scope to AI model testing. While other areas of T&E, such as systems integration, human-system integration, and operational T&E are complex issues with critical capabilities gaps, particularly for AI-enabled systems, they are out of scope for the program. 
 

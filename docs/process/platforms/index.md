@@ -1,16 +1,16 @@
 # Common Platforms
 
-Common platforms with collective adoption are critical for facilitating collaboration, coordination, information sharing, and situational awareness across a large, multi-organizational team-of-teams. 
+Common platforms with collective adoption are critical for facilitating collaboration, coordination, information sharing, and situational awareness across a large, multi-organizational team-of-teams.
 
 Our program uses the following platforms for its work as much as is securely and practically possible.
 
 <div class="grid cards" markdown>
 
--   ###### :simple-slack: &nbsp; [Slack](https://cdaote.slack.com) 
-    
+-   ###### :simple-slack: &nbsp; [Slack](https://cdaote.slack.com)
+
     For discussions and huddles
 
--   ###### :simple-gitlab: &nbsp; [Gitlab](https://gitlab.jatic.net) 
+-   ###### :simple-gitlab: &nbsp; [Gitlab](https://gitlab.jatic.net)
 
     For code and project management
 
@@ -18,11 +18,11 @@ Our program uses the following platforms for its work as much as is securely and
 
 ## Communication
 
-Our program's communication platform is [Slack](https://cdaote.slack.com). Teams should ensure that they are quickly reachable within Slack and should use it for program communications as much as is securely possible. 
+Our program's communication platform is [Slack](https://cdaote.slack.com). Teams should ensure that they are quickly reachable within Slack and should use it for program communications as much as is securely possible.
 
 ## Code
 
-Our program's platform for code storage and CI/CD is the [JATIC Gitlab](https://gitlab.jatic.net). Teams should use Gitlab for all code, documentation, and other artifacts created within the program, in order to enable continuous testing against software requirements. In order to provide transparency of work, all of the above should be easily viewable by the larger program. 
+Our program's platform for code storage and CI/CD is the [JATIC Gitlab](https://gitlab.jatic.net). Teams should use Gitlab for all code, documentation, and other artifacts created within the program, in order to enable continuous testing against software requirements. In order to provide transparency of work, all of the above should be easily viewable by the larger program.
 
 !!! note
 
@@ -34,7 +34,7 @@ Our program's platform for code storage and CI/CD is the [JATIC Gitlab](https://
 
 Our program's platform for team-level planning and project management is the [JATIC Gitlab](https://gitlab.jatic.net). Teams should use Gitlab for program information sharing, sprint planning, and collaboration. All work items, including items in the backlog, active work in progress items, and larger epics, should be tracked in Gitlab.
 
-Similar to code, all work items should be easily viewable by the larger program in order to provide transparency of work. 
+Similar to code, all work items should be easily viewable by the larger program in order to provide transparency of work.
 
 ### Program-level planning
 
