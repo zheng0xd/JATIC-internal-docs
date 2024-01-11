@@ -14,7 +14,7 @@ You can [create an issue](https://gitlab.jatic.net/jatic/internal-docs/-/issues)
 
 ## Contributing directly
 
-You can contribute to the project directly by [opening a merge request](https://gitlab.jatic.net/jatic/internal-docs/-/merge_requests) on Gitlab. 
+You can contribute to the project directly by [opening a merge request](https://gitlab.jatic.net/jatic/internal-docs/-/merge_requests) on Gitlab.
 
 We recommend creating a new branch for your development and opening a merge request when you are satisfied. Your merge request will be reviewed by maintainers and integrated into the docs when approved!
 

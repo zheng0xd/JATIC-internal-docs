@@ -1,6 +1,6 @@
 # Gitlab Pages Setup Guide
 
-The Gitlab Pages functionality allows a project in Gitlab to generate a static website. 
+The Gitlab Pages functionality allows a project in Gitlab to generate a static website.
 
 It's possible to generate static websites with many different packages, but the process described here specifically focuses on using `mkdocs`.
 
