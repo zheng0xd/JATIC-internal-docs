@@ -32,8 +32,3 @@ li {
     margin-bottom: 0.5em;
     font-weight: bold;
 }
-
-/*removes next and previous buttons on the bottom of the page*/
-.md-footer__inner:not([hidden]) {
-    display: none
-}
