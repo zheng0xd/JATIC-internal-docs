@@ -20,13 +20,13 @@ These do not preclude application to other tasks, but serve as the primary missi
 
 ### For focusing on computer vision
 
-CV classification and OD were chosen as the initial AI tasks for the program due to their wide use use across the DoD in many diverse operational contexts, including satellite imagery, medical imagery, and object detection on UAVs, and autonomous vehicles. 
+CV classification and OD were chosen as the initial AI tasks for the program due to their wide use use across the DoD in many diverse operational contexts, including satellite imagery, medical imagery, and object detection on UAVs, and autonomous vehicles.
 
 Throughout these operational contexts, the underlying AI models often had very similar underlying architectures, which suggested the possibility of a common set of tools to test across these domains.
 
 ### For limiting to AI model testing
 
-The program limits its scope to AI model testing. While other areas of T&E, such as systems integration, human-system integration, and operational T&E are complex issues with critical capabilities gaps, particularly for AI-enabled systems, they are out of scope for the program. 
+The program limits its scope to AI model testing. While other areas of T&E, such as systems integration, human-system integration, and operational T&E are complex issues with critical capabilities gaps, particularly for AI-enabled systems, they are out of scope for the program.
 
 Other areas of testing, such as systems integration testing, are far more difficult to develop generalizable T&E capabilities for. For example, while the same T&E software may be able to test a CV model for radiology and a CV model for vehicle detection on UAVs, the required systems integration testing for these two capabilities looks completely different. Thus, we believe that capabilities for systems integration, human-system integration, and operational T&E should be left to individual organizations, agencies, and services to develop, who themselves have the best insight into their operational mission and systems.
 

@@ -1,6 +1,6 @@
 # Offboarding Guide
 
-This page presents a short series of administrative steps for smooth offboarding from the program. 
+This page presents a short series of administrative steps for smooth offboarding from the program.
 
 1. **Ensure knowledge transfer** - To avoid any knowledge or skill gaps, the departing individual should to transfer their knowledge to the person who will be taking their place.
 1. **Transfer ownership** - Within Gitlab and Slack, change over any channel, group, or project ownership to other individuals within the team.

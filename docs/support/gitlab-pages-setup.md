@@ -22,13 +22,13 @@ It's possible to generate static websites with many different packages, but the 
 ### 2. Create `requirements.txt`, `mkdocs.yml`, and `.gitlab-ci.yml`
 
 1. Create a new file in the project root called `requirements.txt` and copy the followingCopy the following into a new file named 
-```
+```txt
 mkdocs>=1.1.2
 mkdocs-material>=5.4.0
 mkdocs-awesome-pages-plugin>=2.8.0
 ```
 1. Create a new file in the project root called `mkdocs.yml` and copy the following
-```
+```yml
 site_name: SITE NAME # your name here
 site_url: https://jatic.pages.jatic.net/location # your pages url here
 repo_url: https://gitlab.jatic.net/jatic/location # your repo url here
@@ -45,7 +45,7 @@ nav: # You can either list each file seperately, or use "..." to auto-add, or a 
     - ...
 ```
 1. Create a new file in the project root called `.gitlab-ci.yml` and copy the following
-```
+```yml
 image: python:3.8-buster
 
 before_script:

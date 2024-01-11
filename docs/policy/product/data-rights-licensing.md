@@ -7,7 +7,7 @@ The Government shall have **government purpose rights** over the source code, t
 These shall be all items necessary to compile, test, secure, deploy, and operate the software, including:
 
 - all appropriate documentation, including setup guides, reference architectures, interface control documents, and example use cases
-- all appropriate technical information on the development, build, and operation of the software, including requirements versioning, dependencies, development environment, build automation software, etc. 
+- all appropriate technical information on the development, build, and operation of the software, including requirements versioning, dependencies, development environment, build automation software, etc.
 
 ## Inclusion of proprietary software
 
@@ -21,4 +21,4 @@ In the case of public release or open-source of products that created within the
 
 ## Copyright
 
-The agreement holder retains all ownership to copyrights for original works of authorship created solely by agreement holder employees during performance of work under its contract with the program. 
+The agreement holder retains all ownership to copyrights for original works of authorship created solely by agreement holder employees during performance of work under its contract with the program.

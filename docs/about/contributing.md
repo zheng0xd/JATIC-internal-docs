@@ -1,6 +1,6 @@
 # Contributing
 
-To help create a well-maintained and useful set of documentation for the program, we highly encourage contributions, including content modifications, suggestions, and (especially) additions. 
+To help create a well-maintained and useful set of documentation for the program, we highly encourage contributions, including content modifications, suggestions, and (especially) additions.
 
 The main ways to contribute are to create an issue or contribute content directly.
 

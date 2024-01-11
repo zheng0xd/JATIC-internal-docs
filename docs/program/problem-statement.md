@@ -32,11 +32,11 @@ The formal documented need for our program comes from the following sources:
 
 ### *Responsible AI Strategy and Implementation Pathway* { data-toc-label="RAI S&I Pathway" }
 
-This document outlines a series of specific near-term steps for the implementation of the DoD's AI ethical principles and Responsible AI foundational tenets. Tenet 2 of the Pathway clearly defines the capability need that our program seeks to address. 
+This document outlines a series of specific near-term steps for the implementation of the DoD's AI ethical principles and Responsible AI foundational tenets. Tenet 2 of the Pathway clearly defines the capability need that our program seeks to address.
 
 In particular, Tenet 2 charges the CDAO, in coordination with OUSD(R&E) and DOT&E, to execute the following:
 
-!!! quote 
+!!! quote
 
     LOE 2.1: BUILD A ROBUST TEVV ECOSYSTEM AND ACCOMPANYING INFRASTRUCTURE TO DEVELOP AND FIELD AI CAPABILITIES SAFELY AND SECURELY.
 
@@ -55,7 +55,7 @@ In particular, Tenet 2 charges the CDAO, in coordination with OUSD(R&E) and DOT&
 
 This report was developed in response to the Fiscal Year 23 Program Decision Memorandum, in which the Deputy Secretary of Defense and the Office of Cost Assessment and Program Evaluation requested more information to support data-driven decisions about AI T&E infrastructure investments at the DoD enterprise level.
 
-!!! quote 
+!!! quote
 
     Program Decision Memorandum Terms of Reference (TOR)
 

@@ -1,6 +1,6 @@
 # Team Roles & Responsibilities
 
-Our program uses a common framework for roles and responsibilities in each development team, closely following the scrum methodology. This page outlines these roles and their responsibilities, including the areas where they have been tailored to the program's specific context. 
+Our program uses a common framework for roles and responsibilities in each development team, closely following the scrum methodology. This page outlines these roles and their responsibilities, including the areas where they have been tailored to the program's specific context.
 
 All of the blocks below are quotes from [Atlassian's Scrum Roles](https://www.atlassian.com/agile/scrum/roles).
 
@@ -54,7 +54,7 @@ The development team lead is responsible for coordinating with the government pr
 
     Agile is often quite antithetical to many of the ways that we operate in the government! Building agile patterns of behavior, such as delivering in quick and iterative cycles, can take a significant amount of time and effort.
 
-Teams within the program will have varying levels of familiarity and experience with agile and the scrum methodology. In teams with less familiarity, the scrum master's should promote and coach agile patterns of behavior and an agile mindset. 
+Teams within the program will have varying levels of familiarity and experience with agile and the scrum methodology. In teams with less familiarity, the scrum master's should promote and coach agile patterns of behavior and an agile mindset.
 
 ## Product owner
 

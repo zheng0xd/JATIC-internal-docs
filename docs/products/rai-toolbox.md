@@ -12,6 +12,6 @@ A key design principle of the rAI-toolbox is that it adheres strictly to the API
 - [rAI-toolbox Github](https://github.com/mit-ll-responsible-ai/responsible-ai-toolbox/)
 - [rAI-toolbox documentation](https://mit-ll-responsible-ai.github.io/responsible-ai-toolbox)
 
-```
+```python
 pip install rai-toolbox
 ```
