@@ -13,8 +13,8 @@
 | Eoin Daly | <Edaly@morsecorp.com> | |
 | Dan Gombos | <DGombos@morsecorp.com> | |
 | Sarah Lipstone | <slipstone@morsecorp.com> | |
-| Neeti Desai | @ndesai | <ndesai@morsecorp.com> |
-| Darren Chen | @dchen | <dchen@morsecorp.com> |
-| Aashir Khan | @akhan | <akhan@morsecorp.com> |
+| Neeti Desai | <ndesai@morsecorp.com> | |
+| Darren Chen | <dchen@morsecorp.com> | |
+| Aashir Khan | <akhan@morsecorp.com> | |
 | Rachel Rajaseelan | <rachel.m.rajaseelan.civ@mail.mil> | Product Owner |
 | Andreas Elterich | <andreas.g.elterich.ctr@mail.mil> | Deputy Product Owner |
