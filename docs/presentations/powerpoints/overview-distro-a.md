@@ -18,8 +18,11 @@ hide:
     .md-footer {
         display: none;
     }
+    .md-content__button {
+        display: none;
+    }
 </style>
 
 # Program Overview
 
-![jatic-overview-distro-a.pdf](jatic-overview-distro-a.pdf){ type=application/pdf style="height:85vh;width:100%" }
+![jatic-overview-distro-a.pdf](jatic-overview-distro-a.pdf){ type=application/pdf style="height:88vh;width:100%" }

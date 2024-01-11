@@ -7,8 +7,11 @@ hide:
     .md-typeset h1 {
         display: none;
     }
+    .md-content__button {
+        display: none;
+    }
 </style>
 
 # Program Overview
 
-![inc2-objectives](objectives.pdf){ type=application/pdf style="height:85vh;width:100%" }
+![inc2-objectives](objectives.pdf){ type=application/pdf style="height:70vh;width:100%" }
