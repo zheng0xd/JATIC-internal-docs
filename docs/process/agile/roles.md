@@ -76,7 +76,7 @@ Teams within the program will have varying levels of familiarity and experience 
 
     The product owner for a given team should either be government or government-assigned. 
 
-*It is ultimately the product owner's responsibility to have a clear vision for the product and manage its delivery of value to customers.* This vision should be developed alongside the development team lead, building a shared vision for the product.
+*It is ultimately the product owner's responsibility to have a clear vision for the product and to manage its delivery of value to customers.* 
 
 Some emphasized or additional product owner responsibilities within our program's context include:
 
