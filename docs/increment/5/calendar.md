@@ -19,4 +19,4 @@ hide:
 | 23 JUN 24 | | PO Sync | | | SoS | | |
 | 30 JUN 24 | | PO Sync | Sprint 5 End | Sprint 6 Start | _Independence Day_ | | |
 | 07 JUL 24 | | PO Sync | **Increment Demo** | **Increment Review** | **Increment Planning** | **Increment Planning** | |
-| 13 JUL 24 | | | **Sprint 6 End; Increment 5 End** | | | | |
+| 14 JUL 24 | | | **Sprint 6 End; Increment 5 End** | | | | |

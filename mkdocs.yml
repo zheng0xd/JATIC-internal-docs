@@ -111,6 +111,8 @@ nav:
         - Increment 2:
           - Objectives: increment/2/objectives.md
           - Program Board (MURAL): https://app.mural.co/t/ecis6578/m/ecis6578/1689359900947/2a97587d5be45f2638a31bc80119c8fbe6297120?sender=77c7c4fc-2c14-48de-933c-84459708c284
+      - Future Increments:
+        - Increment 5 Calendar: increment/5/calendar.md
     - About the site: 
       - about/index.md
       - Contributing: about/contributing.md
