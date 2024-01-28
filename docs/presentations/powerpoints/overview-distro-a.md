@@ -25,4 +25,4 @@ hide:
 
 # Program Overview
 
-![jatic-overview-distro-a.pdf](jatic-overview-distro-a.pdf){ type=application/pdf style="height:88vh;width:100%" }
+![jatic-overview-distro-a.pdf](../files/jatic-overview-distro-a.pdf){ type=application/pdf style="height:88vh;width:100%" }

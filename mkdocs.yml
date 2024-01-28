@@ -163,6 +163,9 @@ nav:
     - Powerpoints:
       - Program Overview (Distro C): presentations/powerpoints/overview-distro-c.md
       - Program Overview (Distro A): presentations/powerpoints/overview-distro-a.md
+    - Demos:
+      - Increment 3 Demo: presentations/demos/increment-3.md
+      - Increment 2 Demo: presentations/demos/increment-2.md
   - Teams:
     - teams/index.md
     - ARiA: teams/aria.md
