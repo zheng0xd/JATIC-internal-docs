@@ -1,8 +1,3 @@
----
-hide:
-- navigation
----
-
 # Responsible AI Toolbox
 
 The rAI-toolbox is designed to enable methods for evaluating and enhancing both the robustness and the explainability of artificial intelligence (AI) and machine learning (ML) models in a way that is scalable and that composes naturally with other popular ML frameworks.

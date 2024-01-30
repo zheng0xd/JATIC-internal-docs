@@ -22,7 +22,6 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
-    - navigation.path # this currently only works on the Material for MkDocs insider's edition
     - navigation.top
     - search.highlight
     - search.suggest
@@ -50,6 +49,7 @@ plugins:
   # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
   - search
   - mkdocs-pdf
+  - meta
   - tags:
       tags_file: tags.md
 
