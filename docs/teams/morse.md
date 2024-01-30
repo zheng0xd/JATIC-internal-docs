@@ -16,5 +16,4 @@
 | Neeti Desai | <ndesai@morsecorp.com> | |
 | Darren Chen | <dchen@morsecorp.com> | |
 | Aashir Khan | <akhan@morsecorp.com> | |
-| Rachel Rajaseelan | <rachel.m.rajaseelan.civ@mail.mil> | Product Owner |
-| Andreas Elterich | <andreas.g.elterich.ctr@mail.mil> | Deputy Product Owner |
+| David Jin | <david.jin5.civ@mail.mil> | Product Owner |
