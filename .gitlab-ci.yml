@@ -2,6 +2,7 @@ image: python:3.8-buster
 
 before_script:
   - pip install -r requirements.txt
+  - pip install git+https://${GH_API_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
 
 pages:
   stage: deploy

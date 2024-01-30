@@ -10,7 +10,7 @@ The primary audience for this documentation is those who are working on the prog
 
 The main objectives of this documentation are the following:
 
-- Provide helpful resources for those who are joining the program, such as the [Onboarding Guide](support/onboarding/).
+- Provide helpful resources for those who are joining the program, such as the [Onboarding Guide](support/onboarding/){ data-preview }.
 - Provide a central location to learn about the products within the program.
 - Provide a common reference for the program's standards, processes, and requirements, both technical and programmatic
 - Provide program materials, such as the program board, increment calendar, and org chart
