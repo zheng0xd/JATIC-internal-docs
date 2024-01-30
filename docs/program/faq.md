@@ -1,106 +1,53 @@
-# FAQ
+# Frequently Asked Questions
 
-## What is JATIC? Who operates it?
+## What functionalities and metrics do JATIC products provide?
 
-JATIC is a program started in 2023 with the goal of developing software products to accelerate AI Test and Evaluation (T&E) practices and provide rigorous assurance of the effectiveness, safety, and robustness of AI-enabled systems. It is managed by the Assessment & Assurance Division of the Chief Digital and Artificial Intelligence Office ([CDAO](https://www.ai.mil/)) within the Department of Defense (DoD).
+We provide functionality for:
 
-The program provides several software products aimed at enhancing AI T&E. These  products are designed as a set of interoperable building blocks that are easy to use at the enterprise-level without vendor lock-in.
+1. assessing model performance, explainability, and robustness against adversarial and natural perturbations
+1. assessing dataset similarity, difficulty, and label accuracy
+1. generating model cards, data cards, and test reports
 
-## What do you mean by AI Test & Evaluation (T&E)?
+To accomplish this, we provide a variety of metrics, ranging from standard metrics, such as accuracy and mean average precision, to task-specific metrics, such as Henze-Penrose divergence for measuring distance between datasets.
 
-!!! warning
+## What functionalities do JATIC products NOT provide?
 
-    needs editing
-
-CDAO is creating a framework (link) to provide best practices and guidance on how to test and evaluate an AI or AI-enabled system across its lifecycle. This sequential T&E process includes examination of the AI models and their corresponding data, as well as examining the model’s integration into a wider system, performance in operational settings, and ability to integrate with humans. JATIC’s focus is on the evaluation of the models themselves, known as the AI algorithm or AI model T&E.
-
-With this focus on AI algorithm T&E, JATIC products can be applied across multiple missions and systems even with a limited amount of domain knowledge.
-
-## Will JATIC be maintained long-term?
-
-Yes! The program is funded to develop and sustain software products for AI T&E.
+We do not provide or recreate common MLOps functions such as model registries, object storage, dashboards, experiment trackers, or workflow orchestrators. This enables our products to integrate easily into a wide variety of existing MLOps platforms.
 
 ## How can I access JATIC products?
 
-Many products developed within the program are available as open-source software which can be downloaded from GitHub, Conda, and PyPi.
+Most products developed within the program are available as open-source software which can be downloaded from public platforms such as GitHub, Conda, and PyPi. See [**Products**](../products.md) for all of our publicly released software.
 
-Additionally, all government employees or contractors can sign up for accounts at [gitlab.jatic.net](gitlab.jatic.net) to access the full suite of software products. Finally, the program is targeting multiple hosting locations on different DoD library repositories such as Repo1 and IronBank.
+Additionally, all government employees or contractors can sign up for accounts at [https://gitlab.jatic.net](https://gitlab.jatic.net) to access the full suite of software products.
 
-## Why should I use JATIC products?
+## Can JATIC products be used on classified systems or data?
 
-All of products developed within the JATIC program are interoperable, meaning they adhere to common protocols in order to work naturally with each other and with common Machine Learning (ML) frameworks and Machine Learning Operations (MLOps) platforms. Our products are mature, well-documented and secure, primed for enterprise deployment across environments at various classification levels. Outputs from our products are also validated to support high-consequence T&E activities.
+Yes, our products are hardened and secured to enable straightforward deployment into high-side environments.
 
-We emphasize accessibility and usability with every JATIC product, allowing users with limited AI/ML experience to quickly come up to speed on our products and fine-tune the settings as they learn more.
+!!! note
 
-Finally, JATIC products make use of and build upon state-of-the-art products and metrics across the open-source community. All products designed by JATIC are free for government organizations & their contractors to use and many will also be open-sourced and freely available to the broader AI community.
+    We are actively working on improvements to harden our current products, so please reach out at [cdao-jatic@groups.mail.mil](mailto:cdao-jatic@groups.mail.mil) if you would like assistance bringing them into your environment.
 
-## Are there specific use cases JATIC is focused on?
+## Does the JATIC program perform AI test and evaluation on specific programs?
 
-Yes, our initial focus is on Computer Vision Classification & Object Detection. Future expansion efforts will include other modalities, data, and problems, including large language models (LLMs).
+No, we believe that test engineers within the mission space are best equipped to design and execute the testing of their systems — given their detailed understanding of the requirements, risks, and operational conditions of their mission.
 
-## Who are the target personas for JATIC?
+!!! note
 
-Our target personas currently include an AI/ML test & evaluation engineer, a data scientist, and an AI/ML engineer.
+    While we do not perform testing, we are happy to support deployment of our products into your environment and provide guidance on the T&E of AI-enabled systems. Please reach out at [cdao-jatic@groups.mail.mil](mailto:cdao-jatic@groups.mail.mil) to discuss!
 
-## What AI T&E capabilities does JATIC support?
+## Does the JATIC program provide datasets for AI test and evaluation?
 
-Our software libraries currently support AI T&E capabilities to assess model performance, robustness against adversarial attacks, robustness against natural perturbations and explainability; to analyze capabilities and limitations of models, datasets and labels; and to generate model cards, data cards, and test reports.
+No, we do not provide datasets for AI test and evaluation. However, we do provide tutorials and demonstrations of our products used with open-source datasets which may be instructive for testing with operational data.
 
-We are always looking for high-value products to build or bring into the program, so please [contact us](cdao-jatic@groups.mail.mil) with ideas on addressing additional AI T&E capabilities.
+## Will JATIC products provide accreditation for my system?
 
-## What AI T&E capabilities does JATIC NOT support or provide?
+No, the use of our products within your testing and evaluation will not currently provide any certification or accreditation. However, they may help provide the necessary documentation required for certain DoD processes such as DoD Directive 3000.09.
 
-We do not recreate functionality for many foundational capabilities often found within an MLOps pipeline such as dashboards, experiment tracking, or workflow orchestration. Instead, we leans on existing capabilities from open-source. This modularity allows our products to easily integrate into a wide variety of existing MLOps stacks.
+## Will JATIC products be continually updated and sustained?
 
-## Does JATIC provide models or datasets?
+Yes, our program is funded to develop, update, and sustain its software products — especially as AI technology continues to advance.
 
-No. However, we do provide examples of models/datasets acquired from open-source repositories that may be analogous to real operational data.
-
-## Does JATIC provide metrics?
-
-Yes! We provide a range of metrics that cover the general (e.g. accuracy, mean average precision) and the highly specific (e.g. irreducible error, dataset distance).
-
-## How should I do T&E with JATIC products?
-
-Sufficient testing for a given AI model ultimately needs to be tailored for the specific mission and workflow in which the model will operate. We aim to provide a set of building blocks that you can use to create a multi-faceted algorithm test to measure the performance, reliability, robustness, and explainability of an AI model.
-
-## How can I integrate JATIC products into my T&E?
-
-Our products are are specifically designed for easy integration into existing T&E workflows or Machine Learning Operations (MLOps) pipelines.
-
-Organizations who have already adopted an enterprise MLOps platform such as Databricks or Sagemaker can integrate the JATIC python libraries directly into their existing infrastructure. Organizations without that infrastructure can leverage RAVEN to set up a T&E and development platform.
-
-## Will using JATIC products in my T&E process provide certification/accreditation for my program?
-
-Not currently. However, the use of JATIC products may help provide the necessary documentation required for certain DoD processes such as DoD Directive 3000.09.
-
-## Will JATIC do the verification/T&E for me? Will JATIC design my T&E?
-
-!!! warning
-
-    needs editing
-
-No, we believe that mission owners and T&E engineers within the mission space are best equipped to design and execute the testing of their own AI-enabled systems given their detailed understanding of the requirements, risks, and operational conditions of their mission.
-
-The CDAO AI T&E framework (link) provides guidance on unique considerations for the T&E of AI-enabled systems.
-
-## Can I use JATIC products on classified systems or data?
-
-Yes! Our products will be hardened and secured for straightforward deployment into high-side environments. We are actively working on improvements to harden our current products, so please [reach out](cdao-jatic@groups.mail.mil) if you would like assistance with bringing them into your environment.
-
-## Will JATIC collect my testing data or results?
+## Will JATIC products collect my testing data or results?
 
 No, our products will never collect any telemetry, including testing data or results.
-
-## My AI task/domain isn’t discussed in current JATIC materials. Can I still use the JATIC products?
-
-While our products may not currently be applicable to your other AI task or domain, please contact us to provide additional information about your T&E needs. Our program is constantly evolving and we’d appreciate [your feedback](https://forms.osi.apps.mil/pages/responsepage.aspx?id=kQEtEK7uYUexyxqD6G70RffprThOa3hKghVjeesZps5UN1hXMDUxN1dXM0c3SUJZVE1FMU1PTDAyQi4u) on use cases we could consider in the future.
-
-## How do I follow up with JATIC?
-
-- To begin using the products: [Create an account or login to GitLab](https://gitlab.jatic.net/)
-- To watch recordings of demos or deep dives: [Click here](https://jatic.pages.jatic.net/internal-docs/presentations/) 
-- To sign up for emails: [Complete our interest form](https://forms.osi.apps.mil/pages/responsepage.aspx?id=kQEtEK7uYUexyxqD6G70RffprThOa3hKghVjeesZps5UN1hXMDUxN1dXM0c3SUJZVE1FMU1PTDAyQi4u)
-- To provide feedback on a product or ask questions: [Send us an email](cdao-jatic@groups.mail.mil)
-- To contribute to JATIC products: [Send us an email](cdao-jatic@groups.mail.mil)
-- To learn more about AI T&E: View CDAO's T&E frameworks

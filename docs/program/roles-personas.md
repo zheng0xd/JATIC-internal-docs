@@ -47,4 +47,4 @@ The products developed within our program support a number of different types of
 
 To supplement above activities and responsibilities, we've created concrete personas, instantiating the roles into characters with backgrounds, preferences, skillsets, missions, and archetypal workflows.
 
-[Personas on MURAL! &nbsp; :simple-mural:](https://app.mural.co/t/mitresandbox0478/m/mitresandbox0478/1693165466374/3484fce186f84fee231e1e584555cdcf7bc2f552?sender=e912bc3f-4a0c-4b3c-baff-61d2c058c4ab){ .md-button .md-button--primary}
+[Find our personas on MURAL! &nbsp; :simple-mural:](https://app.mural.co/t/mitresandbox0478/m/mitresandbox0478/1693165466374/3484fce186f84fee231e1e584555cdcf7bc2f552?sender=e912bc3f-4a0c-4b3c-baff-61d2c058c4ab){ .md-button .md-button--primary}

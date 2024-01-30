@@ -58,8 +58,8 @@ extra_css:
   - stylesheets/extra.css
 extra: # These generate the footer
   social:
-    - icon: fontawesome/solid/envelope
-      link: mailto:<CDAO-jatic@groups.mail.mil> 
+    - icon: octicons/globe-16
+      link: https://cdao.pages.jatic.net/public/
     - icon: fontawesome/brands/gitlab
       link: https://gitlab.jatic.net/
     - icon: fontawesome/brands/slack

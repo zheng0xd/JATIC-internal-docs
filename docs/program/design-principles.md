@@ -1,8 +1,8 @@
 # Design Principles
 
-This page explains the design principles by which products within the program are chosen and developed.
+Before adopting any JATIC products, its good to understand the design principles behind the program and ensure they align with your goals. This page explains the design principles by which products within the program are chosen and developed.
 
-## Overall design principles
+## Core design principles
 
 - **Wide interoperability**: Our products work naturally with each other, with common ML frameworks, and with common MLOps platforms.
 - **Standalone and modular**: Each product is usable independently, but also fits within a larger, compatible, and modular tool suite.
@@ -19,7 +19,7 @@ This page explains the design principles by which products within the program ar
 
     Some of these design principles are aspirational! There are current products within the program that fail to meet some of these criteria. 
 
-## For python libraries
+## Python library design principles
 
 Many of the products developed within the program are python libraries which additionally adhere to the following design principle:
 

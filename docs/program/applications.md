@@ -4,17 +4,15 @@ The program is currently focused on developing AI T&E capabilities to test AI mo
 
 The libraries and tools that the program are building are designed to be applicable across domains and missions that employ these types of AI algorithms. In particular, the primary mission use cases which we are focused on are:
 
-1. Satellite imagery
 1. UAV imagery
+1. Satellite imagery
 1. Autonomous driving
 
 These do not preclude application to other tasks, but serve as the primary missions that guide our development.
 
 !!! info
 
-    For each of the above missions, we work closely with DoD mission-owners to understand their requirements and integrate our products into their T&E workflows. 
-    
-    For each of the above, we also select a representative open-source dataset to serve as our target which we use within development and demonstrations. 
+    For each of the above missions, we work closely with DoD mission-owners to understand their requirements and integrate our products into their T&E workflows. We also select a representative open-source dataset to serve as our target which we use within development and demonstrations. 
 
 ## Rationale
 
