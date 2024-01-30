@@ -58,14 +58,14 @@ extra_css:
   - stylesheets/extra.css
 extra: # These generate the footer
   social:
-    - icon: octicons/globe-16
-      link: https://cdao.pages.jatic.net/public/
     - icon: fontawesome/brands/gitlab
       link: https://gitlab.jatic.net/
     - icon: fontawesome/brands/slack
       link: https://cdaote.slack.com/
     - icon: simple/mural # the mural link below needs to be updated with the latest program board each increment!
       link: https://app.mural.co/t/ecis6578/m/ecis6578/1706552050496/47cf8b1425e58eb981b34e3feab12d248b98c443?sender=u4d7fc200d51cbdba67ba7346
+    - icon: octicons/globe-16
+      link: https://cdao.pages.jatic.net/public/
   generator: false
 
 # Markdown extensions
@@ -98,7 +98,7 @@ nav:
       - Design Principles: program/design-principles.md
       - Supported Applications: program/applications.md
       - Supported Roles & Personas: program/roles-personas.md
-      - FAQ: program/faq.md
+      - Frequently Asked Questions: program/faq.md
     - Increment Info: # needs to be updated each increment
       - increment/index.md
       - Calendar: increment/4/calendar.md
