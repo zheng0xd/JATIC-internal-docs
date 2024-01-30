@@ -15,6 +15,5 @@
 | Andrew Weng | <andrew.weng@ariacoustics.com> | Developer |
 | Justin McMillan | <justin.mcmillan@ariacoustics.com> | SME |
 | Jason Inman | <jason.inman@ariacoustics.com> | Developer |
-| Thayer Fisher | <thayer.fisher@ariacoustics.com> | Developer |
-| Bill Peria | <bill.peria@ariacoustics.com> | Developer |
-| Jason Gaulin | <jason.c.gaulin.civ@mail.mil> | Product Owner |
+| Thayer Fisher | <thayer.fisher@ariacoustics.com> | SME |
+| Dr. Ariel S Kapusta | <akapusta@mitre.org> | Product Owner |
