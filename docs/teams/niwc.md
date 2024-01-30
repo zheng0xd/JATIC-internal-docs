@@ -4,8 +4,8 @@
 
 | Name | Email | Role |
 | ---- | ----- | ---- |
-| Shibin Parameswaran | <shibin.parameswaran.civ@us.navy.mil | Product Owner, NIWC PAC Lead |
-| Thomas Mack | tmack@highsidetech.com | Scrum Master |
+| Shibin Parameswaran | <shibin.parameswaran.civ@us.navy.mil> | Product Owner, NIWC PAC Lead |
+| Thomas Mack | <tmack@highsidetech.com> | Scrum Master |
 | Lucas Overbey | <lucas.a.overbey.civ@us.navy.mil> | NIWC LANT Lead, SME |
 | Katie Rainey | <kate.e.rainey.civ@us.navy.mil> | SME |
 | Jamie Lukos | <jamie.r.lukos.civ@us.navy.mil> | SME |
