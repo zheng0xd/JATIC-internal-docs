@@ -8,7 +8,7 @@ This section provides up-to-date resources and information about the current pro
 
     Schedule of events for this program increment
 
--   ###### :simple-mural: &nbsp; Program Board
+-   ###### :simple-mural: &nbsp; [Program Board](https://app.mural.co/t/ecis6578/m/ecis6578/1706552050496/47cf8b1425e58eb981b34e3feab12d248b98c443?sender=u4d7fc200d51cbdba67ba7346)
 
     MURAL board of goals, risks, and dependencies
 
