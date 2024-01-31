@@ -17,6 +17,7 @@ docs_dir: docs
 # Theme configuration
 theme:
   name: material
+  custom_dir: docs/overrides
   features:
     - navigation.instant # disable when generating documentation for offline use
     - navigation.tabs
@@ -27,6 +28,7 @@ theme:
     - search.suggest
     - search.share
     - content.action.edit
+    - announce.dismiss
   palette:
     # Palette toggle for dark mode
     - scheme: slate
