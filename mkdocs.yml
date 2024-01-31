@@ -48,8 +48,8 @@ theme:
 # MkDocs plugins
 plugins:
   # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
-  # - optimize
-  - social
+  # - optimize # requires pngquant
+  # - social # the site has a redirect, so social cards don't work
   - search
   - mkdocs-pdf
   - meta # only works with mkdocs insider's edition
