@@ -1,4 +1,4 @@
-# Policies & Guidelines &nbsp; :material-format-list-bulleted:
+# Policies & Guidelines
 
 !!! warning
 

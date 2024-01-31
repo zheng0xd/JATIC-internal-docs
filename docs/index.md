@@ -1,3 +1,7 @@
+---
+title: Welcome to the internal docs!
+---
+
 # Welcome to the internal docs! &nbsp; :wave:
 
 !!! question inline end "Have something to add?"
