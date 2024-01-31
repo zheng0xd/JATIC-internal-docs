@@ -49,7 +49,8 @@ plugins:
   # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
   - search
   - mkdocs-pdf
-  - meta
+  - meta # only works with mkdocs insider's edition
+  - typeset # only works with mkdocs insider's edition
   - tags:
       tags_file: tags.md
 
