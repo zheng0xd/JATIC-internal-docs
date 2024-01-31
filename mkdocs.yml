@@ -42,13 +42,14 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
       primary: indigo
-  logo: assets/logos/cdao-white.png
-  favicon: assets/logos/cdao-blue.png
+  logo: assets/images/cdao-white.png
+  favicon: assets/images/cdao-blue.png
 
 # MkDocs plugins
 plugins:
-  # - social
   # - offline # enable when trying to generate offline documentation (i.e., can be sent in a .zip)
+  - social
+  - optimize
   - search
   - mkdocs-pdf
   - meta # only works with mkdocs insider's edition
