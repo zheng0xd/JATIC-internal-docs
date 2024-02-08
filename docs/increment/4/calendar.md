@@ -5,6 +5,10 @@ hide:
 
 # Increment 4 (31 JAN 24 - 23 APR 24)
 
+!!! info
+
+    To find a list of relevant conferences and workshops that are occurring within the DoD AI space, please see the [#conferences-workshops channel](https://mitre.enterprise.slack.com/canvas/C055F1JU202) within slack!
+
 | Week of | SUN | MON | TUE | WED | THU | FRI | SAT |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 28 JAN 24 | | | | **Increment 4 Start; Sprint 1 Start** | SoS | | |
