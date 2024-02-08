@@ -23,5 +23,6 @@ Team MetroStar is building an AI T&E platform prototype composed almost entirely
 | Smera Goel | <sgoel@quansight.com> | UI/UX Designer |
 | Jonathan Velando | <jvelando@metrostar.com> | Pr. Software Engineer / Platform and OSS Software Engineer |
 | Jonathan Bouder | <jbouder@metrostar.com> | Pr. Software Engineer / Full-Stack Developer (UI/UX) |
-| Kevin McClearly | <kmccleary@mitre.org> | Product Owner |
 | Prince Ogbonna | <cogbonna@metrostar.com> | Systems Engineer |
+| Mike Krassowski | <mkrassowski@quansight.com> | Software Engineer |
+| Kevin McClearly | <kmccleary@mitre.org> | Product Owner |
