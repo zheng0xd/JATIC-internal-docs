@@ -10,3 +10,8 @@ ART provides tools that enable developers and researchers to defend and evaluate
 ```python
 pip install adversarial-robustness-toolbox
 ```
+## Contributing and feedback
+
+As ART is still in the alpha development phase, end-user experience and internal testing are incredibly valuable to us.
+
+- If you have a question about how to use the current protocols or other questions, we recommend using the [# collab-ibm](https://app.slack.com/huddle/T03PVG73TCP/C05FR87SBHC) channel on slack to start a discussion.
