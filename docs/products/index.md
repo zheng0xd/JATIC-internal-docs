@@ -35,6 +35,6 @@ We develop a wide range of product offerings that can be tailored to fit differe
 
 -   :material-magnify: [**Explainable AI Toolkit**](xaitk.md){ data-preview }
 
-    Explain model inferences using eXplainable AI visual saliency maps
+    Explain model inferences using explainable AI visual saliency maps
 
 </div>
