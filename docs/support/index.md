@@ -14,9 +14,11 @@ With everything moving so quickly, we want to make sure that you have the help y
 
 </div>
 
-??? question "What about product-specific support?"
+!!! question "What about product-specific support or collaboration?"
 
-    For product support, such as problems integrating with a specific library, reach out on directly on Slack to the team! Each team has a public channel where you can reach them.
+    For product support or collaboration, please see the corresponding [Product page](../products/index.md) for details on support, feature requests, creating issues, or contributing. 
+    
+    In addition, you can reach out on directly on Slack to the team! Each team has a public channel where you can reach them.
 
 ## Guides by topic
 
