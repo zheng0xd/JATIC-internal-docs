@@ -2,11 +2,11 @@
 
 | Name | Email | Role |
 | ---- | ----- | ---- |
-| Jackson Lee | <jackson.lee@ibm.com> | Technical lead |
-| Matt Tilley | <matt.tilley@ibm.com> | |
-| Mark Baker | <mark.baker@ibm.com> | |
-| Adam Lockwood | <adam@nyla.io> | |
-| Kieran Fraser | <kieran.fraser@ibm.com> | |
-| Beat Buesser | <beat.buesser@ibm.com> | ART maintainer |
-| Hannah Jung* | <mhjung@ibm.com> | Project executive |
-| David Yu | <syu@mitre.org> | Product owner |
+| Jackson Lee | <jackson.lee@ibm.com> | Technical Lead |
+| Matt Tilley | <matt.tilley@ibm.com> | Project Operations Manager |
+| Mark Baker | <mark.baker@ibm.com> | Developer |
+| Adam Lockwood | <adam@nyla.io> | DevOps Engineer |
+| Kieran Fraser | <kieran.fraser@ibm.com> | ML Engineer |
+| Beat Buesser | <beat.buesser@ibm.com> | ART Maintainer |
+| Hannah Jung* | <mhjung@ibm.com> | Project Executive |
+| David Yu | <syu@mitre.org> | Product Owner |
