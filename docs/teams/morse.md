@@ -1,5 +1,14 @@
 # MORSE
 
+MORSE Corp is building a variety of tools focused on the supporting pieces of T&E.
+
+Specifically MORSE is building:
+-  [Gradient](../products/gradient.md), an automatic report generation tool.
+-  [RealLabel](../products/reallabel.md), an AI-assisted label quality assurance tool.
+
+[This board](https://gitlab.jatic.net/groups/jatic/morse/-/boards) can be used track ongoing work by this team.
+
+
 | Name | Email | Role |
 | ---- | ----- | ---- |
 | Peter Wein | <pwein@morsecorp.com> | Development Team Lead |
