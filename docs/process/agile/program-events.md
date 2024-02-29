@@ -22,7 +22,7 @@ The program holds the following events every program increment:
 
 - Increment planning - A beginning-of-quarter planning event that aligns all teams within the program to shared objectives. See [PI Planning](https://scaledagileframework.com/pi-planning/) from SAFe for more details.
 - Increment demo - An end-of-quarter demonstration of new features developed within the most recent iteration, delivered by all teams to program stakeholders. SAFe calls this event the [System Demo](https://scaledagileframework.com/system-demo/).
-- Increment retrospective - An end-of-quarter event where teams reflect on the current state of the program, and then identify improvement backlog items via a structured problem-solving workshop. SAFe calls this event the [Inspect and Adapt](https://scaledagileframework.com/inspect-and-adapt/) session.
+- Inspect and adapt - An end-of-quarter event where teams reflect on the current state of the program, and then identify improvement backlog items via a structured problem-solving workshop. See [Inspect and Adapt](https://scaledagileframework.com/inspect-and-adapt/) from SAFe for more details.
 
 ## Weekly events
 
@@ -52,5 +52,5 @@ For more details on the scrum of scrums meeting or PO sync, see [Planning Interv
 | 9 | | PO Sync | Sprint 4 End | Sprint 5 Start | SoS | | |
 | 10 | | PO Sync | | | SoS | | |
 | 11 | | PO Sync | Sprint 5 End | Sprint 6 Start | SoS | | |
-| 12 | | PO Sync | **Increment Demo** | **Increment Retrospective** | **Increment Planning** | **Increment Planning** | |
+| 12 | | PO Sync | **Increment Demo** | **Inspect and Adapt** | **Increment Planning** | **Increment Planning** | |
 | 13 | | | **Sprint 6 End; Increment End** | | | | |

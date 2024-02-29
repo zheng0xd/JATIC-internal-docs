@@ -130,7 +130,7 @@ nav:
     - NRTK: products/nrtk.md
     - RAVEN: products/raven.md
     - XAITK: products/xaitk.md
-  - Shared Processes: 
+  - Processes & Platforms: 
     - process/index.md
     - Agile Methodology:
       - process/agile/index.md
