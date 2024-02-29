@@ -65,8 +65,8 @@ extra: # These generate the footer
       link: https://gitlab.jatic.net/
     - icon: fontawesome/brands/slack
       link: https://cdaote.slack.com/
-    - icon: simple/mural # the mural link below needs to be updated with the latest program board each increment!
-      link: https://app.mural.co/t/ecis6578/m/ecis6578/1706552050496/47cf8b1425e58eb981b34e3feab12d248b98c443?sender=u4d7fc200d51cbdba67ba7346
+    - icon: simple/mural # the mural link below is internal!
+      link: https://jatic.pages.jatic.net/internal-docs/increment/mural
     - icon: octicons/globe-16
       link: https://cdao.pages.jatic.net/public/
   generator: false
@@ -102,20 +102,20 @@ nav:
       - Supported Applications: program/applications.md
       - Supported Roles & Personas: program/roles-personas.md
       - Frequently Asked Questions: program/faq.md
-    - Increment Info: # needs to be updated each increment
+    - Increment Info: 
       - increment/index.md
-      - Calendar: increment/4/calendar.md
-      - Objectives: increment/4/objectives.md
-      - Event Notes: increment/4/event-notes.md
-      - Program Board (MURAL): https://app.mural.co/t/ecis6578/m/ecis6578/1706552050496/47cf8b1425e58eb981b34e3feab12d248b98c443?sender=u4d7fc200d51cbdba67ba7346
+      - Calendar: increment/4/calendar.md # needs to be updated each increment
+      - Objectives: increment/4/objectives.md # needs to be updated each increment
+      - MURAL Boards: increment/mural.md
+      - Event Notes: increment/event-notes.md 
       - Previous Increments:
         - Increment 3:
           - Calendar: increment/3/calendar.md
           - Objectives: increment/3/objectives.md
-          - Program Board (MURAL): https://app.mural.co/t/ecis6578/m/ecis6578/1697134244478/58b5177575b43e6f5caf6feb82d840410a6ceff5?sender=u4d7fc200d51cbdba67ba7346
+          - Program Board: increment/mural/#program-board-3
         - Increment 2:
           - Objectives: increment/2/objectives.md
-          - Program Board (MURAL): https://app.mural.co/t/ecis6578/m/ecis6578/1689359900947/2a97587d5be45f2638a31bc80119c8fbe6297120?sender=77c7c4fc-2c14-48de-933c-84459708c284
+          - Program Board: increment/mural/#program-board-2
       - Future Increments:
         - Increment 5 Calendar: increment/5/calendar.md
     - About the site: 
