@@ -107,7 +107,7 @@ nav:
       - Calendar: increment/4/calendar.md # needs to be updated each increment
       - Objectives: increment/4/objectives.md # needs to be updated each increment
       - MURAL Boards: increment/mural.md
-      - Event Notes: increment/event-notes.md 
+      - Event Notes: increment/event-notes.md
       - Previous Increments:
         - Increment 3:
           - Calendar: increment/3/calendar.md
