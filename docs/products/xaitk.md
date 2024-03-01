@@ -10,3 +10,7 @@ The `xaitk-saliency` package is an open source, XAI framework for visual salienc
 ```python
 pip install xaitk-saliency
 ```
+
+## Slack Support
+
+For any additional information regarding the development, support and usage of the `xaitk-saliency` package, please make sure to tag us (`@xaitk-help`) in your messages or discussions on Slack.
