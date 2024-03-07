@@ -3,8 +3,6 @@
 
 The following specifies standards and requirements for a Python project's: structure, code design and standards, code style, documentation style, test suite, and maintenance regimen.
 
-The [rai-toolbox](https://github.com/mit-ll-responsible-ai/responsible-ai-toolbox) is an example of a project that adheres to these standards. Developers are encouraged to use this project as a reference in order to see the SDP's software requirements put into practice.
-
 ## Project Structure
 
 The following is a description of the basic structure for a Python project that adheres to the [Python Packaging Authority](https://www.pypa.io/en/latest/)'s standards. This structure helps to ensure compatibility with 3rd party utilities and project analysis tools. [This tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/) demonstrates the process for creating a project that adheres to this structure.
@@ -38,31 +36,119 @@ jatic_vision/
     └── test_models.py
 ```
 
-### Dependency Management
+## Dependency Management
 
-A project's required dependencies should be kept to a minimum, in part, by isolating optional dependencies to appropriate sub-modules. For example, suppose that the project `my_lib` leverages `matplotlib` to provide visualization capabilities - it can make `matplotlib` an optional dependency by restricting its usage to the `my_lib.viz` submodule, and by listing `matplotlib` under the `project.optional-dependencies` section of the project's `pyproject.toml` file. In this way, users can leverage `my_lib` without installing `matplotlib` unless they explicitly utilize features from `my_lib.viz`.
+Projects should keep a clear account of their dependencies according to different categories. 
 
-A project's installation dependencies, both required and optional, must include minimum version numbers in the `pyproject.toml` file.
+### **Note**: Two types of python imports
+
+**Regular imports** are unguarded, meaning they will raise `ImportError` if the package cannot be imported:
+
+```python
+import third_party
+```
+
+**Guarded imports**, those which are able to do something else when importing the package fails. These will never give the end-user a bare `ImportError`, and there a few common patterns used to implement them:
+
+Here is a simple example:
+
+```python
+try:
+  import third_party
+except ImportError:
+  third_party = None
+
+# later where third party may be used
+def some_function():
+  if third_party is None:
+    raise Exception("package.some_function requires `third_party` be installed, install with pip install package[extra]")
+```
+
+You can also use an addition level of indirection with a test for the package.
+
+```python
+# package/_private_internal/needs_third_party.py
+import third_party
+def foo():
+  ...
+
+# package/__init__.py
+if package_installed('third_party'):
+  from _private_internal.needs_third_party import foo
+  __all__.append('foo')
+```
+
+If the use of a third party package is limited in scope the import can be done inside a function.
+
+```python
+def foo():
+  try:
+    import third_party
+    utility = third_party.some_function
+  except ImportError:
+    raise Exception("Something more descriptive")
+
+  # or alternatively 
+  except ImportError:
+    utility = _fallback_some_function
+  # where _fallback some function provides similar functionality, but third_party's version is preferred if it is installed. 
+  ...
+```
+
+1. **Runtime Dependencies**: A package which is imported directly (e.g. not guarded by any checks) by the project's source code and is required for a critical piece of functionality. This is a package that must be available in the user's runtime environment, and without it importing part of the project's public API will lead to an `ImportError`. These packages will be using regular imports.
+2. **Optional Runtime Dependencies**: Some projects may provide functionality which is not critical to the core use of that project. These features may require additional dependencies which can be made optional. An optional runtime dependency is one which a submodule providing such non-critical features would depend on. Considering an example, a package which provides some functionality for analysis may choose to provide some optional features for visualizing the results. Visualization features may require an additional plotting package dependency like `matplotlib`. It would be proper to classify `matplotlib` here as an optional dependency, and the features using it should be localized to a sub-module/package within the project and import of the part of the package is guarded by a check for the optional dependency such that an informative error is raised with a message like "Visualization features require matplotlib, install `mypackage-viz` to enable these extensions". These packages will be using one of the *guarded* import patterns described above. 
+3. **Build/Development Dependencies**: These packages are not directly related to any functionality within the project itself, but developers should have them in the environment they use when working on the project. These may be used to enforce project code-quality regulations, and things like linters, formatters, and type-checkers. Would fall into the category. If a project has extensions which are compiled the appropriate toolchain, linked libraries and headers for building those extensions would also be included here.
+4. **Testing Dependencies**: These are additional requirements beyond the runtime requirements of the project that are needed to execute the tests. The simplest example would be a testing framework like `pytest` which is commonly used to testing, but should almost never be a runtime dependency of the project. A less obvious example would be where a project is written in a way that is agnostic to the use of any particular framework, but the use of *some* framework would be required, say PyTorch vs. TensorFlow. The project may never directly import either of these tools, but in order to write tests mocking user input it would want to use one or both. In this case they are testing dependencies. 
 
 
-#### Poetry
+### Dependency Versioning
 
-Poetry is required for internal development of software in the JATIC program. At the current moment of writing, poetry is the most complete dependency tool in the python ecosystem and has been used to find dependency problems already. 
+Clarity and correctness are key when declaring the version requirements for a project's dependencies. In general they should be as un-restricted as possible, since any restrictions imposed by your project are in turn imposed on your users. A tool with very strict version requirements, especially on commonly used packages will have a hard time being adopted by users who may have their own requirements which will more easily conflict with strict rules.  The following guidance should be followed with respect to putting version requirements on runtime dependencies. 
 
-Consumers of JATIC tools can use whatever dependency management their team thinks is best, but we strongly recommend Poetry. 
+- Lower Bounds: (e.g. `pkg >= 1.2.3`) Placing a lower version bound on a dependency is acceptable when it is found that any versions before the lower bound is incompatible, this may be due to an API break around a major version, for example. If the lower bound is a very recent release maintainer should consider implementing a work-around if practical to avoid this situation. 
+- Exact Exclusions: (e.g. `pkg != 1.2.3`) These can be used when a known bug in the upstream dependency is found that affects the package in a critical way. These can also be made specific to a packaging ecosystem where upstream package has problems with metadata or is known to break environments in some way (such as the `pytorch != 2.0.0` issue affecting the pip ecosystem). If possible these exclusions should be linked to an upstream issue and tracked so that they can be removed in the future.
+- Upper Bounds: (e.g. `pkg < 1.2.3`) Upper bounds are strongly discouraged on runtime and optional runtime dependencies, and should only be used temporarily. Upper bounds could be used to avoid a major version change of an upstream package which introduces API breaking changes. This would have a shelf life and be removed when the project is updated to be compatible with the new version of that dependency. A very relevant example would be for packages to exclude numpy 2.0+ during a period where they prepare for the change, then the upper-bound wold be moved to a lower bound when they are ready. 
+- Exact Version Pins: (e.g. `pkg == 1.2.3`) Pins should generally be forbidden, only allowed after through investigation of alternative resolutions to the problem motivating them, and always linked to an issue. Should one be introduced it should be treated as a top priority to resolve the problem requiring the pin as quickly as possible, and having an exact version pin in the package metadata will be considered a blocker for releases. That is releases should never be published with hard pins. 
+- Note: Some patterns suggested by Poetry are not explicitly mentioned here as they fall into one of the above categories. The `^`, `~`, and `*` versioning syntax are all sugar for defining upper/lower bounds so their use should follow the guidance above particularly with respect to setting upper bounds.
 
-Teams *should* commit the lock file that is generated by poetry. CI and automation tools can install poetry and use it directly. If there is a need to transition slowly, poetry can generate a `requirements.txt` file, but ideally poetry should be used from development to test to production. 
+The use of upper-bounds, and exact pins in the build/development and testing dependency groups are less of an issue. This is because they 1) only affect the development team and those packaging the software, and 2) The environment used for development and packaging is often only used for that purpose and it is less likely that there will be a conflict with something else introduced to it.
 
-The explanation for this requirement is as follows:
+The advice above related to the use of upper bounds is applicable for pure python packages. If your package has compiled
+extensions (e.g. Cython, Pybind11) then there more details to guidance on how and when to use upper bounds. These
+details are not discussed here. 
 
-Dependencies have dependencies known as transitive dependencies.  When a project is in use over a long enough time the minimum updates and complexity come from security updates.  In addition to security updates, packages may improve or be unmaintained so the package tree needs to change completely.  Ideally, this process would involve a high-quality dependency resolver which relies on semantic versioning (explained below) as well as tooling to make this process work well over time.  The python ecosystem has many tools that exist to manage dependencies but currently [poetry](https://python-poetry.org) solves this problem space very well.
 
-Dependencies need to work together and be repeatable.  If the project cannot run because something on the internet changed then the build is not repeatable.  Having many optional dependencies in groups causes the burden of permutations to move to the testing phase.  Eventually, all dependencies (whether optional or not) have to be combined together in a dependency tree.  This includes dependencies of dependencies.  It's too hard to solve by hand, poetry has a good resolver currently.
+### Program Wide Dependency Requirements
+The following packages are very popular and likely will be the dependencies for multiple program projects. In the spirit of ensuring compatibility between projects the following table outlines requirements for any program project depending on these libraries:
 
-When specifying what dependencies are needed, developers should try to be as loose with requirements as they can but then be strict when presented with a problem.  For example, let's suppose a project needs `numpy`.  In the `pyproject.toml` file the version would specified as loosely as possible `^1.24.2` instead of an exact `1.24.2`.  If a CVE for `numpy` required version 1.25.0 and above then the change would be made to use `^1.25.0` and only made `1.25.0` if other packages had issues resolving the dependency tree.
+|Package     |Minimum Version   |Release Date   |Drop Date   |Py3.9| Py3.10 | Py3.11|Py3.12 | Latest Version | Latest Version Py 3.12|
+|------------|------------------|---------------|------------|-----|--------|-------|-------|----------------|-----------------------|
+|matplotlib  |3.7.1             |2023-4-3       |2025-3-3    |  y  | y      | y     | n     | 3.8.1          |     y                 |
+|numpy       |1.24.2            |2023-5-2       |2025-5-2    |  y  | y      | y     | n     | 1.26.1         |     y                 |
+|pandas      |2.0               |2023-2-4       |2025-1-4    |  y  | y      | y     | n     | 2.1.2          |     n                 |
+|pytest      |7.3.1             |2023-14-4      |2025-13-4   |  y  | y      | y     | n     | 7.4.3          |     y                 |
+|PyTorch     |2.1.1             |2023-4-10      |2025-3-10   |  y  | y      | y     | n     | 2.1.0          |     n                 |
+|scikit-image|0.20.0            |2023-28-2      |2025-27-2   |  y  | y      | y     | n     | 0.22.0         |     y                 |
+|scikit-learn|1.2.1             |2023-24-1      |2025-23-1   |  y  | y      | y     | n     | 1.3.2          |     y                 |
+|scipy       |1.10              |2023-3-1       |2025-2-1    |  y  | y      | y     | n     | 1.11.0         |     y                 |
+|torchmetrics|1.0.0             |2023-4-7       |2025-3-7    |  y  | y      | y     | n     | 1.2.0          |     n                 |
+|tensorflow  |2.12.0            |2023-23-3      |2025-22-3   |  y  | y      | y     | n     | 2.13.1         |     n                 |
+|python      |3.10              |2021-10-4      |2025-9-4    |     |        |       |       |                |                       |
 
-Using poetry allows for repeatable builds and semantic versioning to be leveraged to make the software operate more smoothly over time.  Using pip or virtual environments does not solve the same sets of problems.
 
+
+## Packaging
+
+Projects are required to publish packaged releases to PyPI and conda-forge. It is highly recommended that the build process is automated and tested frequently, such as by publishing nightly builds to private channels.
+
+## Development Best Practices
+
+It is a good idea to provide an environment specification for the use of developers, including runtime, testing and development dependencies which can be used to quickly set up a development virtual environment. When building this environment specification the following suggestions should be considered:
+
+- Dependencies which have a lower bound should be pinned to the oldest supported version. This will ensure that developers don't produce code which uses features outside the supported set. 
+- Those dependencies used for CI checks and testing, such as linters, and type checkers, should be set to the versions used in the CI jobs to minimize discrepancies between results produced locally and those produced by the automated workflow. 
+- The artifacts/instructions for generating this developer environment should not assume or limit the developer to a particular packaging/virtual environment system (it should support both pip and conda). 
+- Provide aggregation tooling for style enforcement checks like linters and formatters. A developer should be able to run the formatting pass and linter check (over their modifications only) with a single command. `pre-commit` can be used to set this up as a pre-commit hook. 
 
 ## Project Test Suite
 
@@ -71,8 +157,10 @@ A JATIC Python project is to maintain an automated test suite. The primary disti
 - The [pytest framework](https://docs.pytest.org/) for collecting, initializing, and running tests.
   - The standard library's `unittest` module can be relied on for mocks, monkey patches, and doctests, all of which can be leveraged within a pytest-driven test suite. Otherwise, `unittest` should not be used as a test-runner and pytest-style test functions should be preferred over `unittest`-style test classes.
   - The `nosetest` framework is no longer maintained and should not be used.
-- [`tox`](https://tox.readthedocs.io/en/latest/) for automating the process of building isolated test environments, installing dependencies, and running tools (e.g. running tests in a Python 3.10 environment against the nightly build of PyTorch). `tox` helps normalize the process of running automated jobs across platforms (e.g. the same tox job-launch commands can be used on local machines as well as on CI/CD servers).
+- [`tox`](https://tox.readthedocs.io/en/latest/) for automating the process of building isolated test environments, installing dependencies, and the subject via pip packaging, and running tools (e.g. running tests in a Python 3.10 environment against the nightly build of PyTorch). `tox` helps normalize the process of running automated jobs across platforms (e.g. the same tox job-launch commands can be used on local machines as well as on CI/CD servers).
   - `tox` should be used to run a project's test suite across all supported Python versions.
+- CI build and test matrices automate the same processes as `tox`, but can be used with multiple packaging systems.
+  - These features are similar to configure, and supported by both Gitlab pipelines, and Github actions.
 - The [`coverage.py`](https://coverage.readthedocs.io/en/coverage-5.3/) tool (with the [pytest-cov plugin](https://pypi.org/project/pytest-cov/)) to track the parts of the project's codebase that are and are not exercised by the test suite. Projects are free to specify their own code-coverage requirements (e.g. 85% code coverage), or to forego having a specific coverage requirement. That being said, the project's coverage metrics should be reported by a tox job.
 - [pyright](https://github.com/microsoft/pyright) is a fast type checker that performs incremental updates when files are modified.
 
@@ -80,17 +168,18 @@ Teams are advised to read through this [introductory tutorial to property based 
 
 Explicit DevSecOps pipeline requirements that will be enforced via GitLab CI/CD can be found in the [DevSecOps Testing Requirements](./DevSecOps%20Testing%20Requirements.md) document.
 
+### Testing Environment
+Projects should test a variety of Python, and dependency versions. However testing under all possible combinations of compatible dependencies is impractical the following guidelines should be followed when building a matrix of test environments:
+
+- The unconstrained package metadata should be used in at least one test environment for each packaging system supported. That is to say, you should have a default solve with both pip and conda in CI. This is meant to reflect what the end-user would experience if they were to install the project from scratch.
+- Test Environments should cover optional dependency configurations.
+- In general, it's wise to test the oldest supported versions of your critical dependencies, as well as the most recent. The former ensures that your lower bounds are still correct; the latter mimics fresh installations.
+
 ## Versioning, Compatibility, and Maintenance Expectations
 
 A Python package's releases should utilize [semantic versioning](https://semver.org/) (i.e. the version number is structured as `MAJOR.MINOR.PATCH`).
 
 - Projects like [setuptools scm](https://github.com/pypa/setuptools_scm/) and [versioneer](https://github.com/python-versioneer/python-versioneer) can be used to extract a project's version string from version control metadata (e.g. a tag name from git). Using such a tool is recommended as it helps to eliminate from a project's release process the manual, error-prone steps of updating an embedded version string.
-
-A package's support for Python versions should be determined by [the version support table](https://devguide.python.org/versions/) provided by the Python developer's guide. JATIC projects should support (and test against) Python versions that are still receiving security updates. A project should add support for a new version of Python once it has been officially released and when the project's dependencies permit it. Dependencies that prevent compatibility with the full range of supported Python versions should be made optional if possible, or otherwise must be approved by JATIC project organizers.
-
-NumPy provides its own community policy standard, [NEP 29](https://numpy.org/neps/nep-0029-deprecation_policy.html), that calls for packages in the "Scientific Python ecosystem" to adopt a common time window-based approach to supporting Python and NumPy versions. This policy drops support for Python versions significantly earlier than the aforementioned timeline from the Python developer's guide. JATIC projects should abide by the more conservative version support schedule, but heed the fact that popular dependencies will adopt the NEP 29 timeline. As such, JATIC packages will need to maintain a sufficiently expansive test-job matrix to ensure that the minimum/maximum documented dependency versions are being tested, and that new project features do not inadvertently break compatibility.
-
-The project's tox jobs should exercise the minimum and maximum documented dependencies, and should include jobs that exclude optional requirements to ensure that they are not required for installation nor for exercising core functionality.
 
 ## Code Design, Standards, and Guidelines
 
