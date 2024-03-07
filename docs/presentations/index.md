@@ -16,4 +16,6 @@
 
 - ###### Gitlab Lunch and Learns
 
+- ###### Template Slides for External Presentations
+
 </div>
