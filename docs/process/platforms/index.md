@@ -14,6 +14,10 @@ Our program uses the following platforms for its work as much as is securely and
 
     For code and project management
 
+-   ###### :simple-icon: &nbsp; [Partners2 - CUI](https://partners2.mitre.org/sites/jatic/SitePages/Home.aspx)
+
+    For CUI information sharing within the deployments team
+
 </div>
 
 ## Communication
