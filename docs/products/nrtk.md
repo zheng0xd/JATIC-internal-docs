@@ -8,3 +8,7 @@ The `nrtk` package is an open source toolkit for evaluating the natural robustne
 ```python
 pip install nrtk
 ```
+
+## Slack Support
+
+For any additional information regarding the development, support and usage of the `nrtk` package, please make sure to tag us (`@nrtk-help`) in your messages or discussions on Slack.
