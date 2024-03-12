@@ -10,3 +10,4 @@
 | Beat Buesser | <beat.buesser@ibm.com> | ART Maintainer |
 | Hannah Jung* | <mhjung@ibm.com> | Project Executive |
 | David Yu | <syu@mitre.org> | Product Owner |
+| Jordan Fischer | <jordan.j.fischer@ibm.com> | Solution Architect |
