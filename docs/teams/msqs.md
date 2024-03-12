@@ -25,4 +25,6 @@ Team MetroStar is building an AI T&E platform prototype composed almost entirely
 | Jonathan Bouder | <jbouder@metrostar.com> | Pr. Software Engineer / Full-Stack Developer (UI/UX) |
 | Prince Ogbonna | <cogbonna@metrostar.com> | Systems Engineer |
 | Mike Krassowski | <mkrassowski@quansight.com> | Software Engineer |
+| Tyler Graff  | <tgraff@metrostar.com> | Sr. SW Systems Engineer |
+| Kilian Berres  | <kberres@metrostar.com> | Full Stack Developer |
 | Kevin McClearly | <kmccleary@mitre.org> | Product Owner |
