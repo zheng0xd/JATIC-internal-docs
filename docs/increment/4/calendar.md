@@ -15,12 +15,12 @@ hide:
 | 04 FEB 24 | | PO Sync | | | SoS | | |
 | 11 FEB 24 | | PO Sync | Sprint 1 End | Sprint 2 Start | SoS | | |
 | 18 FEB 24 | | _Presidents' Day_ | | | SoS | | |
-| 25 FEB 24 | | PO Sync | Sprint 2 End | Sprint 3 Start | SoS | | |
-| 03 MAR 24 | | PO Sync | | | SoS | | |
-| 10 MAR 24 | | PO Sync | Sprint 3 End | Sprint 4 Start | SoS | | |
-| 17 MAR 24 | | PO Sync | | | SoS | | |
-| 24 MAR 24 | | PO Sync | Sprint 4 End | Sprint 5 Start | SoS | | |
-| 31 MAR 24 | | PO Sync | | | SoS | | |
+| 25 FEB 24 | | PO Sync | Sprint 2 End | Sprint 3 Start | SoS & Nebari Deep Dive | | |
+| 03 MAR 24 | | Deployments Team Sync | | | SoS | | |
+| 10 MAR 24 | | PO Sync | Sprint 3 End | Sprint 4 Start | SoS & Kitware Deep Dive | | |
+| 17 MAR 24 | | Deployments Team Sync | | | SoS | | |
+| 24 MAR 24 | | PO Sync | Sprint 4 End | Sprint 5 Start | SoS & MORSE Deep Dive | | |
+| 31 MAR 24 | | Deployments Team Sync | | | SoS | | |
 | 07 APR 24 | | PO Sync | Sprint 5 End | Sprint 6 Start | SoS | | |
 | 14 APR 24 | | **Increment Demo** | Develop shareout content | Develop shareout content | **Inspect & Adapt** | **Inspect & Adapt** | |
 | 21 APR 24 | | PI Planning | PI Planning (Full Day) **Sprint 6 End; Increment 4 End** | PI 5 begins| | | |
