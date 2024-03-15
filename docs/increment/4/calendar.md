@@ -22,5 +22,5 @@ hide:
 | 24 MAR 24 | | PO Sync | Sprint 4 End | Sprint 5 Start | SoS | | |
 | 31 MAR 24 | | PO Sync | | | SoS | | |
 | 07 APR 24 | | PO Sync | Sprint 5 End | Sprint 6 Start | SoS | | |
-| 14 APR 24 | | PO Sync | **Increment Demo** | **Inspect and Adapt** | **Increment Planning** | **Increment Planning** | |
-| 21 APR 24 | | | **Sprint 6 End; Increment 4 End** | | | | |
+| 14 APR 24 | | **Increment Demo** | Develop shareout content | Develop shareout content | **Inspect & Adapt** | **Inspect & Adapt** | |
+| 21 APR 24 | | PI Planning | PI Planning (Full Day) **Sprint 6 End; Increment 4 End** | PI 5 begins| | | |
