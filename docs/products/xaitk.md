@@ -14,3 +14,7 @@ pip install xaitk-saliency
 ## Slack Support
 
 For any additional information regarding the development, support and usage of the `xaitk-saliency` package, please make sure to tag us (`@xaitk-help`) in your messages or discussions on Slack.
+
+## Contributing
+
+For guidelines on contributing to `xaitk-saliency`, see [CONTRIBUTING.md](https://github.com/XAITK/xaitk-saliency/blob/master/CONTRIBUTING.md).
